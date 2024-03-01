@@ -51,7 +51,7 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
         <td align="center">
             <a href="https://github.com/ThiagoMarquesAeroespacial">
                 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/125684199?v=4" width="150px;"/>
-                <h5 class="text-center">Isaque Augusto da Silva Santos</h5>
+                <h5 class="text-center">Thiago Henrique Marques Rocha</h5>
             </a>
         </td>
 </table>
