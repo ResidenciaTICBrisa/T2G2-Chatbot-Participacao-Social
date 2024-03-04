@@ -1,5 +1,5 @@
 ---
-name: Task_template
+name: Task template
 about: Describe this issue template's purpose here.
 title: ''
 labels: ''
