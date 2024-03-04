@@ -1,5 +1,5 @@
 ---
-name: BUG_template
+name: BUG template
 about: Describe this issue template's purpose here.
 title: BUG
 labels: ''
