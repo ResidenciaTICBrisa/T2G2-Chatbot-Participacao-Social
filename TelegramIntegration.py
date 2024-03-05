@@ -13,8 +13,7 @@ def get_answer_rasa(message) -> list[dict]:
     # essa função envia uma requisição POST para a url do rasa e recebe a resposta do RASA, retornando-a em um json
     headers = {'Content-Type': 'application/json'}  # define o tipo de arquivo a ser enviado na requisição
     response = requests.post('http://localhost:5005/webhooks/rest/webhook',
-                             json=
-                             {"sender": "Rasa", "message": message.text},
+                             json={"sender": "Rasa", "message": message.text},
                              headers=headers)
     # envia a requisição
     json_resp = response.json()  # recebe a requisição, converte pra json e armazena em uma variável
