@@ -6,23 +6,22 @@ labels: ''
 assignees: ''
 
 ---
+## Descrição
+[Descrição detalhada do problema ou da tarefa.]}
+Forneça informações claras e concisas para que outros membros da equipe possam entender o contexto e a importância do problema.
 
-## História da Pessoa Usuária
-**Eu Como** pessoa_usuária  <br />
-**Quero** fazer_algo  <br />
-**Para** uma_finalidade <br />
+## Tarefas
+Liste as tarefas específicas que precisam ser concluídas para resolver o problema ou concluir a tarefa, dívida tarefas grandes e complexas em tarefas simples.
+- [ ] Tarefa 1
+- [ ] Tarefa 2
 
-## Contexto
-- 
+## Testes / Avaliação
+Especifique os critérios de teste ou avaliação que serão usados para garantir que a solução seja eficaz. 
+- [ ] Critério 1
+- [ ] Critério 2
 
-## Escopo do Time 
-- [ ] Exemplo de tarefa
+## Responsáveis
+Sempre coloque quem serão os responsáveis por elaborar a solução do problema.
 
-## Critérios de aceitação
-- [ ] Critério 1 <br />
-**Dado que** algo <br />
-**Quando** faço <br /> 
-**Então** resulta <br />
-
-## Observações
-Links de apoio e informações adicionais
+## Prazos
+Estipule um prazo para qual a entrega da solução/feedback possa ocorrer.
