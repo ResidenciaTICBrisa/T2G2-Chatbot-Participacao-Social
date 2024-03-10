@@ -1,25 +1,21 @@
 
 
-print("\nBem-vindo(a) ao atendimento virtual do Brasil Participativo." +
+print("\nBem-vindo(a) ao atendimento virtual do Brasil Participativo." + 
        "Para começar, diga-nos o seu nome")
 user = input("Qual seu nome? ")
 print(f'Olá, {user}. Digite o número que corresponde à opção que deseja acessar. \
-      \nCaso queira encerrar o atendimento, digite \"sair\" a qualquer momento')
-
+      \nCaso queira encerrar o atendimento, digite \"sair\" a qualquer momento\n')
 
 while(True):
-    print("Digite 1 - O que é o Brasil Participativo?\n"+
-        "Digite 2 - Processos Participativos\n"+
-        "Digite 3 - Dificuldade de acesso\n"+
-        "Digite 4 - Represento um órgão da Administração Pública Federal\n"+
-        "Digite 5 - Sou da imprensa\n"+
-        "Digite 6 - Perguntas Frequentes\n"+
-        "Digite 7 - Perguntas Frequentes\n"
+    print("Digite 1 - O que é o Brasil Participativo?\n" + 
+        "Digite 2 - Processos Participativos\n" + 
+        "Digite 3 - Dificuldade de acesso\n" + 
+        "Digite 4 - Represento um órgão da Administração Pública Federal\n" + 
+        "Digite 5 - Sou da imprensa\n" + 
+        "Digite 6 - Perguntas Frequentes\n" + 
+        "Digite 7 - Outros Assuntos\n"
         )
     opcao = input("Digite sua opção: ")
-
-
-
 
     match opcao:
         case "1":
@@ -34,10 +30,67 @@ while(True):
         case "4":
             print("Você escolheu a opção 4 - Represento um órgão da Administração Pública Federal")
         case "5":
-            print("Você escolheu a opção 5 - Sou da imprensa")
+            print("Você escolheu a opção 5 - Sou da imprensa\n")
+            
+            print("Por favor, entre em contato pelo e-mail:")
+            print("participacaodigital@presidencia.gov.br\n")
+            
+            print("Sua demanda foi atendida?\n")
+            
+            print("Digite 1 - Sim")
+            print("Digite 2 - Não\n")
+
+            entrada = input()
+
+            match entrada:
+                case "1":
+                    print("Agradecemos o seu contato e continuamos à disposição!")
+                    print("Para acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/")
+                    break  
+                case "2":
+                    print("Digite 9 - Retornar ao menu anterior")
+                    print("Caso queira encerrar o atendimento, digite “sair”")
+
+                    entrada2 = input()
+
+                    match entrada2:
+                        case "9":
+                            continue 
+                        case "sair":
+                            break
+                case "sair":
+                        break
         case "6":
             print("Você escolheu a opção 6 - Perguntas Frequentes")
-        
+            print("Confira as principais perguntas sobre os serviços relacionados ao Brasil Participativo (inserir link, da plataforma, de perguntas frequentes)\n")
+                            
+            print("Sua demanda foi atendida?\n")
+            
+            print("Digite 1 - Sim")
+            print("Digite 2 - Não\n")
+
+            entrada = input()
+
+            match entrada:
+                case "1":
+                    print("Agradecemos o seu contato e continuamos à disposição!")
+                    print("Para acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/")
+                    break  
+                case "2":
+                    
+                    print("Digite 9 - Retornar ao menu anterior")
+                    print("Caso queira encerrar o atendimento, digite “sair”")
+
+                    entrada2 = input()
+
+                    match entrada2:
+                        case "9":
+                            continue  
+                        case "sair":
+                            break  
+                case "sair":
+                        break
+            
         case "7":
             print("Você escolheu a opção 7 - Outros assuntos \n")
             
@@ -45,20 +98,19 @@ while(True):
             
             print("\nSua demanda foi atendida?\n")
         
-            opcao2 = input("Digite 1 - Sim\n"+
-                        "Digite 2 - Não\n"+
+            opcao2 = input("Digite 1 - Sim\n" + 
+                        "Digite 2 - Não\n" + 
                         "Caso queira encerrar o atendimento, digite \"sair\"\n\n")
             
             match opcao2:
                 
                 case "1":
-                    print("\nAgradecemos o seu contato e continuamos à disposição!\n"+
+                    print("\nAgradecemos o seu contato e continuamos à disposição!\n" + 
                             "Para acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br \n")
                     break;
-                
                         
                 case "2": 
-                    opcao3 = input("\nDigite 9 - Retornar ao menu anterior;\n"+"Caso queira encerrar o atendimento, digite \"sair\".\n")
+                    opcao3 = input("\nDigite 9 - Retornar ao menu anterior;\n" + "Caso queira encerrar o atendimento, digite \"sair\".\n")
                     
                     match opcao3:
                         case "9":
@@ -69,4 +121,5 @@ while(True):
                 
                 case "sair":
                     break;
-
+        case "sair":
+            break
