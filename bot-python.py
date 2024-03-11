@@ -19,7 +19,29 @@ while(True):
 
     match opcao:
         case "1":
-            print("Você escolheu a opção 1 - O que é o Brasil Participativo?")
+            print("Brasil Participativo é a nova plataforma de participação social do governo federal,"
+                "um espaço para que a população possa contribuir com a criação e melhoria das políticas públicas."
+                "A plataforma é gerenciada pela Secretaria Nacional de Participação Social (SNPS),"
+                "vinculada à Secretaria Geral da Presidência da República (SGPR). Quer saber mais informações?"
+                "Acesse o site https://brasilparticipativo.presidencia.gov.br/")
+        print("Sua demanda foi atendida?")
+        print("Digite 1 - sim\
+              Digite 2 - não")
+        opcao = input("Digite a opção desejada")
+        match opcao:
+            case "1":
+                print("Agradecemos o seu contato e continuamos à disposição!\
+                       Para acompanhar todas as atividades realizadas pelo Brasil Participativo,\
+                       acesse https://brasilparticipativo.presidencia.gov.br/")
+            case "2":
+                print("Digite 9 - Retornar ao menu anterior ?\
+                       Caso queira encerrar o atendimento, digite “sair”")
+                opcao = input("Digite a opção desejada")
+                match opcao:
+                    case "9":
+                        continue
+                    case "sair":
+                        break
             
         case "2":
             print("Você escolheu a opção 2 - Processos Participativos")
