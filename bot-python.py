@@ -16,31 +16,32 @@ while(True):
             print("Brasil Participativo é a nova plataforma de participação social do governo federal,"
                 "um espaço para que a população possa contribuir com a criação e melhoria das políticas públicas."
                 "A plataforma é gerenciada pela Secretaria Nacional de Participação Social (SNPS),"
-                "vinculada à Secretaria Geral da Presidência da República (SGPR). Quer saber mais informações?"
+                "vinculada à Secretaria Geral da Presidência da República (SGPR).Quer saber mais informações?"
                 "Acesse o site https://brasilparticipativo.presidencia.gov.br/")
             tempo_espera.tempo_espera()
             
             print("Sua demanda foi atendida?")
             opcao = input("Digite 1 - sim\
             Digite 2 - não")
-        match opcao:
-            case "1":
-                print("Agradecemos o seu contato e continuamos à disposição!\
-                       Para acompanhar todas as atividades realizadas pelo Brasil Participativo,\
-                       acesse https://brasilparticipativo.presidencia.gov.br/")
-                tempo_espera.tempo_espera()
-                break      
-            case "2":
-                print("Digite 9 - Retornar ao menu anterior ?\
-                       Caso queira encerrar o atendimento, digite “sair”")
-                opcao = input()
-                match opcao:
-                    case "9":
-                        continue
-                    case "sair":
-                        break
+            match opcao:
+                case "1":
+                    print("Agradecemos o seu contato e continuamos à disposição!\
+                        Para acompanhar todas as atividades realizadas pelo Brasil Participativo,\
+                        acesse https://brasilparticipativo.presidencia.gov.br/")
+                    tempo_espera.tempo_espera()
+                    break      
+                case "2":
+                    print("Digite 9 - Retornar ao menu anterior ?\
+                        Caso queira encerrar o atendimento, digite “sair”")
+                    opcao = input()
+                    match opcao:
+                        case "9":
+                            continue
+                        case "sair":
+                            break
             
         case "2":
+            print("Hello")
 
         case "3":
             print("Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n")
@@ -50,38 +51,39 @@ while(True):
             print("Digite 1 - Sim\n"+
                  "Digite 2 - Não\n")
             opcao = input()
-        match opcao:
-            case "1":
-                print("Agradecemos o seu contato e continuamos à disposição!\n\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
-            case "2":
-                opcao = input("Digite 9 - Retornar ao menu anterior \n Caso queira encerrar o atendimento, digite “sair”")
-                
-                match opcao:
-                    case "9":
-                        continue;
-    
-                    case "sair":
-                        break;    
-       case "4":
-              print("Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
-              
-              print("Sua demanda foi atendida?")
-
-              print("Digite 1 - Sim")
-              print("Digite 2 - Não\n")
-        opcao = input("Digite sua opção\n")
-        match opcao:
-            case "1":
-                print("Agradecemos o seu contato e continuamos à disposição!\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
-            case "2":
-                opcao = input("Digite 9 - Retornar ao menu anterior \n Caso queira encerrar o atendimento, digite “sair”")
-                
-                match opcao:
+            match opcao:
+                case "1":
+                    print("Agradecemos o seu contato e continuamos à disposição!\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
+                case "2":
+                    opcao = input("Digite 9 - Retornar ao menu anterior \n Caso queira encerrar o atendimento, digite “sair”")
+                    
+                    match opcao:
                         case "9":
                             continue;
-    
+        
                         case "sair":
-                            break;
+                            break;    
+        case "4":
+            print("Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
+              
+            print("Sua demanda foi atendida?")
+
+            print("Digite 1 - Sim")
+            print("Digite 2 - Não\n")
+            opcao = input("Digite sua opção\n")
+    
+            match opcao:
+                case "1":
+                    print("Agradecemos o seu contato e continuamos à disposição!\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
+                case "2":
+                    opcao = input("Digite 9 - Retornar ao menu anterior \n Caso queira encerrar o atendimento, digite “sair”")
+                    
+                    match opcao:
+                            case "9":
+                                continue;
+        
+                            case "sair":
+                                break;
         case "5":
             
             print("Por favor, entre em contato pelo e-mail:")
