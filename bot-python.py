@@ -24,8 +24,9 @@ while(True):
                 "A plataforma é gerenciada pela Secretaria Nacional de Participação Social (SNPS),"
                 "vinculada à Secretaria Geral da Presidência da República (SGPR). Quer saber mais informações?"
                 "Acesse o site https://brasilparticipativo.presidencia.gov.br/")
-        print("Sua demanda foi atendida?")
-        print("Digite 1 - sim\
+              print("Sua demanda foi atendida?")
+              
+               print("Digite 1 - sim\
               Digite 2 - não")
         opcao = input("Digite a opção desejada")
         match opcao:
@@ -45,12 +46,47 @@ while(True):
             
         case "2":
             print("Você escolheu a opção 2 - Processos Participativos")
-
         case "3":
-            print("Você escolheu a opção 3 - Dificuldade de acesso")
+               print("Você escolheu a opção 3 - Dificuldade de acesso\n")
+               print("Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n")
+               
+               print("Sua demanda foi atendida?")
+               print("Digite 1 - Sim\n"+
+                     "Digite 2 - Não\n")
+               opcao3 = input("Digite sua opção\n")
+        match opcao3:
+            case "1":
+                print("Agradecemos o seu contato e continuamos à disposição!\n\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
+            case "2":
+                opcao4 = input("Digite 9 - Retornar ao menu anterior \n Caso queira encerrar o atendimento, digite “sair”")
+                
+                match opcao4:
+                        case "9":
+                            continue;
+    
+                        case "sair":
+                            break;    
+       case "4":
+              print("Você escolheu a opção 4 - Represento um órgão da Administração Pública Federal\n")
+              print("Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
+              
+              print("Sua demanda foi atendida?")
 
-        case "4":
-            print("Você escolheu a opção 4 - Represento um órgão da Administração Pública Federal")
+              print("Digite 1 - Sim")
+              print("Digite 2 - Não\n")
+        opcao3 = input("Digite sua opção\n")
+        match opcao3:
+            case "1":
+                print("Agradecemos o seu contato e continuamos à disposição!\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
+            case "2":
+                opcao4 = input("Digite 9 - Retornar ao menu anterior \n Caso queira encerrar o atendimento, digite “sair”")
+                
+                match opcao4:
+                        case "9":
+                            continue;
+    
+                        case "sair":
+                            break;
         case "5":
             print("Você escolheu a opção 5 - Sou da imprensa\n")
             
