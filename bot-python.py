@@ -19,11 +19,10 @@ while(True):
                 "vinculada à Secretaria Geral da Presidência da República (SGPR). Quer saber mais informações?"
                 "Acesse o site https://brasilparticipativo.presidencia.gov.br/")
             tempo_espera.tempo_espera()
+            
             print("Sua demanda foi atendida?")
-              
-            print("Digite 1 - sim\
+            opcao = input("Digite 1 - sim\
             Digite 2 - não")
-        opcao = input()
         match opcao:
             case "1":
                 print("Agradecemos o seu contato e continuamos à disposição!\
@@ -90,12 +89,11 @@ while(True):
             
             print("Sua demanda foi atendida?\n")
             
-            print("Digite 1 - Sim")
-            print("Digite 2 - Não\n")
+            input("Digite 1 - Sim\nDigite 2 - Não\n")
 
-            entrada = input()
+            opcao = input()
 
-            match entrada:
+            match opcao:
                 case "1":
                     print("Agradecemos o seu contato e continuamos à disposição!")
                     print("Para acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/")
@@ -104,9 +102,9 @@ while(True):
                     print("Digite 9 - Retornar ao menu anterior")
                     print("Caso queira encerrar o atendimento, digite “sair”")
 
-                    entrada2 = input()
+                    opcao = input()
 
-                    match entrada2:
+                    match opcao:
                         case "9":
                             continue 
                         case "sair":
@@ -121,9 +119,9 @@ while(True):
             print("Digite 1 - Sim")
             print("Digite 2 - Não\n")
 
-            entrada = input()
+            opcao = input()
 
-            match entrada:
+            match opcao:
                 case "1":
                     print("Agradecemos o seu contato e continuamos à disposição!")
                     print("Para acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/")
