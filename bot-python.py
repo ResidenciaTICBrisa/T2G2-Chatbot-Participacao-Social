@@ -42,15 +42,15 @@ while(True):
                         break
             
         case "2":
-            print("Você escolheu a opção 2 - Processos Participativos")
+
         case "3":
-            print("Você escolheu a opção 3 - Dificuldade de acesso\n")
             print("Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n")
+            tempo_espera.tempo_espera()
                
             print("Sua demanda foi atendida?")
             print("Digite 1 - Sim\n"+
                  "Digite 2 - Não\n")
-            opcao = input("Digite sua opção\n")
+            opcao = input()
         match opcao:
             case "1":
                 print("Agradecemos o seu contato e continuamos à disposição!\n\nPara acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/ ")
@@ -64,7 +64,6 @@ while(True):
                     case "sair":
                         break;    
        case "4":
-              print("Você escolheu a opção 4 - Represento um órgão da Administração Pública Federal\n")
               print("Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
               
               print("Sua demanda foi atendida?")
@@ -85,7 +84,6 @@ while(True):
                         case "sair":
                             break;
         case "5":
-            print("Você escolheu a opção 5 - Sou da imprensa\n")
             
             print("Por favor, entre em contato pelo e-mail:")
             print("participacaodigital@presidencia.gov.br\n")
@@ -116,7 +114,6 @@ while(True):
                 case "sair":
                         break
         case "6":
-            print("Você escolheu a opção 6 - Perguntas Frequentes")
             print("Confira as principais perguntas sobre os serviços relacionados ao Brasil Participativo (inserir link, da plataforma, de perguntas frequentes)\n")
                             
             print("Sua demanda foi atendida?\n")
@@ -146,9 +143,7 @@ while(True):
                 case "sair":
                         break
             
-        case "7":
-            print("Você escolheu a opção 7 - Outros assuntos \n")
-            
+        case "7":           
             print("Para assuntos relacionados à plataforma Brasil Participativo, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\nPara outros assuntos, registre a sua manifestação na Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR) https://falabr.cgu.gov.br\n")
             
             print("\nSua demanda foi atendida?\n")
