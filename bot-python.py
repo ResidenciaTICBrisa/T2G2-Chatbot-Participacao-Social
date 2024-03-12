@@ -5,7 +5,8 @@ print("\nBem-vindo(a) ao atendimento virtual do Brasil Participativo."
       "Para começar, diga-nos o seu nome")
 user = input("Qual seu nome? ")
 print(
-    f'Olá, {user}. Digite o número que corresponde à opção que deseja acessar.\nCaso queira encerrar o atendimento, digite "sair" a qualquer momento\n')
+    f'Olá, {user}. Digite o número que corresponde à opção que deseja acessar.\nCaso queira encerrar o atendimento,'
+    f' digite "sair" a qualquer momento\n')
 tempo_espera.tempo_espera()
 
 while True:
