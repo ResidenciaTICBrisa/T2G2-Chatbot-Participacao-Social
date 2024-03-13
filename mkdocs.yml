@@ -1,1 +1,39 @@
-site_name: My Docs
+site_name: Chatbot Participação Social 
+site_url: https://aaa.com/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+  palette:
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mudar para o modo escuro
+      primary: green
+      accent: purple
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para o modo claro
+      primary: green
+      accent: lime
+  
+
+  language: pt-BR
+  extra_css: [stylesheets/extra.css]
