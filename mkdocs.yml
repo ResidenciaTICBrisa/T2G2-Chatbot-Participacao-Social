@@ -1,5 +1,13 @@
 site_name: Chatbot Participação Social 
-site_url: https://aaa.com/
+
+repo_url: https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
+
+repo_name: T2G2-Chatbot-Participacao-Social
+
+favicon: images/rasinha_logo.jpeg
+logo: images/rasinha_logo.jpeg
+
+
 theme:
   name: material
   features:
