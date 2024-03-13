@@ -33,6 +33,7 @@ def send_greeting(message):
                                     "Digite 7 - Outros Assuntos\n")
     index_function = 0
 
+
 @bot.message_handler(
     func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 7) and index_function == 0)
 =======
