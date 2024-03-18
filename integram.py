@@ -1,26 +1,36 @@
 import telebot
 import dotenv
 import os
+from state_machine import StateMachine
 
+# sm = StateMachine("id")   # exemplo de como utilizar
 dotenv.load_dotenv()
 token = os.getenv('TELEGRAM_TOKEN')
 bot = telebot.TeleBot(token)
-index_function = 0
+sm_dict = {}
+
+
+def compare(user_id, valor):
+    global sm_dict
+    if sm_dict[user_id].getstate() == valor:
+        return True
+    return False
 
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    global index_function
+    global sm_dict
     id_chat = message.chat.id
     bot.send_message(id_chat,
                      "Bem-vindo(a) ao atendimento virtual do Brasil Participativo. Para começar, "
                      "diga-nos o seu nome")
-    index_function = -1
+    sm_dict.update({id_chat: StateMachine(id_chat)})
+    sm_dict[id_chat].setstate(-1)
 
 
-@bot.message_handler(func=lambda message: not message.text.isdigit() and index_function == -1 and message.text)
+@bot.message_handler(func=lambda message: not message.text.isdigit() and compare(message.chat.id, -1) and message.text)
 def send_greeting(message):
-    global index_function
+    global sm_dict
     id_chat = message.chat.id
     bot.send_message(id_chat, f"Olá, {message.text}. Digite o número que corresponde à opção que deseja acessar. "
                               f"Caso queira encerrar o atendimento, digite 'sair' a qualquer momento")
@@ -31,19 +41,19 @@ def send_greeting(message):
                      "Digite 5 - Sou da imprensa\n" +
                      "Digite 6 - Perguntas Frequentes\n" +
                      "Digite 7 - Outros Assuntos\n")
-    index_function = 0
+    sm_dict[id_chat].setstate(0)
 
 
 # primeiro bloco de perguntas
 @bot.message_handler(
-    func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 7) and index_function == 0)
+    func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 7) and compare(message.chat.id, 0))
 def handle_messages(message):
-    global index_function
+    global sm_dict
     id_chat = message.chat.id
     mensagem_usuario = message.text
     match mensagem_usuario:
         case "1":
-            index_function = 1
+            sm_dict[id_chat].setstate(1)
             bot.send_message(id_chat,
                              "Brasil Participativo é a nova plataforma de participação social do governo federal,"
                              "um espaço para que a população possa contribuir com a criação e melhoria das políticas públicas."
@@ -55,9 +65,9 @@ def handle_messages(message):
 
 # penultimo bloco de perguntas
 @bot.message_handler(
-    func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 7) and index_function == 1)
+    func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 7) and compare(message.chat.id, 1))
 def handle_messages(message):
-    global index_function
+    global sm_dict
     id_chat = message.chat.id
     match message.text:
         case "1":
@@ -66,26 +76,26 @@ def handle_messages(message):
                              "as atividades realizadas pelo Brasil Participativo, acesse "
                              "https://brasilparticipativo.presidencia.gov.br/")
         case "2":
-            index_function = 2
+            sm_dict[id_chat].setstate(2)
             bot.send_message(id_chat,
                              "Digite 9 - Retornar ao menu anterior ?\nCaso queira encerrar o atendimento, digite “sair”")
 
 
 # ultimo bloco de perguntas
-@bot.message_handler(func=lambda message: message.text == "9" and index_function == 2)
+@bot.message_handler(func=lambda message: message.text == "9" and compare(message.chat.id, 2))
 def handle_messages(message):
-    global index_function
+    global sm_dict
     id_chat = message.chat.id
     match message.text:
         case "9":
-            bot.send_message(message.chat.id, "Digite 1 - O que é o Brasil Participativo?\n" +
+            bot.send_message(id_chat, "Digite 1 - O que é o Brasil Participativo?\n" +
                              "Digite 2 - Processos Participativos\n" +
                              "Digite 3 - Dificuldade de acesso\n" +
                              "Digite 4 - Represento um órgão da Administração Pública Federal\n" +
                              "Digite 5 - Sou da imprensa\n" +
                              "Digite 6 - Perguntas Frequentes\n" +
                              "Digite 7 - Outros Assuntos\n")
-            index_function = 0
+            sm_dict[id_chat].setstate(0)
 
 
 @bot.message_handler(func=lambda message: message.text == "sair")
