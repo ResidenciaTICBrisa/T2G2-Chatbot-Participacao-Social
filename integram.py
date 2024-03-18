@@ -61,6 +61,28 @@ def handle_messages(message):
                              "vinculada à Secretaria Geral da Presidência da República (SGPR).Quer saber mais informações?"
                              "Acesse o site https://brasilparticipativo.presidencia.gov.br/")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            bot.reply_to(message,"Em construção")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.reply_to(message,"Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br")
+            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.reply_to(message,"Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
+            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "5":
+            sm_dict[id_chat].setstate(1)
+            bot.reply_to(message,"Por favor, entre em contato pelo e-mail:\nparticipacaodigital@presidencia.gov.br")
+            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "6":
+            sm_dict[id_chat].setstate(1)
+            bot.reply_to(message,"Confira as principais perguntas sobre os serviços relacionados ao Brasil Participativo (inserir link, da plataforma, de perguntas frequentes)\n")
+            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "7":
+            sm_dict[id_chat].setstate(1)
+            bot.reply_to(message,"Para assuntos relacionados à plataforma Brasil Participativo, por favor, entre em contato pelo e-mail:\nparticipacaodigital@presidencia.gov.br\nPara outros assuntos, registre a sua manifestação na Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR) https://falabr.cgu.gov.br\n")
+            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 
 # penultimo bloco de perguntas
