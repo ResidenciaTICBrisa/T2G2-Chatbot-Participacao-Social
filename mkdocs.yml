@@ -7,6 +7,7 @@ repo_name: T2G2-Chatbot-Participacao-Social
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
@@ -24,19 +25,20 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.footer
+  
   palette:
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Mudar para o modo escuro
-      primary: green
+      primary: blue
       accent: purple
 
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Mudar para o modo claro
-      primary: green
+      primary: blue
       accent: lime
   favicon: images/rasinha_logo.jpeg
   logo: images/rasinha_logo.jpeg

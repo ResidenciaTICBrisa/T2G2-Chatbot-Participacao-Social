@@ -1,6 +1,6 @@
 # Home
 
-## Projeto Chatbot para Brasil Participativoo
+## Projeto Chatbot para Brasil Participativo
 
 Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, uma plataforma de participação social do governo federal.
 
