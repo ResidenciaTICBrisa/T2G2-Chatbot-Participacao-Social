@@ -3,6 +3,19 @@ import dotenv
 import os
 from state_machine import StateMachine
 
+# state -2 -> começo
+# state -1-> welcome message
+# state 0 -> menu
+# state 1 -> "sua demanda foi atendida? sim ou não."
+# state 2 -> volta para o menu (state 0)
+# state 3 -> "case 2"
+# state 4 -> Plano Clima/PPA Participativo
+# state 5 -> Conferência
+# state 6 -> Consulta Pública
+# state 7 -> Enquete
+# state 8 -> Audiência
+# state 9 -> Colegiado
+
 # sm = StateMachine("id")   # exemplo de como utilizar
 dotenv.load_dotenv()
 token = os.getenv('TELEGRAM_TOKEN')
