@@ -1,7 +1,7 @@
 class StateMachine:
     def __init__(self, user_id):
         # atributos privados
-        self.__state = -2  # valor default (TODO: definir)
+        self.__state = -2
         self.__id = user_id
 
     def getstate(self): return self.__state
