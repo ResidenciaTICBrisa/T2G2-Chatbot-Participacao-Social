@@ -80,7 +80,7 @@ def handle_messages(message: object):
                                 "Digite 2 - Conferências\n"
                                 "Digite 3 - Consultas Públicas\n"
                                 "Digite 4 - Enquetes\n"
-                                "Digite 5 - Audiências Públicas\n "
+                                "Digite 5 - Audiências Públicas\n"
                                 "Digite 6 - Colegiados")
         case "3":
             sm_dict[id_chat].setstate(1)
