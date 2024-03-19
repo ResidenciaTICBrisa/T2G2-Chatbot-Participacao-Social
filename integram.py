@@ -176,19 +176,39 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"O Plano Clima é uma estratégia governamental adotada pelo Brasil para lidar com as "
+                                  "mudanças climáticas. Seu principal objetivo é liderar a redução das emissões de "
+                                  "gases de efeito estufa, visando conter o aquecimento global abaixo de 1,5°C.\n"
+                                  "O Plano Plurianual (PPA) é um documento que está previsto na Constituição de 1988. "
+                                  "Ele é elaborado de quatro em quatro anos, sempre no primeiro ano de mandato do "
+                                  "presidente. O PPA define metas, diretrizes e programas do Governo. Em 2023, ele será"
+                                  " elaborado com apoio aberto da população por meio da plataforma Brasil"
+                                  " Participativo. O PPA deve ser entregue às(aos) senadoras(es) e deputadas(os) no "
+                                  "Congresso Nacional até 31 de agosto de 2023, junto à Lei Orçamentária Anual (LOA).")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Basta criar uma conta no Gov.Br ou baixar o app. Se você já tem conta, "
+                                  "é só entrar com seu login e senha, em seguida fazer suas escolhas e propostas "
+                                  "entre 11 de maio e 14 de julho de 2023.")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para mais informações sobre o Plano Clima atual, acesse:\n"
+                                "https://lab-decide.dataprev.gov.br/processes/planoclima?locale=pt-BR")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"O Plano Clima foi instituído em 2009 para consolidar a execução da Política Nacional"
+                                  " de Mudança do Clima.\n"
+                                  "Plano Clima de 2015: https://www.mds.gov.br/webarquivos/arquivo/seguranca_alimentar"
+                                  "/caisan/Publicacao/Caisan_Nacional/PlanoNacionaldeAdaptacaoaMudancadoClima"
+                                  "_Junho2015.pdf\n"
+                                  "Plano Clima atual: "
+                                  "https://lab-decide.dataprev.gov.br/processes/planoclima?locale=pt-BR\n"
+                                  "Para consultar os PPAs anteriores, acesse:"
+                                  "https://www.gov.br/planejamento/pt-br/assuntos/plano-plurianual/paginas/"
+                                  "acesse-os-planos-plurianuais-anteriores")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 #Conferências
