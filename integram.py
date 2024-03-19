@@ -219,19 +219,32 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Uma conferência é um importante instrumento de participação social que "
+                                  "reúne diversos segmentos representativos da sociedade para debater e avaliar "
+                                  "políticas públicas e propor diretrizes para o seu aperfeiçoamento nos três "
+                                  "níveis de governo: municipal, estadual e nacional. Elas são espaços de diálogo "
+                                  "social e construção coletiva, nos quais atores diversos apontam suas demandas e "
+                                  "contribuições em relação à política pública e a como ela se materializa em serviços "
+                                  "nos territórios e comunidades.\n")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para participar, basta seguir o passo a passo abaixo: "
+                                  "1º  Acesse o endereço: https://brasilparticipativo.presidencia.gov.br/"
+                                  "2º Clique em “entrar” no canto superior direito da tela;"
+                                  "3º Clique em “entrar com Gov.br” e preencha com os  seus dados;"
+                                  "4º Selecione o módulo ‘Conferências’;"
+                                  "5º Escolha a conferência desejada para fazer sua contribuição.")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Confira as conferências abertas pelo link:\n"
+                                  "https://brasilparticipativo.presidencia.gov.br/assemblies")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Confira as conferências fechadas pelo link:\n"
+                                  "https://brasilparticipativo.presidencia.gov.br/assemblies")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 #Consultas Públicas
@@ -242,19 +255,36 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"É um mecanismo de participação social, de caráter consultivo, realizado com prazo "
+                                  "definido e aberto a qualquer interessado, com o objetivo de receber contribuições"
+                                  " sobre determinado assunto. Incentiva a participação da sociedade na tomada de "
+                                  "decisões relativas à formulação e definição de políticas públicas.")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para participar, siga o passo a passo abaixo: "
+                                  "1º  Acesse o Sistema de Consulta Pública "
+                                  "(https://www3.bcb.gov.br/audpub/HomePage?1)"
+                                  "e clique no link de Consultas Ativas para "
+                                  "sugerir alterações em minuta de norma a ser publicada pelo Banco Central;\n"
+                                  "2º Inserir sugestões ao texto da minuta ao clicar no link “Enviar sugestão”. Deverá "
+                                  "ser descrita a sugestão e a qual parte do texto se refere. "
+                                  "Também é possível incluir anexos;\n"
+                                  "3º Acesse o Sistema de Consulta Pública e clique no link de Consultas Encerradas. "
+                                  "As sugestões e os anexos encaminhados em todas as consultas "
+                                  "são disponibilizadas no sistema.")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para ver as consultas públicas abertas, acesse:"
+                                  "https://www.gov.br/saude/pt-br/acesso-a-informacao/"
+                                  "participacao-social/consultas-publicas")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Confira as consultas púbicas fechadas pelo link: "
+                                  "https://www.gov.br/saude/pt-br/acesso-a-informacao/"
+                                  "participacao-social/consultas-publicas")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 #Enquetes
@@ -265,19 +295,32 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"As Enquetes visam a dar maior publicidade e transparência ao trabalho de elaboração"
+                                  " de Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) desenvolvido pela Conitec."
+                                  " Foram criadas como mais um meio de comunicação com a sociedade, a fim de "
+                                  "melhorarmos esse processo. Elas são disponibilizadas como consulta prévia, ainda na"
+                                  " primeira etapa de construção do PCDT, para que possamos discutir uma proposta "
+                                  "inicial e, assim, melhorá-la, identificando aspectos que podem não ter sido "
+                                  "considerados anteriormente. Dessa forma, a participação popular será considerada "
+                                  "desde o início do processo de elaboração do PCDT, e não apenas na Consulta Pública"
+                                  " para deliberação final.\n")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para votar, o cidadão deve acessar a página de enquetes disponível no Portal da "
+                                  "Câmara pelo menu superior Participe/Enquetes ou pelo endereço enquetes.camara.leg.br"
+                                  " e registrar seu voto. Comentários à matéria, no entanto, não são computados "
+                                  "como votos.\n")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para consultar as enquetes abertas, acesse:\n"
+                             "https://www.gov.br/conitec/pt-br/assuntos/participacao-social/enquetes")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para consultar as enquetes fechadas, acesse:\ns"
+                             "https://www.gov.br/conitec/pt-br/assuntos/participacao-social/enquetes\n")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 #Audiências Públicas
@@ -288,19 +331,28 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"As Audiências Públicas são ambientes de ampla consulta à sociedade com o "
+                                  "objetivo de colher"
+                                  " subsídios e informações, além de oferecer aos interessados a oportunidade de "
+                                  "encaminhar "
+                                  "suas solicitações, pleitos, opiniões e sugestões, em especial da população "
+                                  "diretamente "
+                                  "afetada pelo objeto do debate.")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para participar, acesse:\n"
+                                  "https://www.gov.br/pt-br/servicos/participar-de-audiencias-e-consultas-publicas")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para consultar as audiências abertas, acesse:\n"
+                             "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/audiencias-publicas")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para consultar as audiências fechadas, acesse:\n"
+                             "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/audiencias-publicas)"
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 #Colegiados
@@ -311,19 +363,24 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Órgãos Colegiados referem-se a um corpo consultivo e/ou deliberativo que tem como"
+                                  " objetivo reunir pessoas com a competência de emitir pareceres e deliberações sobre"
+                                  " políticas públicas e atuam como canais de diálogo e de fiscalização.")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Para participar de colegiados, bem como obter mais informações, acesse:\n"
+                             "https://www.gov.br/participamaisbrasil/colegiados")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"Consulte os colegiados abertos e as datas de reuniões em:\n"
+                             "https://www.gov.br/mdh/pt-br/acesso-a-informacao/governanca/comissao-de-etica-publica-setorial/calendario"")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"")
+            bot.send_message(id_chat,"ara consultar os colegiados encerrados, acesse:\n"
+                             "https://www.gov.br/mdh/pt-br/acesso-a-informacao/governanca/scomissao-de-etica-publica-setorial/calendario")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 
