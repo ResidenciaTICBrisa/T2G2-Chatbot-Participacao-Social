@@ -6,12 +6,12 @@
 **Local:** Meet jitsi  
 
 **Presentes:**
-- [Giovanni Alvissus - Cliente](https://github.com/giovanni1106)
-- [Gabriel Zaranza](https://github.com/GZaranza)
-- [Gabriel Scheidt](https://github.com/Gxaite)
-- [Gabriel Pinto](https://github.com/GabrielSPinto)
-- [Isaque Augusto](https://github.com/seraphritt)
-- [Thiago Marques](https://github.com/ThiagoMarquesAeroespacial)
+- [Giovanni Alvissus - Cliente](https://github.com/giovanni1106)<br>
+- [Gabriel Zaranza](https://github.com/GZaranza)<br>
+- [Gabriel Scheidt](https://github.com/Gxaite)<br>
+- [Gabriel Pinto](https://github.com/GabrielSPinto)<br>
+- [Isaque Augusto](https://github.com/seraphritt)<br>
+- [Thiago Marques](https://github.com/ThiagoMarquesAeroespacial)<br>
 
 **Objetivos:**  
 Encaminhamentos para a 3º semana
@@ -20,7 +20,7 @@ Encaminhamentos para a 3º semana
 
 - Testar o bot do telegram com múltiplos usuários simultâneos.
 
-- Tesar a conversação entre bots usando o intergram.
+- Testar a conversação entre bots usando o intergram.
 
 - Definição das sprints quinta-feira 13 hs.
 
@@ -31,5 +31,5 @@ Encaminhamentos para a 3º semana
 | Atividade                            | Responsáveis | Prazo   |
 |--------------------------------------|--------------|---------|
 | Testar o bot do telegram com múltiplos usuários simultâneos  | Todos     | 21/03   |
-| ETesar a conversação entre bots usando o intergram| Todos      | 21/03   |
+| Testar a conversação entre bots usando o intergram| Todos      | 21/03   |
 | Documentar o projeto                | Todos        | Sem prazo |
