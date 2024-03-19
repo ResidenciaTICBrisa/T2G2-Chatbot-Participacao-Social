@@ -352,7 +352,7 @@ def handle_messages(message):
         case "4":
             sm_dict[id_chat].setstate(1)
             bot.send_message(id_chat,"Para consultar as audiências fechadas, acesse:\n"
-                             "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/audiencias-publicas)"
+                             "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/audiencias-publicas")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 #Colegiados
@@ -375,7 +375,7 @@ def handle_messages(message):
         case "3":
             sm_dict[id_chat].setstate(1)
             bot.send_message(id_chat,"Consulte os colegiados abertos e as datas de reuniões em:\n"
-                             "https://www.gov.br/mdh/pt-br/acesso-a-informacao/governanca/comissao-de-etica-publica-setorial/calendario"")
+                             "https://www.gov.br/mdh/pt-br/acesso-a-informacao/governanca/comissao-de-etica-publica-setorial/calendario")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
