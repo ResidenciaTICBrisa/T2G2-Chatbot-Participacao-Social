@@ -138,40 +138,173 @@ def handle_messages(message):
                             "Digite 3 - Plano Clima/PPA abertos\n "
                             "Digite 4 - Plano Clima/PPA fechados")
         case "2":
-            sm_dict[id_chat].setstate(4)
+            sm_dict[id_chat].setstate(5)
             bot.reply_to(message,"Digite 1 - O que é uma conferência?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Conferências abertas/ativas\n "
                             "Digite 4 - Conferências fechadas/encerradas")
         case "3":
-            sm_dict[id_chat].setstate(4)
+            sm_dict[id_chat].setstate(6)
             bot.reply_to(message,"Digite 1 - O que é uma consulta pública?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Consultas públicas abertas\n "
                             "Digite 4 - Consultas públicas fechadas")
         case "4":
-            sm_dict[id_chat].setstate(4)
+            sm_dict[id_chat].setstate(7)
             bot.reply_to(message,"Digite 1 - O que é uma enquete?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Enquetes abertas\n "
                             "Digite 4 - Enquetes públicas fechadas")
         case "5":
-            sm_dict[id_chat].setstate(4)
+            sm_dict[id_chat].setstate(8)
             bot.reply_to(message,"Digite 1 - O que é uma audiência?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Audiências públicas abertas\n "
                             "Digite 4 - Audiências públicas fechadas")
         case "6":
-            sm_dict[id_chat].setstate(4)
+            sm_dict[id_chat].setstate(9)
             bot.reply_to(message,"Digite 1 - O que é um colegiado?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Colegiados abertos\n "
                             "Digite 4 - Colegiados fechados")
-            
-# @bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 4))
-# def handle_messages(message):
-#     id_chat = message.chat.id
-#     bot.send_message(id_chat, "Saindo")
+
+#Plano clima          
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 4))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+
+#Conferências
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 5))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+
+#Consultas Públicas
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 6))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+
+#Enquetes
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 7))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+
+#Audiências Públicas
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 8))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+
+#Colegiados
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 4) and compare(message.chat.id, 9))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "2":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "3":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+        case "4":
+            sm_dict[id_chat].setstate(1)
+            bot.send_message(id_chat,"")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 
 
