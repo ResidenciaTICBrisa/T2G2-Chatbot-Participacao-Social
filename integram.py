@@ -63,7 +63,7 @@ def handle_messages(message):
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(3)
-            bot.reply_to(message,"Digite 1 - Plano Clima/PPA Participativo\n"
+            bot.send_message(id_chat,"Digite 1 - Plano Clima/PPA Participativo\n"
                                 "Digite 2 - Conferências\n"
                                 "Digite 3 - Consultas Públicas\n"
                                 "Digite 4 - Enquetes\n"
@@ -71,24 +71,24 @@ def handle_messages(message):
                                 "Digite 6 - Colegiados")
         case "3":
             sm_dict[id_chat].setstate(1)
-            bot.reply_to(message,"Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br")
-            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+            bot.send_message(id_chat,"Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.reply_to(message,"Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
-            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+            bot.send_message(id_chat,"Para aderir à plataforma ou tirar dúvidas sobre os processos participativos, por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br\n\nAcesse os nossos cursos de capacitação na plataforma EVG (quando estiverem disponibilizados)\n")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "5":
             sm_dict[id_chat].setstate(1)
-            bot.reply_to(message,"Por favor, entre em contato pelo e-mail:\nparticipacaodigital@presidencia.gov.br")
-            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+            bot.send_message(id_chat,"Por favor, entre em contato pelo e-mail:\nparticipacaodigital@presidencia.gov.br")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "6":
             sm_dict[id_chat].setstate(1)
-            bot.reply_to(message,"Confira as principais perguntas sobre os serviços relacionados ao Brasil Participativo (inserir link, da plataforma, de perguntas frequentes)\n")
-            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+            bot.send_message(id_chat,"Confira as principais perguntas sobre os serviços relacionados ao Brasil Participativo (inserir link, da plataforma, de perguntas frequentes)\n")
+            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "7":
             sm_dict[id_chat].setstate(1)
-            bot.reply_to(message,"Para assuntos relacionados à plataforma Brasil Participativo, por favor, entre em contato pelo e-mail:\nparticipacaodigital@presidencia.gov.br\nPara outros assuntos, registre a sua manifestação na Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR) https://falabr.cgu.gov.br\n")
-            bot.reply_to(message, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+            bot.send_message(id_chat,"Para assuntos relacionados à plataforma Brasil Participativo, por favor, entre em contato pelo e-mail:\nparticipacaodigital@presidencia.gov.br\nPara outros assuntos, registre a sua manifestação na Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR) https://falabr.cgu.gov.br\n")
+            bot.send_message(id_chat,"Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
 
 # penultimo bloco de perguntas
@@ -133,37 +133,37 @@ def handle_messages(message):
     match message.text:
         case "1":
             sm_dict[id_chat].setstate(4)
-            bot.reply_to(message,"Digite 1 - O que é o Plano Clima/PPA Participativo?\n "
+            bot.send_message(id_chat,"Digite 1 - O que é o Plano Clima/PPA Participativo?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Plano Clima/PPA abertos\n "
                             "Digite 4 - Plano Clima/PPA fechados")
         case "2":
             sm_dict[id_chat].setstate(5)
-            bot.reply_to(message,"Digite 1 - O que é uma conferência?\n "
+            bot.send_message(id_chat,"Digite 1 - O que é uma conferência?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Conferências abertas/ativas\n "
                             "Digite 4 - Conferências fechadas/encerradas")
         case "3":
             sm_dict[id_chat].setstate(6)
-            bot.reply_to(message,"Digite 1 - O que é uma consulta pública?\n "
+            bot.send_message(id_chat,"Digite 1 - O que é uma consulta pública?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Consultas públicas abertas\n "
                             "Digite 4 - Consultas públicas fechadas")
         case "4":
             sm_dict[id_chat].setstate(7)
-            bot.reply_to(message,"Digite 1 - O que é uma enquete?\n "
+            bot.send_message(id_chat,"Digite 1 - O que é uma enquete?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Enquetes abertas\n "
                             "Digite 4 - Enquetes públicas fechadas")
         case "5":
             sm_dict[id_chat].setstate(8)
-            bot.reply_to(message,"Digite 1 - O que é uma audiência?\n "
+            bot.send_message(id_chat,"Digite 1 - O que é uma audiência?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Audiências públicas abertas\n "
                             "Digite 4 - Audiências públicas fechadas")
         case "6":
             sm_dict[id_chat].setstate(9)
-            bot.reply_to(message,"Digite 1 - O que é um colegiado?\n "
+            bot.send_message(id_chat,"Digite 1 - O que é um colegiado?\n "
                             "Digite 2 - Como participar?\n "
                             "Digite 3 - Colegiados abertos\n "
                             "Digite 4 - Colegiados fechados")
@@ -338,7 +338,7 @@ def handle_messages(message):
                                   "suas solicitações, pleitos, opiniões e sugestões, em especial da população "
                                   "diretamente "
                                   "afetada pelo objeto do debate.")
-            bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
+            bot.send_message(id_chat,"Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
             sm_dict[id_chat].setstate(1)
             bot.send_message(id_chat,"Para participar, acesse:\n"
@@ -379,7 +379,7 @@ def handle_messages(message):
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "4":
             sm_dict[id_chat].setstate(1)
-            bot.send_message(id_chat,"ara consultar os colegiados encerrados, acesse:\n"
+            bot.send_message(id_chat,"Para consultar os colegiados encerrados, acesse:\n"
                              "https://www.gov.br/mdh/pt-br/acesso-a-informacao/governanca/scomissao-de-etica-publica-setorial/calendario")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
 
