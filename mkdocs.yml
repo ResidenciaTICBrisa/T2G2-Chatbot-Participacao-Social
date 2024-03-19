@@ -29,7 +29,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Mudar para o modo escuro
-      primary: green
+      primary: blue
       accent: purple
 
     - scheme: slate
