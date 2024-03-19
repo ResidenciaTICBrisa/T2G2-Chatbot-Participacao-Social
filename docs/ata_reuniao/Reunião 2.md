@@ -1,4 +1,6 @@
-# Pauta: Segunda reunião (só com membros)
+# Reunião 2
+
+## Pauta: Segunda reunião (só com membros)
 
 **Data:** 12/03/2024  
 **Local:** LTDEA - 313  
@@ -13,13 +15,13 @@
 **Objetivos:**  
 Realizar a reunião semanal, somente com os membros, para dar andamento ao trabalho.
 
-## Acompanhamentos e definições:  
+### Acompanhamentos e definições:  
 
 - Refatoração do script do bot
 - API do telebot
 - Documentação
 
-## Encaminhamentos:
+### Encaminhamentos:
 
 | Atividade                          | Responsáveis | Prazo   |
 |------------------------------------|--------------|---------|

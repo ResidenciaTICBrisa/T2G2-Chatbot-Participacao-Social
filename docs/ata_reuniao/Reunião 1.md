@@ -1,4 +1,6 @@
-# Pauta: Primeira reunião com o cliente
+# Reunião 1
+
+## Pauta: Primeira reunião com o cliente
 
 **Data:** 28/02/2024  
 **Local:** Coworking  
@@ -13,7 +15,7 @@
 **Objetivos:**  
 Sanar dúvidas dos participantes sobre o projeto  
 
-## Acompanhamentos e definições:  
+### Acompanhamentos e definições:  
 
 - Giovanni vai verificar a demanda com a presidência e com a Carla.  
   *Obs.: A Presidência já possui um modelo de chat pré definido com documentação, a ideia da Carla é aprimorar.*
@@ -25,7 +27,7 @@ Sanar dúvidas dos participantes sobre o projeto
 
 - Na semana seguinte todos os participantes devem criar um BotFather pelo Telegram.
 
-## Encaminhamentos:
+### Encaminhamentos:
 
 | Atividade                            | Responsáveis | Prazo   |
 |--------------------------------------|--------------|---------|
