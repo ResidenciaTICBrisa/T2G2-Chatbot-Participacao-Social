@@ -4,7 +4,9 @@ repo_url: https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
 
 repo_name: T2G2-Chatbot-Participacao-Social
 
-
+nav:
+  - Home: 'docs/index.md'
+  - Ata das reuniões: 'docs/ata_reuniao/'
 
 
 theme:
