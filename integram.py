@@ -62,7 +62,13 @@ def handle_messages(message):
                              "Acesse o site https://brasilparticipativo.presidencia.gov.br/")
             bot.send_message(id_chat, "Sua demanda foi atendida? \n1 - Sim \n2 - Não")
         case "2":
-            bot.reply_to(message,"Em construção")
+            sm_dict[id_chat].setstate(3)
+            bot.reply_to(message,"Digite 1 - Plano Clima/PPA Participativo\n"
+                                "Digite 2 - Conferências\n"
+                                "Digite 3 - Consultas Públicas\n"
+                                "Digite 4 - Enquetes\n"
+                                "Digite 5 - Audiências Públicas\n "
+                                "Digite 6 - Colegiados")
         case "3":
             sm_dict[id_chat].setstate(1)
             bot.reply_to(message,"Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br")
@@ -118,7 +124,34 @@ def handle_messages(message):
                              "Digite 6 - Perguntas Frequentes\n" +
                              "Digite 7 - Outros Assuntos\n")
             sm_dict[id_chat].setstate(0)
+#Daqui pra baixo apenas lógica do segundo fluxo
 
+@bot.message_handler(func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 6) and compare(message.chat.id, 3))
+def handle_messages(message):
+    global sm_dict
+    id_chat = message.chat.id
+    match message.text:
+        case "1":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
+        case "2":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
+        case "3":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
+        case "4":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
+        case "5":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
+        case "6":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
+        case "7":
+            sm_dict[id_chat].setstate(4)
+            bot.reply_to(message,"Em construção")
 
 @bot.message_handler(func=lambda message: message.text == "sair")
 def handle_messages(message):
