@@ -3,10 +3,10 @@
 ## Pauta: Segunda reunião com o cliente
 
 **Data:** 13/03/2024  
-**Local:** Meet jitsi  
+**Local:** Jitsi Meet  
 
-**Presentes:**
-- [Giovanni Alvissus - Cliente](https://github.com/giovanni1106)<br>
+**Presentes:**<br>
+- [(Cliente) Giovanni Alvissus](https://github.com/giovanni1106)<br>
 - [Gabriel Zaranza](https://github.com/GZaranza)<br>
 - [Gabriel Scheidt](https://github.com/Gxaite)<br>
 - [Gabriel Pinto](https://github.com/GabrielSPinto)<br>
