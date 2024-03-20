@@ -33,3 +33,6 @@ Encaminhamentos para a 3º semana
 | Testar o bot do telegram com múltiplos usuários simultâneos  | Todos     | 21/03   |
 | Testar a conversação entre bots usando o intergram| Todos      | 21/03   |
 | Documentar o projeto                | Todos        | Sem prazo |
+
+### Gravação da reunião:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B7ICwWay4JA?si=fxxPGTvfr_KHOB-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
