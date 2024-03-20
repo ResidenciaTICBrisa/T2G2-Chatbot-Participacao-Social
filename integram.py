@@ -24,6 +24,7 @@ sm_dict = {}
 
 
 def compare(user_id: str, valor: int) -> bool:
+    # essa função compara o valor da instância da máq de estados para um usuário único, baseado no user_id
     global sm_dict
     if sm_dict[user_id].getstate() == valor:
         return True
@@ -32,17 +33,21 @@ def compare(user_id: str, valor: int) -> bool:
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message: object):
+    # essa função envia a primeira mensagem do chatbot, após o /start no telegram
     global sm_dict
     id_chat = message.chat.id
     bot.send_message(id_chat,
                      "Bem-vindo(a) ao atendimento virtual do Brasil Participativo. Para começar, "
                      "diga-nos o seu nome")
     sm_dict.update({id_chat: StateMachine(id_chat)})
-    sm_dict[id_chat].setstate(-1)
+    # já que a welcome só é utilizada quando um novo usuário acessa o bot
+    # sm_dict.update({id_chat: StateMachine(id_chat)}) adiciona ao dicionário chave = id, valor = instancia da sm
+    sm_dict[id_chat].setstate(-1)   # modifica o estado para -1
 
 
 @bot.message_handler(func=lambda message: not message.text.isdigit() and compare(message.chat.id, -1) and message.text)
 def send_greeting(message: object):
+    # essa função envia uma saudação com o nome informado pelo usuário e mostra o menu principal
     global sm_dict
     id_chat = message.chat.id
     bot.send_message(id_chat, f"Olá, {message.text}. Digite o número que corresponde à opção que deseja acessar. "
@@ -61,6 +66,8 @@ def send_greeting(message: object):
 @bot.message_handler(
     func=lambda message: message.text.isdigit() and (1 <= int(message.text) <= 7) and compare(message.chat.id, 0))
 def handle_messages(message: object):
+    # essa função recebe a resposta do usuário que seleciona a opção desejada no menu principal
+    # e mostra o resultado de acordo com o fluxo.
     global sm_dict
     id_chat = message.chat.id
     mensagem_usuario = message.text
