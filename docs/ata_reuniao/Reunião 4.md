@@ -1,5 +1,7 @@
 # Reunião 4
 
+## Pauta: Reunião com o cliente para finalização do escopo
+
 - **Data:** 21/03/2024
 - **Local:** Lappis - UnB
 
