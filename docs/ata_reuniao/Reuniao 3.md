@@ -1,6 +1,6 @@
 # Reunião 3
 
-## Pauta: Segunda reunião com o cliente
+## Pauta: Terceira reunião com o cliente
 
 **Data:** 13/03/2024  
 **Local:** Jitsi Meet  
