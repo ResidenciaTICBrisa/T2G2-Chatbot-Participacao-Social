@@ -1,4 +1,4 @@
-# Pauta: Definição de Escopo
+# Pauta: Reunião 4
 
 - **Data:** 21/03/2024
 - **Local:** Lappis - UnB
