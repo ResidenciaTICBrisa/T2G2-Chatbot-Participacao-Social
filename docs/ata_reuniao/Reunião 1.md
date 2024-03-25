@@ -1,21 +1,19 @@
-# Reunião 1
-
-## Pauta: Primeira reunião com o cliente
+# Pauta: Primeira reunião com o cliente
 
 **Data:** 28/02/2024  
 **Local:** Coworking  
 
 **Presentes:**  
-- Gabriel Pessoa Zaranza  
-- Gabriel Reis Scheidt Paulino  
-- Gabriel Santos Pinto  
-- Isaque Augusto da Silva Santos  
-- Thiago Henrique Marques Rocha  
+- [Gabriel Pessoa Zaranza](https://github.com/GZaranza)<br>
+- [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)<br>
+- [Gabriel Santos Pinto](https://github.com/GabrielSPinto)<br>
+- [Isaque Augusto da Silva Santos](https://github.com/seraphritt)<br>
+- [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)<br>
 
 **Objetivos:**  
 Sanar dúvidas dos participantes sobre o projeto  
 
-### Acompanhamentos e definições:  
+## Acompanhamentos e definições:  
 
 - Giovanni vai verificar a demanda com a presidência e com a Carla.  
   *Obs.: A Presidência já possui um modelo de chat pré definido com documentação, a ideia da Carla é aprimorar.*
@@ -27,7 +25,7 @@ Sanar dúvidas dos participantes sobre o projeto
 
 - Na semana seguinte todos os participantes devem criar um BotFather pelo Telegram.
 
-### Encaminhamentos:
+## Encaminhamentos:
 
 | Atividade                            | Responsáveis | Prazo   |
 |--------------------------------------|--------------|---------|
