@@ -6,6 +6,7 @@
 **Local:** Coworking  
 
 **Presentes:**  
+- [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)<br>
 - [Gabriel Pessoa Zaranza](https://github.com/GZaranza)<br>
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)<br>
 - [Gabriel Santos Pinto](https://github.com/GabrielSPinto)<br>
