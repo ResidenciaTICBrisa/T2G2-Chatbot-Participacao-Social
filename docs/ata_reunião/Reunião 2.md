@@ -27,5 +27,3 @@ Realizar a reunião semanal, somente com os membros, para dar andamento ao traba
 |------------------------------------|--------------|---------|
 | Refatoração do script do bot       | Todos        | 20/03   |
 | Estudar API do telebot             | Todos        | 20/03   |
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xzAESAp_soQ?si=tEy0ZLsjTysaOPW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
