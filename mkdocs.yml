@@ -11,8 +11,6 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.top
     - navigation.footer
   palette:
@@ -24,7 +22,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.footer
+    
   
   palette:
     - scheme: default

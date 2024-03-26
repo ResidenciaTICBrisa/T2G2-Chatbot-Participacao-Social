@@ -1,12 +1,12 @@
 # Reunião 3
 
-## Pauta: Segunda reunião com o cliente
+## Pauta: Terceira reunião com o cliente
 
 **Data:** 13/03/2024  
 **Local:** Jitsi Meet  
 
 **Presentes:**<br>
-- [(Cliente) Giovanni Alvissus](https://github.com/giovanni1106)<br>
+- [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)<br>
 - [Gabriel Zaranza](https://github.com/GZaranza)<br>
 - [Gabriel Scheidt](https://github.com/Gxaite)<br>
 - [Gabriel Pinto](https://github.com/GabrielSPinto)<br>
@@ -35,4 +35,4 @@ Encaminhamentos para a 3º semana
 | Documentar o projeto                | Todos        | Sem prazo |
 
 ### Gravação da reunião:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B7ICwWay4JA?si=fxxPGTvfr_KHOB-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCJsJFQPZGI?si=FZa2KoHyLR4N_7Sb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

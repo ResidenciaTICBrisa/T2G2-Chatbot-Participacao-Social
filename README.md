@@ -54,5 +54,11 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
                 <h5 class="text-center">Thiago Henrique Marques Rocha</h5>
             </a>
         </td>
+        <td align="center">
+            <a href="https://github.com/Eruel6">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71983159?v=4" width="150px;"/>
+                <h5 class="text-center">Arthur Taylor de Jesus Popov</h5>
+            </a>
+        </td>
 </table>
 </center>
