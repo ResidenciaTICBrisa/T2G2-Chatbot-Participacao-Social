@@ -9,4 +9,4 @@ Versão inicial
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAEe9BNYs&#x2F;f7uC9twV2qWQVULL13emRQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAEe9BNYs&#x2F;f7uC9twV2qWQVULL13emRQ&#x2F;view?utm_content=DAGAEe9BNYs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"> Blue and Purple Casual Corporate Tech Roadmap Presentation</a> de Marques TH
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAEe9BNYs&#x2F;f7uC9twV2qWQVULL13emRQ&#x2F;view?utm_content=DAGAEe9BNYs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"> 
