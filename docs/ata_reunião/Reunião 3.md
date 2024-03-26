@@ -35,4 +35,4 @@ Encaminhamentos para a 3º semana
 | Documentar o projeto                | Todos        | Sem prazo |
 
 ### Gravação da reunião:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B7ICwWay4JA?si=fxxPGTvfr_KHOB-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCJsJFQPZGI?si=FZa2KoHyLR4N_7Sb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
