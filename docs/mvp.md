@@ -1,6 +1,39 @@
 # MVP
 
-Versão inicial
+# **O Mínimo Produto Viável (MVP)**
+
+O Mínimo Produto Viável (MVP) é uma abordagem essencial no desenvolvimento de produtos, cujo principal objetivo é criar uma versão inicial simplificada que entregue a proposta de valor central da ideia. Para esta finalidade, utilizamos a ferramenta Canva para a produção do MVP.
+
+O MVP desempenha um papel crucial no desenvolvimento do produto, pois fornece uma visão geral que ajuda a determinar sua viabilidade e funcionalidades. Além disso, permite a identificação de problemas e áreas de melhoria, contribuindo para a redução de riscos à medida que a equipe avalia a aceitação do público. Essa avaliação direciona o foco da equipe para as partes mais importantes do projeto. A divisão do MVP em categorias facilita ainda mais essa análise.
+
+## **Plataformas:**
+
+Foram utilizadas diversas plataformas no desenvolvimento e teste do projeto. O Telegram serviu como interface visual para os testes do chatbot, enquanto o site do Brasil Participativo, que representa o cliente final da aplicação, foi o ambiente onde o MVP foi avaliado. Além disso, o GitHub foi utilizado para elaborar a GitPage e documentar o projeto de forma colaborativa.
+
+## **Visão do MVP:**
+
+Nosso MVP é um chatbot de assistência virtual projetado para facilitar a experiência dos usuários no site Brasil Participativo, ajudando-os na navegação e compreensão do ambiente virtual.
+
+## **Funcionalidade:**
+
+Nosso MVP rodara no servidor e estará sempre disponivel para teste, a implementação do bot é baseada na seleção com números, o usuário segue o fluxo estabelecido pelo cliente.
+
+## **Resultado Esperado:**
+
+Nosso MVP será executado em um servidor e estará constantemente disponível para testes. A implementação do bot é baseada em seleções numéricas, permitindo que o usuário siga o fluxo estabelecido pelo cliente de forma intuitiva e eficiente.
+
+## **Jornadas:**
+
+O percurso do usuário começa quando ele acessa o site e utiliza o widget para se comunicar com o chatbot. Enquanto isso, os desenvolvedores têm a flexibilidade de modificar completamente o funcionamento e a lógica do chatbot durante suas jornadas.
+
+## **Métricas para Validar as Hipóteses de Negócio:**
+
+A métrica de validação consiste em verificar se o usuário consegue concluir a conversa de forma satisfatória, mantendo um baixo nível de desvio entre os fluxos. Além disso, a satisfação do usuário final em relação ao produto também é considerada um indicador positivo de validação.
+
+## **Custo e Cronograma:**
+
+O grupo é composto por seis pessoas, dedicando um total de 120 horas semanais. Desenvolvemos nosso MVP ao longo de um período de dois meses.
+
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
