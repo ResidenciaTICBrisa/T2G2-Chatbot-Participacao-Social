@@ -6,7 +6,7 @@ repo_name: T2G2-Chatbot-Participacao-Social
 
 
 theme:
-  name: material
+  name: dracula
   custom_dir: overrides
   features:
     - navigation.instant
