@@ -21,6 +21,7 @@ Um dos aspectos-chave do escopo do chatbot é sua capacidade de resolver de form
 | US13 | Gestor   | Que o chatbot fosse desenvolvido com uma arquitetura escalável                                          | Garantir que o chatbot continue funcionando sem problemas, mesmo com o aumento do número de usuários |
 | US14 | Usuário  | Que o chatbot entenda português                                                                         | Facilitar a minha comunicação com ele                                                                |
 | US15 | Gestor   | Que houvesse métricas de análise da performance do chatbot                                              | Manutenção e evolução do chatbot                                                                     |
+
 ## Requisitos
 
 <table>
