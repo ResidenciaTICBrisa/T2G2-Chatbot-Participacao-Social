@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/blob/main/site/images/rasinha_logo.jpeg" width="190" />
+</p>
+
 # Projeto Chatbot para Brasil Participativo
 
 Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, uma plataforma de participação social do governo federal.
