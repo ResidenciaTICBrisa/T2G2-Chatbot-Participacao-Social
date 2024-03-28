@@ -60,6 +60,25 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
                 <h5 class="text-center">Arthur Taylor de Jesus Popov</h5>
             </a>
         </td>
+    <tr>
+        <td align="center">
+            <a>Documentação</a>
+        </td>
+        <td align="center">
+            <a>Scrum master</a>
+        </td>
+        <td align="center">
+            <a>Backend</a>
+        </td>
+        <td align="center">
+            <a>Machine Learning</a>
+        </td>
+        <td align="center">
+            <a>Frontend</a>
+        </td>
+        <td align="center">
+            <a>Ciência de Dados</a>
+        </td>
 </table>
 </center>
 
