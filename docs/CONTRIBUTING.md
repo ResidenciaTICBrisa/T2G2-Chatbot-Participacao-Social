@@ -34,6 +34,7 @@ Adoramos receber sugestões e melhorias! Sinta-se à vontade para abrir uma [iss
 ## Licença
 
 # REVISAR ESSA PARTE, precisa ter licença do projeto?
+
 Ao contribuir, você concorda que suas contribuições serão licenciadas sob a [Licença do Projeto](https://gitlab.com/lappis-unb/decidimbr/decidim-govbr/-/blob/main/LICENSE-AGPLv3.txt?ref_type=heads).
 
 ---
