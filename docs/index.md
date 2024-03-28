@@ -62,3 +62,10 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
         </td>
 </table>
 </center>
+
+
+## Histórico de versão
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
