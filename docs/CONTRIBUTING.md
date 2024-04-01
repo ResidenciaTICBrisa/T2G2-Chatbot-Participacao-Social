@@ -51,4 +51,4 @@ Contato: chatbotbrasilparticipativo@gmail.com
 | Versão |    Data    |                                 Descrição                                |      Autor       |
 | :----: | :--------: | :----------------------------------------------------------------------: | :--------------: |
 |  1.0   | 28/03/2024 |                   Criação do histórico de versão                         |  Gabriel Scheidt |
-|  1.1   | 01/04/2024 |           Adição de links de políticas de commits e licença              |  Gabriel Scheidt |
+|  1.1   | 01/04/2024 |           Adição de links de políticas de commits e licença              |  Arthur Taylor   |
