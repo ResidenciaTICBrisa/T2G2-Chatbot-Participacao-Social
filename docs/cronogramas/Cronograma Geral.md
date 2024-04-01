@@ -1,6 +1,6 @@
 #Cronograma geral
 
-O cronograma geral do projeto foi elaborado como uma ferramenta de rápida consulta para acompanhar as principais entregas nos próximos seis meses. Destinado tanto aos usuários quanto ao cliente, visa proporcionar um acesso ágil e eficiente às informações essenciais. Para mais informações, vizualize o  [**Cronograma detalhado**](./Cronograma%20Detalho.md).
+O cronograma geral do projeto foi elaborado como uma ferramenta de rápida consulta para acompanhar as principais entregas nos próximos seis meses. Destinado tanto aos usuários quanto ao cliente, visa proporcionar um acesso ágil e eficiente às informações essenciais. Para mais informações, vizualize o  [**Cronograma detalhado**](./Cronograma%20Detalhado.md).
 
 
  Título                   | Descrição                                                   | Entrega      |
