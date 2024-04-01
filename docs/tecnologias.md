@@ -11,6 +11,6 @@ Rasa é uma ferramenta para auxiliar no desenvolvimento de chatbots com IA usand
 O Telegram é um aplicativo de mensagens instantâneas e plataforma de comunicação em nuvem desenvolvido pela empresa Telegram Messenger LLP. Sua utilização nesse projeto foi primordial para a primeira release, na qual o Telegram foi utilizado para simular conversar e interações com multíplos usuários.
 ## Histórico de versão
 
-| Versão |    Data    |                       Descrição                       |     Autor      |
-| :----: |:----------:| :---------------------------------------------------: |:--------------:|
-|  1.0   | 01/04/2024 |           Criação do histórico de versão              | Isaque Augusto |
+| Versão |    Data    |                  Descrição                  |     Autor      |
+| :----: |:----------:|:-------------------------------------------:|:--------------:|
+|  1.0   | 01/04/2024 | Criação de página de tecnologias utilizadas | Isaque Augusto |
