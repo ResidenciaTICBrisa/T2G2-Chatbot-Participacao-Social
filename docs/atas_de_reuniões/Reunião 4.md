@@ -42,4 +42,4 @@ Definir o escopo do projeto com as entregas dos 4 releases e deliberações.
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
+|  1.0   | 18/03/2024 |           Criação do documento                        |  Gabriel Santos  |

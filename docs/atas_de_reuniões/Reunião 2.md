@@ -33,4 +33,4 @@ Realizar a reunião semanal, somente com os membros, para dar andamento ao traba
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
+|  1.0   | 18/03/2024 |           Criação do documento                        |  Gabriel Santos  |
