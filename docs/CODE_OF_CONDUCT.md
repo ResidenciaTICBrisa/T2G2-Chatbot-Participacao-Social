@@ -82,3 +82,10 @@ Para obter respostas a perguntas comuns sobre este código de conduta, veja a p�
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
+
+## Histórico de versão
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |

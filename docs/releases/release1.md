@@ -71,3 +71,11 @@ As seguintes issues foram feitas nessa sprint:
 <br>
 This is how you dropdown.
 </details>
+
+
+
+## Histórico de versão
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
