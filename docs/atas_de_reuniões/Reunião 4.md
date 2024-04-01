@@ -42,4 +42,4 @@ Definir o escopo do projeto com as entregas dos 4 releases e deliberações.
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 18/03/2024 |           Criação do documento                        |  Gabriel Santos  |
+|  1.0   | 25/03/2024 |           Criação do documento                        |  Gabriel Santos  |
