@@ -57,7 +57,7 @@ Alinhar
 | Especificar Decidim na Gitpage (Melhorar contexto do BP) | Encaminhamento          | 04/04  |
 
 ### Gravação da reunião:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U8g8aJ1iRlI?si=YwPrROnHs2m4F0MR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U8g8aJ1iRlI?si=NcDvAEJ-RlO3KyYv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de versão
 
