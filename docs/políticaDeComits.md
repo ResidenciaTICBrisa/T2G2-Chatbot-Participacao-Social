@@ -56,3 +56,9 @@ Dentre os possíveis tipos, temos:
 O **nome-da-alteracao** deverá preferencialmente ser composto por poucas (ou apenas uma) palavras significativas quanto ao contexto da *branch*.
 
 Demais possibilidades de tipos de *branches* deverão seguir preferencialmente os princípios postos no artigo do [**GitKraken**](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy).
+
+## Histórico de versão
+
+| Versão |    Data    |                        Descrição                      |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 01/04/2024 |           Criação do histórico de versão              |  Arthur Taylor   |
