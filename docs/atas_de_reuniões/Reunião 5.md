@@ -61,6 +61,7 @@ Alinhar
 
 ## Histórico de versão
 
-| Versão | Data      | Descrição                   | Autor          |
-|--------|-----------|-----------------------------|----------------|
-| 1.0    | 28/03/2024| Criação do histórico de versão | Gabriel Scheidt |
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 01/04/2024 |           Criação do documento                        |  Gabriel Santos  |
+|  2.0   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |

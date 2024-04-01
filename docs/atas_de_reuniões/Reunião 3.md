@@ -41,4 +41,4 @@ Encaminhamentos para a 3º semana
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 18/03/2024 |           Criação da ata da 3ª Reunião                |  Thiago Marques  |
+|  1.0   | 18/03/2024 |           Criação do documento                        |  Thiago Marques  |
