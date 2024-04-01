@@ -36,10 +36,3 @@ Definir o escopo do projeto com as entregas dos 4 releases e deliberações.
 | Estudo de RocketChat – Recebimento de mídias| Thiago Henrique Marques Rocha | 28/03/2024 |
 | Ata reunião 4                               | Gabriel Santos Pinto          | 25/03/2024 |
 | Estudos e produção do Story Map             | Gabriel Santos Pinto          | 28/03/2024 |
-
-
-## Histórico de versão
-
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |

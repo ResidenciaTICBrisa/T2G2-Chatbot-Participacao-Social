@@ -13,10 +13,3 @@ Desenvolvemos dois roadmaps para o projeto: um enfocado na parte técnica e nas 
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAEe9BNYs&#x2F;f7uC9twV2qWQVULL13emRQ&#x2F;view?utm_content=DAGAEe9BNYs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"> 
-
-
-## Histórico de versão
-
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |

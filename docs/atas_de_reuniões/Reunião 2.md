@@ -27,10 +27,3 @@ Realizar a reunião semanal, somente com os membros, para dar andamento ao traba
 |------------------------------------|--------------|---------|
 | Refatoração do script do bot       | Todos        | 20/03   |
 | Estudar API do telebot             | Todos        | 20/03   |
-
-
-## Histórico de versão
-
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |

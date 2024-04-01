@@ -36,10 +36,3 @@ Sanar dúvidas dos participantes sobre o projeto
 | Estudar tecnologias que vamos utilizar | Todos      | 02/03   |
 | Elaborar documentação                | Todos        | Sem prazo |
 | Criar BotFather                      | Todos        | 09/03   |
-
-
-## Histórico de versão
-
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |

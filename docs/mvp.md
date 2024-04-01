@@ -16,7 +16,7 @@ Nosso MVP é um chatbot de assistência virtual projetado para facilitar a exper
 
 ## **Funcionalidade:**
 
-Nosso MVP rodará no servidor e estará sempre disponivel para teste, a implementação do bot é baseada na seleção com números, o usuário segue o fluxo estabelecido pelo cliente.
+Nosso MVP rodara no servidor e estará sempre disponivel para teste, a implementação do bot é baseada na seleção com números, o usuário segue o fluxo estabelecido pelo cliente.
 
 ## **Resultado Esperado:**
 
@@ -43,10 +43,3 @@ O grupo é composto por seis pessoas, dedicando um total de 120 horas semanais. 
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAnxvHcDQ&#x2F;ZFAAw5f8VzC-Fr0NOYknHA&#x2F;view?utm_content=DAGAnxvHcDQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">
-
-
-## Histórico de versão
-
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |

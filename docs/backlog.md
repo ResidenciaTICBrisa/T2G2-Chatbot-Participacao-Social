@@ -84,10 +84,3 @@ Um dos aspectos-chave do escopo do chatbot é sua capacidade de resolver de form
         <td>O chatbot deve ter um fluxo de conversa intuitivo para o usuário</td>
     </tr>
 </table>
-
-
-## Histórico de versão
-
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
