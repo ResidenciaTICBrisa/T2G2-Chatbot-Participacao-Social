@@ -55,7 +55,7 @@ Siga estes passos para clonar o repositório, configurar o token do Telegram no 
     TELEGRAM_TOKEN= 'SEU_TELEGRAM_TOKEN'
     ```
 
-## Executar o Bot do Telegram
+## Passo 5: Executar o Bot do Telegram
 1. Certifique-se de que você está no diretório do projeto.
 2. Certifique-se de que você está na branch 'bot_telegram' com o comando:
 
