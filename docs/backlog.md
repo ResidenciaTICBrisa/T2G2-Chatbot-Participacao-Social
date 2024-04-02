@@ -21,11 +21,12 @@
 | US13 | Usuário  | Que o chatbot entenda português                                                                         | Facilitar a minha comunicação com ele                                                                |
 | US14 | Gestor   | Que houvesse métricas de análise da performance do chatbot                                              | Manutenção e evolução do chatbot                                                                     |
 | US15 | Usuário  | Reiniciar a conversa do chatbot, voltando ao primeiro estado                                            | Que possa recomeçar a conversa se necessário                                                         |
-| US16 | Usuário  | Que o chatbot funcione quando eu acessar o site do BP pelo celular                                      | Que eu possa conversar com o chatbot usando o celular e o desempenho não seja alterado               |                                                | 
+| US16 | Usuário  | Que o chatbot funcione quando eu acessar o site do BP pelo celular                                      | Que eu possa conversar com o chatbot usando o celular e o desempenho não seja alterado               |                                                
 | US17 | Usuário  | Enviar áudios para o chatbot e ser respondido em texto ou em áudio                                      | Trazer acessibilidade e facilitar a comunicação com o chatbot                                        |
 | US18 | Usuário  | Que o chatbot tenha uma identidade visual                                                               | Que a conversa seja mais agradável e familiar                                                        |
 | US19 | Usuário  | Enviar e-mail caso minha dúvida não seja atendida                                                       | Que eu possa me comunicar com alguém que possa solucionar minha dúvida                               |   
 | US20 | Usuário  | Que o chatbot esteja disponível 24 horas por dia                                                        | Conversar com ele a qualquer momento                                                                 | 
+
 ## Requisitos
 
 <table>
