@@ -11,12 +11,12 @@ Essa sprint teve como objetivo a criação do script Python para ser usado pelo 
 <br>
     As seguintes issues foram feitas nessa sprint:
     <ul>
-        <li>Criar o fluxo de conversa 2 do chatbot #11</li>
-        <li>Criar o fluxo de conversa 5 e 6 do chatbot #10</li>
-        <li>Criar o fluxo de conversa 3 e 4 do chatbot #12</li>
-        <li>Criar o fluxo de conversa 7 do chatbot  #15</li>
-        <li>Configuração do ambiente Python #8</li>
-        <li>Criar o fluxo de conversa 1 do chatbot #9</li>
+        <li>Criar o fluxo de conversa 2 do chatbot https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/11</li>
+        <li>Criar o fluxo de conversa 5 e 6 do chatbot https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/10</li>
+        <li>Criar o fluxo de conversa 3 e 4 do chatbot https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/12</li>
+        <li>Criar o fluxo de conversa 7 do chatbot  https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/15</li>
+        <li>Configuração do ambiente Python https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/8</li>
+        <li>Criar o fluxo de conversa 1 do chatbot https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/9</li>
     </ul>
 </details>
 
@@ -30,12 +30,12 @@ Nesta sprint, os objetivos são: testar o Chatbot para conversas simultâneas, e
 <br>
 As seguintes issues foram feitas nessa sprint:
     <ul>
-        <li>RASA widget como alternativa ao Intergram #27</li>
-        <li>Divisão de funções dos membros #34</li>
-        <li>Estudo sobre o Telebot #19</li>
-        <li>Teste do Chatbot no Telegram  #20</li>
-        <li>Fazer uma gitpage #18</li>
-        <li>Configuração BotFather Telegram #7</li>
+        <li>RASA widget como alternativa ao Intergram https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/27</li>
+        <li>Divisão de funções dos membros https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/34</li>
+        <li>Estudo sobre o Telebot https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/19</li>
+        <li>Teste do Chatbot no Telegram  https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/20</li>
+        <li>Fazer uma gitpage https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/18</li>
+        <li>Configuração BotFather Telegram https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/7</li>
     </ul>
 </details>
 
@@ -50,16 +50,16 @@ Nesta sprint, os objetivos são: estudar o Rocket.Chat e suas vantagens, avaliar
 
 As seguintes issues foram feitas nessa sprint:
 <ul>
-        <li>Criação do Cronograma do Projeto #46</li>
-        <li>Estudo sobre a interface do Rocketchat #44</li>
-        <li>Elaborar Story Map do projeto #43</li>
-        <li>Estudar sobre o Rocket.Chat e seu uso para mídia  #41</li>
-        <li>Pesquisar alternativas de integração pelo intergram  #26</li>
-        <li>Estudo sobre épicos no framework Scrum #38</li>
-        <li>Implementação de Storymap para Visualização de Fluxo de Trabalho #39</li>
-        <li>Criação do Roadmap planejado do projeto #31</li>
-        <li>Estudo sobre sobre análise de dados/relatórios do rocketchat  #40</li>
-        <li>Elaboração de ata da reunião 4  #42</li>
+        <li>Criação do Cronograma do Projeto https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/46</li>
+        <li>Estudo sobre a interface do Rocketchat https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/44</li>
+        <li>Elaborar Story Map do projeto https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/43</li>
+        <li>Estudar sobre o Rocket.Chat e seu uso para mídia  https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/41</li>
+        <li>Pesquisar alternativas de integração pelo intergram  https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/26</li>
+        <li>Estudo sobre épicos no framework Scrum https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/38</li>
+        <li>Implementação de Storymap para Visualização de Fluxo de Trabalho https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/39</li>
+        <li>Criação do Roadmap planejado do projeto https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/31</li>
+        <li>Estudo sobre sobre análise de dados/relatórios do rocketchat  https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/40</li>
+        <li>Elaboração de ata da reunião 4  https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/42</li>
     </ul>
 
 </details>
@@ -79,3 +79,4 @@ This is how you dropdown.
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
 |  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
+|  1.1   | 02/04/2024 |           Inserção do link para as issues             |  Arthur Taylor   |

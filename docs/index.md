@@ -1,20 +1,20 @@
 # Home
 
-Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, uma plataforma de participação social do governo federal.
+<p align="justify">&emsp;&emsp;Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, uma plataforma de participação social do governo federal.</p>
 
 ## Sobre o Brasil Participativo
 
-O Brasil Participativo é uma plataforma desenvolvida em software livre, com o apoio da Dataprev, colaboração da comunidade Decidim-Brasil, parceria com o Ministério da Gestão e Inovação em Serviços Públicos (MGI) e envolvimento da Universidade de Brasília (UnB). A plataforma visa permitir que a sociedade contribua ativamente para o desenvolvimento e aprimoramento das políticas públicas.
+<p align="justify">&emsp;&emsp;O Brasil Participativo é uma plataforma desenvolvida em software livre, com o apoio da Dataprev, colaboração da comunidade Decidim-Brasil, parceria com o Ministério da Gestão e Inovação em Serviços Públicos (MGI) e envolvimento da Universidade de Brasília (UnB). A plataforma visa permitir que a sociedade contribua ativamente para o desenvolvimento e aprimoramento das políticas públicas.</p>
 
 ## Sobre o Projeto Chatbot
 
-O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma, esclarecer dúvidas comuns e fornecer suporte em tempo real. O chatbot será desenvolvido em Python, utilizando a ferramenta Rasa para garantir uma interação eficiente e intuitiva.
+<p align="justify">&emsp;&emsp;O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma, esclarecer dúvidas comuns e fornecer suporte em tempo real. O chatbot será desenvolvido em Python, utilizando a ferramenta Rasa para garantir uma interação eficiente e intuitiva.</p>
 
 ## Colaboradores e Parceiros
 
-Este projeto é fruto da colaboração entre a empresa BRISA, o Ministério da Ciência, Tecnologia e Inovação (MCTI) e a Universidade de Brasília. Agradecemos a todos os envolvidos por contribuírem para a evolução do Brasil Participativo.
+<p align="justify">&emsp;&emsp;Este projeto é fruto da colaboração entre a empresa BRISA, o Ministério da Ciência, Tecnologia e Inovação (MCTI) e a Universidade de Brasília. Agradecemos a todos os envolvidos por contribuírem para a evolução do Brasil Participativo.
 
-Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e contribuir para o aprimoramento deste projeto. Juntos, estamos construindo uma plataforma mais acessível e interativa para a participação ativa da sociedade.
+Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e contribuir para o aprimoramento deste projeto. Juntos, estamos construindo uma plataforma mais acessível e interativa para a participação ativa da sociedade.</p>
 
 
 
