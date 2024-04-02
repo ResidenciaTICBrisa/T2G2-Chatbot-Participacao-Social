@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O presente projeto será desenvolvido coletivamente por todos os integrantes de sua equipe. Para a garantia de uma boa cooperação entre os membros e um consequente bom andamento do projeto, faz-se necessária a elaboração de uma política de *commits* e *branching*.
+<p align="justify">&emsp;&emsp;O presente projeto será desenvolvido coletivamente por todos os integrantes de sua equipe. Para a garantia de uma boa cooperação entre os membros e um consequente bom andamento do projeto, faz-se necessária a elaboração de uma política de commits e branching.</p>
 
 Deste modo, este documento visa estabelecer regras e princípios cuja adoção facilitará a organização do repositório.
 

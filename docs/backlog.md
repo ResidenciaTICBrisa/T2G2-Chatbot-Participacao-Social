@@ -1,7 +1,7 @@
 # Backlog do Produto
 ## Escopo do Produto
-O produto desenvolvido tem como objetivo auxiliar os usuários da plataforma Brasil Participativo.
-Um dos aspectos-chave do escopo do chatbot é sua capacidade de resolver de forma eficiente as problemas comuns que os usuários possam ter. Isso inclui fornecer respostas rápidas e precisas para perguntas frequentes sobre as políticas, procedimentos e recursos disponíveis na plataforma. Ao oferecer resoluções rápidas, o chatbot tem como objetivo capacitar os usuários com as informações necessárias para se envolver de forma eficaz com a comunidade Brasil Participativo.
+<p align="justify">&emsp;&emsp;O produto desenvolvido tem como objetivo auxiliar os usuários da plataforma Brasil Participativo.Um dos aspectos-chave do escopo do chatbot é sua capacidade de resolver de forma eficiente as problemas comuns que os usuários possam ter. Isso inclui fornecer respostas rápidas e precisas para perguntas frequentes sobre as políticas, procedimentos e recursos disponíveis na plataforma. Ao oferecer resoluções rápidas, o chatbot tem como objetivo capacitar os usuários com as informações necessárias para se envolver de forma eficaz com a comunidade Brasil Participativo.</p>
+
 ## Histórias de Usuário
 
 | ID   | Eu, como | Quero / Preciso / Devo / Gostaria de                                                                    | Para                                                                                                 |
