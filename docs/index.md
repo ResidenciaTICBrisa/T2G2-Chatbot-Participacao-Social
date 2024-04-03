@@ -33,16 +33,10 @@
 <center>
 <table style="margin-left: auto; margin-right: auto;">
     <tr>
-            <td align="center">
+        <td align="center">
             <a href="https://github.com/Eruel6">
                 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71983159?v=4" width="150px;"/>
                 <h5 class="text-center">Arthur Taylor de Jesus Popov</h5>
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/GabrielSPinto">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/144184007?v=4" width="150px;"/>
-                <h5 class="text-center">Gabriel Santos Pinto</h5>
             </a>
         </td>
         <td align="center">
@@ -57,6 +51,12 @@
                 <h5 class="text-center">Gabriel Reis Scheidt Paulino</h5>
             </a>
         </td>
+        <td align="center">
+            <a href="https://github.com/GabrielSPinto">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/144184007?v=4" width="150px;"/>
+                <h5 class="text-center">Gabriel Santos Pinto</h5>
+            </a>
+        </td>        
         </td>
         <td align="center">
             <a href="https://github.com/seraphritt">
@@ -75,13 +75,13 @@
             <a>Ciência de Dados</a>
         </td>
         <td align="center">
-            <a>Documentação</a>
-        </td>
-        <td align="center">
             <a>Scrum master</a>
         </td>
         <td align="center">
             <a>Backend</a>
+        </td>
+        <td align="center">
+            <a>Documentação</a>
         </td>
         <td align="center">
             <a>Machine Learning</a>
