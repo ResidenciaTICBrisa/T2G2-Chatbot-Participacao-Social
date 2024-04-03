@@ -39,11 +39,11 @@ Siga estes passos para clonar o repositório, configurar o token do Telegram no 
     ```bash
     git clone https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
     ```
-### Acessar a Branch 'bot_telegram'
+### Acessar a Branch 'telebot_integration'
 
-1. Mude para a branch bot_telegram com o comando:
+1. Mude para a branch telebot_integration com o comando:
     ```bash
-    git checkout bot_telegram
+    git checkout telebot_integration
     ```
 
 ### Configurar o Arquivo .env
@@ -57,7 +57,7 @@ Siga estes passos para clonar o repositório, configurar o token do Telegram no 
 
 ## Passo 5: Executar o Bot do Telegram
 1. Certifique-se de que você está no diretório do projeto.
-2. Certifique-se de que você está na branch 'bot_telegram' com o comando:
+2. Certifique-se de que você está na branch 'telebot_integration' com o comando:
 
     ```bash
     git checkout
