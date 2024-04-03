@@ -18,12 +18,20 @@ Antes de começar, sugerimos que você leia nosso [código de conduta](CODE_OF_C
 
 ## Padrões de Codificação
 
-# REVISAR ESSA PARTE
-
 Por favor, siga os padrões de codificação e estilo estabelecidos neste projeto. Certifique-se de que seu código está formatado corretamente.
 
-Obs: Você pode executar o [Rubocop](https://github.com/rubocop/rubocop) para auxiliar a manter o padrão de qualidade do projeto.
-E.g `bundle exec rubocop -a /meu_diretorio/meu_arquivo.rb`
+Com isso, nomes de variáveis devem ser definidos seguindo o camel case, nomes começando com letra minuscula, palavras juntas e sem acentos, com a letra maiúscula indicando onde haveria espaço. EX: estaVariavel.
+
+Para outras práticas de codificação serão seguidas o PEP8.
+
+Obs: Você pode executar o [Pylint](https://pylint.readthedocs.io/en/stable/) para auxiliar a manter o padrão de qualidade do projeto.
+E.g `pylint directory/mymodule.py`
+
+### Instalando o pylint
+Para utilizar o pylint deve ser instalado executando o seguinte comando:
+`pip install pylint`
+
+O pylint pode ser integrado em diversas IDEs, pode ser verificado esta possibilidade na [documentação](https://pylint.readthedocs.io/en/stable/user_guide/installation/ide_integration/index.html).
 
 ## Reportando Problemas
 
@@ -52,3 +60,4 @@ Contato: chatbotbrasilparticipativo@gmail.com
 | :----: | :--------: | :----------------------------------------------------------------------: | :--------------: |
 |  1.0   | 28/03/2024 |                   Criação do histórico de versão                         |  Gabriel Scheidt |
 |  1.1   | 01/04/2024 |           Adição de links de políticas de commits e licença              |  Arthur Taylor   |
+|  1.2   | 03/04/2024 |                 Definição dos pdrões de codificação                      |  Arthur Taylor   |
