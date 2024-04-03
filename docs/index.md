@@ -2,15 +2,19 @@
 
 <p align="justify">&emsp;&emsp;Bem-vindo à GitPage do projeto Chatbot de Participação Social para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, criado pelos residentes em TI da BRISA, o Chatbot facilita a interação dos cidadãos com a plataforma, oferecendo respostas precisas e amigáveis.</p>
 
-## [Sobre Projeto Residência em TIC da BRISA - UnB FGA](http://brisa.lappis.rocks/)
+## Sobre o Projeto Residência em TIC da BRISA - UnB FGA
 
 <p align="justify">&emsp;&emsp;A BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.</p>
 
-## [Sobre o Brasil Participativo](https://brasilparticipativo.presidencia.gov.br/)
+##### Para mais informações sobre Sobre o Projeto Residência em TIC da BRISA - UnB FGA [acesse aqui.](http://brisa.lappis.rocks/)
+
+## Sobre o Brasil Participativo
 
 <p align="justify">&emsp;&emsp;O Brasil Participativo é uma plataforma desenvolvida em software livre, com o apoio da Dataprev, utilizando a plataforma Decidim com colaboração da comunidade Decidim-Brasil, parceria com o Ministério da Gestão e Inovação em Serviços Públicos (MGI) e envolvimento da Universidade de Brasília (UnB). A plataforma visa permitir que a sociedade contribua ativamente para o desenvolvimento e aprimoramento das políticas públicas, tornando mais democrática a participação social nas decisões governamentais.</p>
 
 <p align="justify">&emsp;&emsp;O Decidim é uma plataforma digital de participação cívica e democracia direta, originalmente desenvolvida em Barcelona, Espanha. Oferece ferramentas para os cidadãos proporem, debaterem, votarem e acompanharem propostas e políticas públicas. Seu objetivo é promover a participação ativa, transparência e prestação de contas, fortalecendo a democracia e a inclusão social.</p>
+
+##### Para mais informações sobre o Brasil Participativo [acesse aqui.](https://brasilparticipativo.presidencia.gov.br/)
 
 ## Sobre o Projeto Chatbot de Participação Social
 
@@ -97,5 +101,5 @@
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do documento Home              |  Gabriel Scheidt |
 |  1.1   | 03/04/2024 |           Atualização de documento              |  Gabriel Pinto |
+|  1.0   | 28/03/2024 |           Criação do documento Home              |  Gabriel Scheidt |
