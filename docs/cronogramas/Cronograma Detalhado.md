@@ -33,7 +33,7 @@
 | Geração de relatórios    | Implementação da ferramenta de geração de relatórios          | 03/06/2024  |   Contínuo   |
 | Rasa analitics           | Estudo sobre a utilização do Rasa para análise de dados       | 10/06/2024  |   Contínuo   |
 | Pandas                   | Estudo sobre ao uso da biblioteca Pandas para o aprimoramento da análise de dados | 17/06/2024 | Contínuo |
-| Produto 3ª Release       | Análise de Dados                                              |             | 20/05/2024   |
+| Produto 3ª Release       | Análise de Dados                                              |             | 01/07/2024   |
 
 <figcaption align="center">Tabela 3 - Cronograma detalhado 3ª Release.</figcaption>
 <br/>
@@ -51,5 +51,5 @@
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 26/03/2024 |           Criação do documento                        |Thiago Marques    |
 |  2.0   | 01/04/2024 |Transformação de cronograma geral para cronograma detalhado  |Thiago Marques    |
+|  1.0   | 26/03/2024 |           Criação do documento                        |Thiago Marques    |
