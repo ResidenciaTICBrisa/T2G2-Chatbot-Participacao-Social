@@ -98,4 +98,4 @@
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
 |  1.0   | 28/03/2024 |           Criação do documento Home              |  Gabriel Scheidt |
-|  1.0   | 03/04/2024 |           Atualização de documento              |  Gabriel Pinto |
+|  1.1   | 03/04/2024 |           Atualização de documento              |  Gabriel Pinto |

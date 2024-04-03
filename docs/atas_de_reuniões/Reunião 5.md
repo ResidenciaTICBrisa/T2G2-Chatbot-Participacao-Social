@@ -8,6 +8,7 @@
 ### Presentes: 
 
 - [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)
+- [Arthur Taylor de Jesus Popov](https://github.com/Eruel6)
 - [Gabriel Pessoa Zaranza](https://github.com/GZaranza)
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)
 - [Gabriel Santos Pinto](https://github.com/GabrielSPinto)
@@ -15,7 +16,7 @@
 - [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)
 
 ## Objetivos:
-Alinhar
+Alinhamento com o clinte sobre Gitpage e o estudo do RocketChat
 
 ### Acompanhamentos e definições:
 
@@ -64,4 +65,4 @@ Alinhar
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
 |  1.0   | 01/04/2024 |           Criação do documento                        |  Gabriel Santos  |
-|  2.0   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |
+|  1.1   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |
