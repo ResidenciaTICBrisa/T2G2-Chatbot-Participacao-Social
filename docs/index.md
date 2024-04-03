@@ -2,29 +2,29 @@
 
 <p align="justify">&emsp;&emsp;Bem-vindo à GitPage do projeto Chatbot de Participação Social para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, criado pelos residentes em TI da BRISA, o Chatbot facilita a interação dos cidadãos com a plataforma, oferecendo respostas precisas e amigáveis.</p>
 
-## Sobre [Projeto Residência em TIC da BRISA - UnB FGA](http://brisa.lappis.rocks/)
+## [Sobre Projeto Residência em TIC da BRISA - UnB FGA](http://brisa.lappis.rocks/)
 
 <p align="justify">&emsp;&emsp;A BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.</p>
 
-## Sobre o [Brasil Participativo](https://brasilparticipativo.presidencia.gov.br/)
+## [Sobre o Brasil Participativo](https://brasilparticipativo.presidencia.gov.br/)
 
-<p align="justify">&emsp;&emsp;O Brasil Participativo é uma plataforma desenvolvida em software livre, com o apoio da Dataprev, utilizando a plataforma Decidim com colaboração da comunidade Decidim-Brasil, parceria com o Ministério da Gestão e Inovação em Serviços Públicos (MGI) e envolvimento da Universidade de Brasília (UnB). A plataforma visa permitir que a sociedade contribua ativamente para o desenvolvimento e aprimoramento das políticas públicas, tornando mais democrática a participação social nas decisões governamentais.
+<p align="justify">&emsp;&emsp;O Brasil Participativo é uma plataforma desenvolvida em software livre, com o apoio da Dataprev, utilizando a plataforma Decidim com colaboração da comunidade Decidim-Brasil, parceria com o Ministério da Gestão e Inovação em Serviços Públicos (MGI) e envolvimento da Universidade de Brasília (UnB). A plataforma visa permitir que a sociedade contribua ativamente para o desenvolvimento e aprimoramento das políticas públicas, tornando mais democrática a participação social nas decisões governamentais.</p>
 
-[Decidim](https://decidim.org/) é uma plataforma digital de participação cívica e democracia direta, originalmente desenvolvida em Barcelona, Espanha. Oferece ferramentas para os cidadãos proporem, debaterem, votarem e acompanharem propostas e políticas públicas. Seu objetivo é promover a participação ativa, transparência e prestação de contas, fortalecendo a democracia e a inclusão social.</p>
+<p align="justify">&emsp;&emsp;O Decidim é uma plataforma digital de participação cívica e democracia direta, originalmente desenvolvida em Barcelona, Espanha. Oferece ferramentas para os cidadãos proporem, debaterem, votarem e acompanharem propostas e políticas públicas. Seu objetivo é promover a participação ativa, transparência e prestação de contas, fortalecendo a democracia e a inclusão social.</p>
 
 ## Sobre o Projeto Chatbot de Participação Social
 
-<p align="justify">&emsp;&emsp;O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma do Brasil Participativo, com o objetivo de esclarecer dúvidas comuns, fornecer suporte e e informar sobre os processos de participação na plataforma em tempo real. O projeto possui médio porte e complexidade, ele necessita de habilidades em Chatbot e Evolução de Software Livre, com Giovanni Alvissus atuando como mentor.
+<p align="justify">&emsp;&emsp;O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma do Brasil Participativo, com o objetivo de esclarecer dúvidas comuns, fornecer suporte e e informar sobre os processos de participação na plataforma em tempo real. O projeto possui médio porte e complexidade, ele necessita de habilidades em Chatbot e Evolução de Software Livre, com Giovanni Alvissus atuando como mentor.</p>
 
-As principais tecnologias utilizadas no projeto serão o Python, pois oferece  de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações, e o Rasa, para dar humanidade ao Chatbot e auxiliar no desenvolvimento de chatbots com IA.
+<p align="justify">&emsp;&emsp;As principais tecnologias utilizadas no projeto serão o Python, pois oferece  de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações, e o Rasa, para dar humanidade ao Chatbot e auxiliar no desenvolvimento de chatbots com IA.</p>
 
-Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.</p>
+<p align="justify">&emsp;&emsp;Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.</p>
 
 ## Colaboradores e Parceiros
 
-<p align="justify">&emsp;&emsp;Este projeto é fruto da colaboração entre a empresa BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS. Agradecemos a todos os envolvidos por contribuírem para a evolução do Projeto Chatbot de Participação Social.
+<p align="justify">&emsp;&emsp;Este projeto é fruto da colaboração entre a empresa BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS. Agradecemos a todos os envolvidos por contribuírem para a evolução do Projeto Chatbot de Participação Social.</p>
 
-Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e contribuir para o aprimoramento deste projeto. Juntos, estamos construindo uma plataforma mais acessível e interativa para a participação ativa da sociedade.</p>
+<p align="justify">&emsp;&emsp;Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e contribuir para o aprimoramento deste projeto. Juntos, estamos construindo uma plataforma mais acessível e interativa para a participação ativa da sociedade.</p>
 
 
 
@@ -33,6 +33,12 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
 <center>
 <table style="margin-left: auto; margin-right: auto;">
     <tr>
+            <td align="center">
+            <a href="https://github.com/Eruel6">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71983159?v=4" width="150px;"/>
+                <h5 class="text-center">Arthur Taylor de Jesus Popov</h5>
+            </a>
+        </td>
         <td align="center">
             <a href="https://github.com/GabrielSPinto">
                 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/144184007?v=4" width="150px;"/>
@@ -64,13 +70,10 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
                 <h5 class="text-center">Thiago Henrique Marques Rocha</h5>
             </a>
         </td>
-        <td align="center">
-            <a href="https://github.com/Eruel6">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71983159?v=4" width="150px;"/>
-                <h5 class="text-center">Arthur Taylor de Jesus Popov</h5>
-            </a>
-        </td>
     <tr>
+        <td align="center">
+            <a>Ciência de Dados</a>
+        </td>
         <td align="center">
             <a>Documentação</a>
         </td>
@@ -86,9 +89,6 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
         <td align="center">
             <a>Frontend</a>
         </td>
-        <td align="center">
-            <a>Ciência de Dados</a>
-        </td>
 </table>
 </center>
 
@@ -97,5 +97,5 @@ Sinta-se à vontade para explorar o código-fonte, relatar problemas (issues) e 
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação de Home              |  Gabriel Scheidt |
-|  1.0   | 03/04/2024 |           Atualização da Home              |  Gabriel Pinto |
+|  1.0   | 28/03/2024 |           Criação do documento Home              |  Gabriel Scheidt |
+|  1.0   | 03/04/2024 |           Atualização de documento              |  Gabriel Pinto |
