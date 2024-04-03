@@ -2,9 +2,9 @@
 
 ## Nosso compromisso
 
-Como participantes, colaboradoras e líderes, nós nos comprometemos a fazer com que a participação em nossa comunidade seja uma experiência livre de assédio para todas as pessoas, independentemente de idade, tamanho do corpo, deficiência aparente ou não aparente, etnia, características sexuais, identidade ou expressão de gênero, nível de experiência, educação, situação sócio-econômica, nacionalidade, aparência pessoal, raça, casta, religião ou identidade e orientação sexuais.
+<p align="justify">&emsp;&emsp;Como participantes, colaboradoras e líderes, nós nos comprometemos a fazer com que a participação em nossa comunidade seja uma experiência livre de assédio para todas as pessoas, independentemente de idade, tamanho do corpo, deficiência aparente ou não aparente, etnia, características sexuais, identidade ou expressão de gênero, nível de experiência, educação, situação sócio-econômica, nacionalidade, aparência pessoal, raça, casta, religião ou identidade e orientação sexuais.</p>
 
-Comprometemo-nos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversificada, inclusiva e saudável.
+<p align="justify">&emsp;&emsp;Comprometemo-nos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversificada, inclusiva e saudável.</p>
 
 ## Nossos padrões
 
@@ -26,23 +26,23 @@ Exemplos de comportamentos inaceitáveis incluem:
 
 ## Aplicação das nossas responsabilidades
 
-A liderança da comunidade é responsável por esclarecer e aplicar nossos padrões de comportamento aceitáveis e tomará ações corretivas apropriadas e justas em resposta a qualquer comportamento que considerar impróprio, ameaçador, ofensivo ou problemático.
+<p align="justify">&emsp;&emsp;A liderança da comunidade é responsável por esclarecer e aplicar nossos padrões de comportamento aceitáveis e tomará ações corretivas apropriadas e justas em resposta a qualquer comportamento que considerar impróprio, ameaçador, ofensivo ou problemático.</p>
 
-A liderança da comunidade tem o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, códigos, edições na wiki, erros e outras contribuições que não estão alinhadas com este Código de Conduta e irá comunicar as razões por trás das decisões da moderação quando for apropriado.
+<p align="justify">&emsp;&emsp;A liderança da comunidade tem o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, códigos, edições na wiki, erros e outras contribuições que não estão alinhadas com este Código de Conduta e irá comunicar as razões por trás das decisões da moderação quando for apropriado.</p>
 
 ## Escopo
 
-Este Código de Conduta se aplica dentro de todos os espaços da comunidade e também se aplica quando uma pessoa estiver representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem usar um endereço de e-mail oficial, postar em contas oficiais de mídias sociais ou atuar como uma pessoa indicada como representante em um evento online ou offline.
+<p align="justify">&emsp;&emsp;Este Código de Conduta se aplica dentro de todos os espaços da comunidade e também se aplica quando uma pessoa estiver representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem usar um endereço de e-mail oficial, postar em contas oficiais de mídias sociais ou atuar como uma pessoa indicada como representante em um evento online ou offline.</p>
 
 ## Aplicação
 
-Ocorrências de comportamentos abusivos, de assédio ou que sejam inaceitáveis por qualquer outro motivo poderão ser reportadas para a liderança da comunidade, responsável pela aplicação, via contato chatbotbrasilparticipativo@gmail.com . Todas as reclamações serão revisadas e investigadas imediatamente e de maneira justa.
+<p align="justify">&emsp;&emsp;Ocorrências de comportamentos abusivos, de assédio ou que sejam inaceitáveis por qualquer outro motivo poderão ser reportadas para a liderança da comunidade, responsável pela aplicação, via contato chatbotbrasilparticipativo@gmail.com . Todas as reclamações serão revisadas e investigadas imediatamente e de maneira justa.</p>
 
-A liderança da comunidade tem a obrigação de respeitar a privacidade e a segurança de quem reportar qualquer incidente.
+<p align="justify">&emsp;&emsp;A liderança da comunidade tem a obrigação de respeitar a privacidade e a segurança de quem reportar qualquer incidente.</p>
 
 ## Diretrizes de aplicação
 
-A liderança da comunidade seguirá estas Diretrizes de Impacto na Comunidade para determinar as consequências de qualquer ação que considerar violadora deste Código de Conduta:
+<p align="justify">&emsp;&emsp;A liderança da comunidade seguirá estas Diretrizes de Impacto na Comunidade para determinar as consequências de qualquer ação que considerar violadora deste Código de Conduta:</p>
 
 ### 1. Ação Corretiva
 

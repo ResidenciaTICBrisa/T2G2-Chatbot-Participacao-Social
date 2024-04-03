@@ -57,10 +57,11 @@ Alinhar
 | Especificar Decidim na Gitpage (Melhorar contexto do BP) | Encaminhamento          | 04/04  |
 
 ### Gravação da reunião:
-[![YouTube video player](https://www.youtube.com/embed/U8g8aJ1iRlI?si=vcvNH06djefkQWVC)](https://www.youtube.com/embed/U8g8aJ1iRlI?si=vcvNH06djefkQWVC)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U8g8aJ1iRlI?si=NcDvAEJ-RlO3KyYv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de versão
 
-| Versão | Data      | Descrição                   | Autor          |
-|--------|-----------|-----------------------------|----------------|
-| 1.0    | 28/03/2024| Criação do histórico de versão | Gabriel Scheidt |
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 01/04/2024 |           Criação do documento                        |  Gabriel Santos  |
+|  2.0   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |

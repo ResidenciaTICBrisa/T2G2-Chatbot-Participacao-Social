@@ -14,6 +14,8 @@ Antes de começar, sugerimos que você leia nosso [código de conduta](CODE_OF_C
 4. Envie para o seu fork: `git push origin feature-nova`.
 5. Abra um pull request neste repositório.
 
+- Para mantermos o padrão dos passos acima, consulte os guias. [Padrão de Commit e Branches](https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/blob/main/docs/pol%C3%ADticaDeComits.md)
+
 ## Padrões de Codificação
 
 # REVISAR ESSA PARTE
@@ -33,9 +35,7 @@ Adoramos receber sugestões e melhorias! Sinta-se à vontade para abrir uma [iss
 
 ## Licença
 
-# REVISAR ESSA PARTE, precisa ter licença do projeto?
-
-Ao contribuir, você concorda que suas contribuições serão licenciadas sob a [Licença do Projeto](https://gitlab.com/lappis-unb/decidimbr/decidim-govbr/-/blob/main/LICENSE-AGPLv3.txt?ref_type=heads).
+Ao contribuir, você concorda que suas contribuições serão licenciadas sob a [Licença do Projeto](https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social?tab=AGPL-3.0-1-ov-file#readme).
 
 ---
 
@@ -48,6 +48,7 @@ Contato: chatbotbrasilparticipativo@gmail.com
 
 ## Histórico de versão
 
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
+| Versão |    Data    |                                 Descrição                                |      Autor       |
+| :----: | :--------: | :----------------------------------------------------------------------: | :--------------: |
+|  1.0   | 28/03/2024 |                   Criação do histórico de versão                         |  Gabriel Scheidt |
+|  1.1   | 01/04/2024 |           Adição de links de políticas de commits e licença              |  Arthur Taylor   |

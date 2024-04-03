@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O presente projeto será desenvolvido coletivamente por todos os integrantes de sua equipe. Para a garantia de uma boa cooperação entre os membros e um consequente bom andamento do projeto, faz-se necessária a elaboração de uma política de *commits* e *branching*.
+<p align="justify">&emsp;&emsp;O presente projeto será desenvolvido coletivamente por todos os integrantes de sua equipe. Para a garantia de uma boa cooperação entre os membros e um consequente bom andamento do projeto, faz-se necessária a elaboração de uma política de commits e branching.</p>
 
 Deste modo, este documento visa estabelecer regras e princípios cuja adoção facilitará a organização do repositório.
 
@@ -56,3 +56,9 @@ Dentre os possíveis tipos, temos:
 O **nome-da-alteracao** deverá preferencialmente ser composto por poucas (ou apenas uma) palavras significativas quanto ao contexto da *branch*.
 
 Demais possibilidades de tipos de *branches* deverão seguir preferencialmente os princípios postos no artigo do [**GitKraken**](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy).
+
+## Histórico de versão
+
+| Versão |    Data    |                        Descrição                      |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 01/04/2024 |           Criação do histórico de versão              |  Arthur Taylor   |

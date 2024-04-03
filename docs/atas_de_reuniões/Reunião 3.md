@@ -41,4 +41,4 @@ Encaminhamentos para a 3º semana
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
+|  1.0   | 18/03/2024 |           Criação do documento                        |  Thiago Marques  |
