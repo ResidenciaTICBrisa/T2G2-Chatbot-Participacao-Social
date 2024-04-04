@@ -14,5 +14,5 @@ As seguintes tecnologias foram utilizadas:
 
 | Versão |    Data    |                    Descrição                    |     Autor      |
 |:------:|:----------:|:-----------------------------------------------:|:--------------:|
+|  2.0   | 02/04/2024 | Adicionado as versões das tecnologias utilizadas | Isaque Augusto |
 |  1.0   | 01/04/2024 |   Criação de página de tecnologias utilizadas   | Isaque Augusto |
-|  2.0   | 02/04/2024 | Adicionei as versões das tecnologias utilizadas | Isaque Augusto |
