@@ -36,5 +36,6 @@ Este RoadMap foi elaborado com foco no cliente, detalhando as entregas e o valor
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  2.0   | 01/04/2024 |           Alteração de metas para release 3 e 4.           |  Gabriel Scheidt |
 |  2.0   | 01/04/2024 |           Divisão do roadmap em dois              |  Gabriel Scheidt |
 |  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
