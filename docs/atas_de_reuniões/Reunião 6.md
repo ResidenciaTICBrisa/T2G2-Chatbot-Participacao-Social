@@ -43,3 +43,7 @@
 | Confirmar se Rasa ou Rocketchat documentam conversas com terceiros (ID da conversa é por IP?) | Gabriel Scheidt, Gabriel Pinto e Thiago | 11/04  |
 | Revisar MVP                                                                            | Isaque                                     | 08/04  |
 | Revisão da apresentação da primeira release                                           | Todos                                      | 11/04  |
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 05/04/2024 |           Criação do documento                        |  Gabriel Santos  |
