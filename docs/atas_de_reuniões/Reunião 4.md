@@ -5,7 +5,7 @@
 - **Data:** 21/03/2024
 - **Local:** Lappis - UnB
 
-## Presentes:
+### Presentes:
 - [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)<br>
 - [Gabriel Pessoa Zaranza](https://github.com/GZaranza)<br>
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)<br>
@@ -13,10 +13,10 @@
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)<br>
 - [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)<br>
 
-## Objetivos:
+### Objetivos:
 Definir o escopo do projeto com as entregas dos 4 releases e deliberações.
 
-## Acompanhamentos e definições:
+### Acompanhamentos e definições:
 
 - Atualizações do projeto com a Carla
 - Definição de escopo com o cliente:
@@ -26,7 +26,7 @@ Definir o escopo do projeto com as entregas dos 4 releases e deliberações.
   - **4ª release:** Manutenção e evolução
 - Refinar planejamento até issues (Escopo → Feature → Sprints → Issues)
 
-## Encaminhamentos:
+### Encaminhamentos:
 
 | Atividade                                   | Responsáveis                  | Prazo      |
 |---------------------------------------------|-------------------------------|------------|

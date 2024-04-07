@@ -5,7 +5,7 @@
 **Data:** 13/03/2024  
 **Local:** Jitsi Meet  
 
-**Presentes:**<br>
+### Presentes:
 - [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)<br>
 - [Gabriel Zaranza](https://github.com/GZaranza)<br>
 - [Gabriel Scheidt](https://github.com/Gxaite)<br>
@@ -13,7 +13,7 @@
 - [Isaque Augusto](https://github.com/seraphritt)<br>
 - [Thiago Marques](https://github.com/ThiagoMarquesAeroespacial)<br>
 
-**Objetivos:**  
+### Objetivos:
 Encaminhamentos para a 3º semana
 
 ### Acompanhamentos e definições:  

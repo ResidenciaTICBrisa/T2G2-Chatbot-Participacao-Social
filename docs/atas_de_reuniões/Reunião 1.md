@@ -5,7 +5,7 @@
 **Data:** 28/02/2024  
 **Local:** Coworking  
 
-**Presentes:**  
+### Presentes:
 - [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)<br>
 - [Gabriel Pessoa Zaranza](https://github.com/GZaranza)<br>
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)<br>
@@ -13,7 +13,7 @@
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)<br>
 - [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)<br>
 
-**Objetivos:**  
+### Objetivos: 
 Sanar dúvidas dos participantes sobre o projeto  
 
 ## Acompanhamentos e definições:  
@@ -28,7 +28,7 @@ Sanar dúvidas dos participantes sobre o projeto
 
 - Na semana seguinte todos os participantes devem criar um BotFather pelo Telegram.
 
-## Encaminhamentos:
+### Encaminhamentos:
 
 | Atividade                            | Responsáveis | Prazo   |
 |--------------------------------------|--------------|---------|
