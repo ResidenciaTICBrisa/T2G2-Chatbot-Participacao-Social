@@ -55,4 +55,4 @@
 |:------:|:----------:|:------------------------------:|:---------------:|
 |  1.0   | 28/03/2024 | Criação do histórico de versão | Gabriel Scheidt |
 |  2.0   | 28/03/2024 |  Alteração de layout e do MVP  | Gabriel Scheidt |
-|  2.1   | 08/04/2024 |       Atualização do MVP       |     Isaque      |
+|  2.1   | 08/04/2024 |       Atualização do MVP       | Isaque Augusto  |
