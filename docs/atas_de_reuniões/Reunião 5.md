@@ -64,5 +64,5 @@ Alinhamento com o clinte sobre Gitpage e o estudo do RocketChat
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.1   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |
 |  1.0   | 01/04/2024 |           Criação do documento                        |  Gabriel Santos  |
+|  1.1   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |

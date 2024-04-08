@@ -51,5 +51,5 @@
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  2.0   | 01/04/2024 |Transformação de cronograma geral para cronograma detalhado  |Thiago Marques    |
 |  1.0   | 26/03/2024 |           Criação do documento                        |Thiago Marques    |
+|  2.0   | 01/04/2024 |Transformação de cronograma geral para cronograma detalhado  |Thiago Marques    |
