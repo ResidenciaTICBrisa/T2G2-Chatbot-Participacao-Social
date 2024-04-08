@@ -8,7 +8,7 @@
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?utm_content=DAGB1eJv_gI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Roadmap Atualizado</a> de Isaque
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?utm_content=DAGB1eJv_gI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">MVP</a>
 
 <p align="center">
   <img src="../images/Teste_chatbot.png" style="max-width: 100%;" />
@@ -51,7 +51,8 @@
 
 ## Histórico de versão
 
-| Versão |    Data    |                       Descrição                       |      Autor       |
-| :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  2.0   | 28/03/2024 |           Alteração de layout e do MVP            |  Gabriel Scheidt |
-|  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
+| Versão |    Data    |           Descrição            |      Autor      |
+|:------:|:----------:|:------------------------------:|:---------------:|
+|  1.0   | 28/03/2024 | Criação do histórico de versão | Gabriel Scheidt |
+|  2.0   | 28/03/2024 |  Alteração de layout e do MVP  | Gabriel Scheidt |
+|  2.1   | 08/04/2024 |       Atualização do MVP       |     Isaque      |
