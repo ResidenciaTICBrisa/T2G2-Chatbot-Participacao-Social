@@ -1,0 +1,45 @@
+site_name: Chatbot Participação Social 
+
+repo_url: https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
+
+repo_name: T2G2-Chatbot-Participacao-Social
+
+
+theme:
+  name: dracula
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+  palette:
+theme:
+  name: dracula
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    
+  
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mudar para o modo escuro
+      primary: blue
+      accent: purple
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para o modo claro
+      primary: blue
+      accent: lime
+  favicon: images/rasinha_logo.jpeg
+  logo: images/rasinha_logo.jpeg
+
+  language: pt-BR
+  extra_css: [stylesheets/extra.css]
