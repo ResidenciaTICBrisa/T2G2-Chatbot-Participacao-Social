@@ -10,6 +10,9 @@ As seguintes tecnologias foram utilizadas:
 ## Telegram
 <p align="justify">&emsp;&emsp;O Telegram é um aplicativo de mensagens instantâneas e plataforma de comunicação em nuvem desenvolvido pela empresa Telegram Messenger LLP. Sua utilização nesse projeto foi primordial para a primeira release, na qual o Telegram foi utilizado para simular conversar e interações com multíplos usuários. Mais especificamente, foi utilizada o pacote <b>Telebot</b> na versão <b>0.0.5</b>.</p>
 
+## Rocket.chat
+<p align="justify">&emsp;&emsp;O Rocket.Chat permite gerenciar e rastrear conversas de forma eficiente, utilizando identificadores únicos para garantir a organização e a integridade dos dados. Além disso, oferece uma integração perfeita entre dispositivos e plataformas, assegurando a privacidade e a segurança das informações trocadas. </p>
+
 ## Histórico de versão
 
 | Versão |    Data    |                    Descrição                    |     Autor      |
