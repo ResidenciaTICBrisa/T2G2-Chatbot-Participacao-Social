@@ -3,7 +3,8 @@
 **Data:** 04/04/2024  
 **Local:** Lappis - UnB  
 
-**Presentes:**   
+### Presentes:
+
 - [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)  
 - [Arthur Taylor de Jesus Popov](https://github.com/Eruel6)  
 - [Gabriel Pessoa Zaranza](https://github.com/GZaranza)  
@@ -12,17 +13,17 @@
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)  
 - [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)  
 
-**Objetivos:**  
+### Objetivos:
+
 - Conversa com a Carla  
 - Storymap – roadmap  
 - Cronograma  
 - Terceira e quarta release  
 - Rocketchat  
 - Arquitetura  
+- Servidor
 
-**Servidor**  
-
-**Acompanhamentos e definições:**  
+### Acompanhamentos e definições:  
 
 - Utilizar feedbacks do primeiro bot na plataforma do BP para um analytics;  
 - Implementar coisas novas (áudio, natural, relatório, personificação);  
@@ -35,7 +36,7 @@
 - Fazer requisitos com base na acessibilidade;  
 - Servidor: vai passar a máquina pra gente.  
 
-**Encaminhamentos:**  
+### Encaminhamentos:
 
 | Atividade                                                                              | Responsáveis                               | Prazo: |
 |----------------------------------------------------------------------------------------|--------------------------------------------|--------|
@@ -43,6 +44,8 @@
 | Confirmar se Rasa ou Rocketchat documentam conversas com terceiros (ID da conversa é por IP?) | Gabriel Scheidt, Gabriel Pinto e Thiago | 11/04  |
 | Revisar MVP                                                                            | Isaque                                     | 08/04  |
 | Revisão da apresentação da primeira release                                           | Todos                                      | 11/04  |
+
+## Histórico de versão
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |

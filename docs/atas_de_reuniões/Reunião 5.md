@@ -1,4 +1,4 @@
-# Reunião 5
+# Reunião 05
 
 ## Pauta: Gitpage e Rocketchat
 
@@ -15,7 +15,7 @@
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)
 - [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)
 
-## Objetivos:
+### Objetivos:
 Alinhamento com o clinte sobre Gitpage e o estudo do RocketChat
 
 ### Acompanhamentos e definições:
@@ -64,5 +64,5 @@ Alinhamento com o clinte sobre Gitpage e o estudo do RocketChat
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.1   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |
 |  1.0   | 01/04/2024 |           Criação do documento                        |  Gabriel Santos  |
+|  1.1   | 01/04/2024 |          Adição do link da gravação da reunião        |  Thiago Marques  |
