@@ -5,7 +5,22 @@
 
 # Projeto Chatbot para Brasil Participativo
 
+<!-- badges -->
+<a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://img.shields.io/badge/licence-AGPL3-green.svg"/></a>
+<a href="https://rasa.com/docs/rasa/"><img src="https://img.shields.io/badge/Rasa-v3.x-blue.svg"/></a>
+<a href="https://developer.rocket.chat/reference/api"><img src="https://img.shields.io/badge/RocketChat-v6.7.0-red.svg"/></a>
+
 Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, uma plataforma de participação social do governo federal.
+
+---
+<!-- Links uteis: -->
+* **O que é a Chatbot para Brasil Participativo?** [Conheça o Projeto](#sobre-o-projeto-chatbot)
+* **Para ver a documentação com mais detalhes acesse nosso** [GitHub Pages](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/)
+* **O que é o Brisa?** [Conheça o Brisa](https://brisa.lappis.rocks/)
+* **Como rodar a chat bot no seu computador (Versão telegram)?** [Siga o passo a passo para rodar o bot no telegram](#getting-started)
+* **Gostaria de Contribuir?** [Veja como contribuir](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/Pol%C3%ADticas/CONTRIBUTING/)
+
+---
 
 ## Sobre o Brasil Participativo
 
@@ -13,7 +28,11 @@ O Brasil Participativo é uma plataforma desenvolvida em software livre, com o a
 
 ## Sobre o Projeto Chatbot
 
-O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma, esclarecer dúvidas comuns e fornecer suporte em tempo real. O chatbot será desenvolvido em Python, utilizando a ferramenta Rasa para garantir uma interação eficiente e intuitiva.
+O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma do Brasil Participativo, com o objetivo de esclarecer dúvidas comuns, fornecer suporte e e informar sobre os processos de participação na plataforma em tempo real. O projeto possui médio porte e complexidade, ele necessita de habilidades em Chatbot e Evolução de Software Livre, com Giovanni Alvissus atuando como mentor.
+
+As principais tecnologias utilizadas no projeto serão o Python, pois oferece de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações, e o Rasa, para dar humanidade ao Chatbot e auxiliar no desenvolvimento de chatbots com IA.
+
+Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.
 
 ## Colaboradores e Parceiros
 
