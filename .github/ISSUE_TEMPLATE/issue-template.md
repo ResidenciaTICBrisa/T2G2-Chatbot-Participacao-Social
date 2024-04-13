@@ -19,9 +19,3 @@ Liste as tarefas específicas que precisam ser concluídas para resolver o probl
 Especifique os critérios de teste ou avaliação que serão usados para garantir que a solução seja eficaz. 
 - [ ] Critério 1
 - [ ] Critério 2
-
-## Responsáveis
-Sempre coloque quem serão os responsáveis por elaborar a solução do problema.
-
-## Prazos
-Estipule um prazo para qual a entrega da solução/feedback possa ocorrer.
