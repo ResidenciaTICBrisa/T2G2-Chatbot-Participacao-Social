@@ -1,15 +1,13 @@
-# Reunião 7
+# Reunião 07
 
-## Pauta
-
-Reunião semanal com o cliente
+## Pauta: Reunião semanal com o cliente
 
 ## Detalhes
 
 - **Data:** 11/04/2024
 - **Local:** Lappis - UnB
 
-## Participantes
+### Participantes
 
 - [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)
 - [Arthur Taylor de Jesus Popov](https://github.com/Eruel6)
@@ -19,11 +17,11 @@ Reunião semanal com o cliente
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)
 - [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)
 
-## Objetivos
+### Objetivos
 
 Atualizações e definição das próximas sprints.
 
-## Acompanhamentos e definições
+### Acompanhamentos e definições
 
 - Impossibilidade de usar o boilerplate já existente;
 - Possibilidade de fazer o boilerplate próprio;
@@ -31,7 +29,7 @@ Atualizações e definição das próximas sprints.
 - Problema para integrar o rasa e o rocketchat;
 - Continuar o treino do bot no Rasa.
 
-## Encaminhamentos
+### Encaminhamentos
 
 - Focar na integração do rasa e rocketchat.
 - Treinamento do bot e documentação - Exemplo Taís.
@@ -39,7 +37,7 @@ Atualizações e definição das próximas sprints.
 - Entrar em contato com a comunidade.
 - Assinar ChatGPT.
 
-## Registro de Revisões
+## Histórico de versão
 
 | Versão | Data       | Descrição             | Autor             |
 |--------|------------|-----------------------|-------------------|
