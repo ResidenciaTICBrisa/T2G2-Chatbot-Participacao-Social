@@ -7,8 +7,7 @@
 
 <!-- badges -->
 <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://img.shields.io/badge/licence-AGPL3-green.svg"/></a>
-<a href="https://rasa.com/docs/rasa/"><img src="https://img.shields.io/badge/Rasa-v3.x-blue.svg"/></a>
-<a href="https://developer.rocket.chat/reference/api"><img src="https://img.shields.io/badge/RocketChat-v6.7.0-red.svg"/></a>
+<a href="https://botpress.com/docs/cloud/"><img src="https://img.shields.io/badge/Botpress-v12-blue.svg"/></a>
 
 Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo! Este projeto faz parte de uma iniciativa para enriquecer a experiência na plataforma digital do Brasil Participativo, uma plataforma de participação social do governo federal.
 
