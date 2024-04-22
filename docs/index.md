@@ -20,7 +20,7 @@
 
 <p align="justify">&emsp;&emsp;O foco central deste projeto é a implementação de um chatbot destinado a orientar os usuários durante a navegação na plataforma do Brasil Participativo, com o objetivo de esclarecer dúvidas comuns, fornecer suporte e e informar sobre os processos de participação na plataforma em tempo real. O projeto possui médio porte e complexidade, ele necessita de habilidades em Chatbot e Evolução de Software Livre, com Giovanni Alvissus atuando como mentor.</p>
 
-<p align="justify">&emsp;&emsp;As principais tecnologias utilizadas no projeto serão o Python, pois oferece  de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações, e o Rasa, para dar humanidade ao Chatbot e auxiliar no desenvolvimento de chatbots com IA.</p>
+<p align="justify">&emsp;&emsp;As principais tecnologias utilizadas no projeto serão o Python, que oferece uma ampla variedade de bibliotecas e frameworks que facilitam o desenvolvimento de aplicações, e o Botpress, que proporciona uma interface dinâmica para a criação de chatbots. Além disso, o Botpress tem a funcionalidade de conferir humanidade ao chatbot e auxilia no desenvolvimento de chatbots com inteligência artificial.".</p>
 
 <p align="justify">&emsp;&emsp;Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.</p>
 
@@ -101,5 +101,6 @@
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.1   | 03/04/2024 |           Atualização de documento              |  Gabriel Pinto |
-|  1.0   | 28/03/2024 |           Criação do documento Home              |  Gabriel Scheidt |
+|  1.0   | 28/03/2024 |           Criação do documento Home                   |  Gabriel Scheidt |
+|  1.1   | 03/04/2024 |           Atualização de documento                    |  Gabriel Pinto   |
+|  1.2   | 22/04/2024 |           Atualizando para Botpress                   |  Thiago Marques  |
