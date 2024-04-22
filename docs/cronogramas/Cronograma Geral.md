@@ -6,9 +6,9 @@ O cronograma geral do projeto foi elaborado como uma ferramenta de rápida consu
  Título                   | Descrição                                      |    Entrega     |
 |-------------------------|------------------------------------------------|----------------|
 | **1º Release**          | **Bot Telegram e Documentação**                | **08/04/2024** |
-| **2º Release**          | **Bot no Brasil Participativo**                | **20/05/2024** | 
-| **3º Release**          | **Tecnologias de acessibilidade**              | **01/07/2024** | 
-| **4º Release**          | **Análise de Dados e persona**                 | **05/08/2024** |
+| **2º Release**          | **Bot no Brasil Participativo**                | **17/05/2024** | 
+| **3º Release**          | **Tecnologias de acessibilidade**              | **05/07/2024** | 
+| **4º Release**          | **Análise de Dados e persona**                 | **02/08/2024** |
 
 ## Histórico de versão
 
