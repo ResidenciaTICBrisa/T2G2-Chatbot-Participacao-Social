@@ -19,5 +19,6 @@ Claro, aqui está uma descrição para o JavaScript adaptada ao estilo da descri
 
 | Versão |    Data    |                    Descrição                    |     Autor      |
 |:------:|:----------:|:-----------------------------------------------:|:--------------:|
-|  2.0   | 02/04/2024 | Adicionado as versões das tecnologias utilizadas | Isaque Augusto |
 |  1.0   | 01/04/2024 |   Criação de página de tecnologias utilizadas   | Isaque Augusto |
+|  1.1   | 02/04/2024 | Adicionado as versões das tecnologias utilizadas| Isaque Augusto |
+|  2.0   | 22/04/2024 |    atualizando as tecnologias utilizadas        | Thiago Marques |
