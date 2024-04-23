@@ -1,0 +1,23 @@
+{
+  "name": "negacao",
+  "utterances": {
+    "pt": [
+      "Não",
+      "De jeito nenhum",
+      "Acho que não",
+      "Não, obrigado",
+      "Claro que não",
+      "Negativo",
+      "De forma alguma",
+      "Não concordo",
+      "Absolutamente não",
+      "Nada disso",
+      "n",
+      "nao"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

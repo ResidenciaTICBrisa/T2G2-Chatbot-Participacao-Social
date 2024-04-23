@@ -1,0 +1,21 @@
+{
+  "name": "participacao_social",
+  "utterances": {
+    "pt": [
+      "O que é participação social",
+      "Participação social",
+      "Qual o benefício da participação social?",
+      "Benefícios",
+      "O que define a participação social?",
+      "Beneficios da participação social",
+      "Vantagens da participação social",
+      "Melhorias",
+      "Melhorias feitas a partir da participação social",
+      "Por que existe a participação social?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

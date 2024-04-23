@@ -1,0 +1,21 @@
+{
+  "name": "plano-pluri-anual",
+  "utterances": {
+    "pt": [
+      "PPA",
+      "PPA Participativo",
+      "Plano Plurianual Participativo",
+      "Devolutiva",
+      "Devolutiva do PPA",
+      "Devolutiva PPA",
+      "Quais propostas foram selecionadas?",
+      "O que é o PPA?",
+      "O que é o plano plurianual participativo?",
+      "O que é a devolutiva?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

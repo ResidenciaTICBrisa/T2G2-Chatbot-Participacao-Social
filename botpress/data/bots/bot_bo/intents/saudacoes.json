@@ -1,0 +1,22 @@
+{
+  "name": "saudacoes",
+  "utterances": {
+    "pt": [
+      "Olá",
+      "Bom dia",
+      "Boa tarde",
+      "Boa noite",
+      "Oi",
+      "Oie",
+      "Eae",
+      "E aí",
+      "Oiiii",
+      "Salve",
+      "oi"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

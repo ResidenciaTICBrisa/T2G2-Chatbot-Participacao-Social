@@ -1,0 +1,21 @@
+{
+  "name": "como_participar_conferencia",
+  "utterances": {
+    "pt": [
+      "Como posso participar da conferência?",
+      "Quais são os passos para se inscrever na conferência?",
+      "O que é necessário para participar da conferência?",
+      "Como faço para me registrar para a conferência?",
+      "Existem requisitos para participar da conferência?",
+      "Pode me informar sobre o processo de inscrição para a conferência?",
+      "Como faço para obter um ingresso para a conferência?",
+      "Quais são as datas de inscrição para a conferência?",
+      "Quero participar da conferência, por onde começo?",
+      "Como posso confirmar minha presença na conferência?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
