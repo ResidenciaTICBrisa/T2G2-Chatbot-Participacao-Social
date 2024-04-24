@@ -12,6 +12,7 @@ services:
       - ./botpress/modules:/botpress/modules/
       - ./botpress/bindings:/botpress/bindings/
       - ./botpress/uploads:/botpress/uploads/
+    command: ./bp
     restart: always
 
 volumes:
