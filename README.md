@@ -18,7 +18,7 @@ Bem-vindo ao repositório oficial do projeto Chatbot para o Brasil Participativo
 * **O que é o Brisa?** [Conheça o Brisa](https://brisa.lappis.rocks/)
 * **Como rodar a chat bot no seu computador (Versão telegram)?** [Siga o passo a passo para rodar o bot no telegram](#getting-started)
 * **Gostaria de Contribuir?** [Veja como contribuir](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/Pol%C3%ADticas/CONTRIBUTING/)
-* **Trocamos de tecnologia, de Rasa para Botpress!** [Entenda o motivo](ttps://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/tecnologias/)
+* **Trocamos de tecnologia, de Rasa para Botpress!** [Entenda o motivo](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/tecnologias/)
 
 ---
 
