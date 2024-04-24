@@ -43,7 +43,7 @@
 | Botpress analytics       | Estudo sobre a utilização do Botpress para análise de dados   | 02/07/2024  |  11/07/2024  |
 | Consulta de dados        | Mapeamento dos dados gerados pelo chat bot                    | 12/07/2024  |   Contínuo   |
 | Geração de relatórios    | Implementação da ferramenta de geração de relatórios          | 15/07/2024  |   Contínuo   |
-| Produto 4ª Release       | Análise de Dados e persona                                    |             | 02//08/2024  |
+| Produto 4ª Release       | Análise de Dados e persona                                    |             |  02/08/2024  |
 
 <figcaption align="center">Tabela 4 - Cronograma detalhado 4ª Release.</figcaption>
 

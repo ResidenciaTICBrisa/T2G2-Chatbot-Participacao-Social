@@ -24,4 +24,4 @@ Claro, aqui está uma descrição para o JavaScript adaptada ao estilo da descri
 |  1.0   | 01/04/2024 |   Criação de página de tecnologias utilizadas   | Isaque Augusto |
 |  1.1   | 02/04/2024 | Adicionado as versões das tecnologias utilizadas| Isaque Augusto |
 |  2.0   | 22/04/2024 |    Atualizando as tecnologias utilizadas        | Thiago Marques |
-|  2.1   | 24/04/2024 |    Informando sobre a alteração de tecnologia        | Gabriel Pinto |
+|  2.1   | 24/04/2024 |    Informando sobre a alteração de tecnologia   | Gabriel Pinto  |
