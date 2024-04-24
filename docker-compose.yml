@@ -1,0 +1,13 @@
+version: '3'
+services:
+  botpress:
+    image: botpress/server:v12_26_7
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./botpress/data:/botpress/data/
+      - ./botpress/modules:/botpress/modules/
+      - ./botpress/bindings:/botpress/bindings/
+      - ./botpress/uploads:/botpress/uploads/
+    restart: unless-stopped
+
