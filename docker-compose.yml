@@ -13,7 +13,7 @@ services:
       - ./botpress/bindings:/botpress/bindings/
       - ./botpress/uploads:/botpress/uploads/
     restart: always
-
+    command: /bin/sh -c ./duckling & ./bp
 volumes:
   data:
 
