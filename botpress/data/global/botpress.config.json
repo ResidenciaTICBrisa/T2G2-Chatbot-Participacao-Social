@@ -146,7 +146,7 @@
   },
   "superAdmins": [
     {
-      "email": "chatbotbrasilparticipativo@gmail.com",
+      "email": "email",
       "strategy": "default"
     }
   ],
@@ -221,5 +221,5 @@
     "entriesLimit": 1000
   },
   "version": "12.26.7",
-  "appSecret": "1iYMVHSxykpARG4iuOH0ijEzVqwi-qCd53XWHNYJ"
+  "appSecret": "MHaHxOJtfPnyosJJAW6-FlOnFVzvyhzbEu-9V1cn"
 }

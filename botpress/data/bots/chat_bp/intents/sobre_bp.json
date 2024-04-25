@@ -1,0 +1,25 @@
+{
+  "name": "sobre_bp",
+  "utterances": {
+    "pt": [
+      "O que é Brasil Participativo?",
+      "Brasil Participativo",
+      "O que é isso?",
+      "Mais informações",
+      "Mais detalhes",
+      "Mais explicações",
+      "Quero mais informações",
+      "Como é isso?",
+      "Qual a finalidade?",
+      "Para que serve?",
+      "Qual serviço oferece?",
+      "Informações sobre a plataforma",
+      "Gostaria de saber mais sobre",
+      "Saber mais"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "conferencias_abertas",
+  "utterances": {
+    "pt": [
+      "Quais conferências estão abertas para inscrição?",
+      "Gostaria de saber sobre conferências abertas atualmente.",
+      "Quais são as próximas conferências abertas?",
+      "Como posso encontrar conferências abertas para participar?",
+      "Há alguma conferência disponível para participação?",
+      "Pode me informar sobre conferências abertas este mês?",
+      "Quero informações sobre conferências que estão aceitando inscrições.",
+      "Existem eventos ou conferências abertos para novos participantes?",
+      "Quais conferências têm inscrições abertas agora?",
+      "Estou procurando conferências abertas, você pode ajudar?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

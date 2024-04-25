@@ -4,7 +4,7 @@
     "name": "Default",
     "audience": "external",
     "bots": [
-      "bot_bo"
+      "chat_bp"
     ],
     "roles": [
       {

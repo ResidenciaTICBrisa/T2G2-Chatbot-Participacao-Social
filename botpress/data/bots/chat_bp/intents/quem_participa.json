@@ -1,0 +1,23 @@
+{
+  "name": "quem_participa",
+  "utterances": {
+    "pt": [
+      "Posso participar?",
+      "Quais são os requisitos para participar?",
+      "Quem pode participar?",
+      "Quem está incluído para participar?",
+      "Quem está apto para participar?",
+      "Quem tem a permissão para participar?",
+      "Permissão para participar",
+      "Quem está qualificado para participar?",
+      "Existem restrições de idade para participação?",
+      "Quais critérios devo atender para ser elegível para participar?",
+      "Todos têm direito a participar ou existem exceções?",
+      "Como posso verificar se estou habilitado para participar?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
