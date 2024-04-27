@@ -49,7 +49,7 @@ body {
 }
 
 .bpw-widget-btn {
-  background-color: #000000;
+  background-color: #183EFF;  /* Original dark blue color */
 }
 
 .bpw-message-read-more {
@@ -64,12 +64,9 @@ body {
   text-align: left;
   text-decoration: underline;
 }
-
-.bpw-widget-btn:focus,
-.bpw-widget-btn:hover {
-  background-color: #333;
+.bpw-widget-btn:focus, .bpw-widget-btn:hover {
+  background-color: #183EFF;
 }
-
 .bpw-chat-container {
   background-color: #ffffff;
   color: #000000;
@@ -661,6 +658,7 @@ body {
 .bpw-send-buttons {
   display: flex;
   align-items: center;
+  padding: 6px;
 }
 
 .bpw-send-button {
