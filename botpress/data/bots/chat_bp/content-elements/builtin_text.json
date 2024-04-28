@@ -32,18 +32,18 @@
   {
     "id": "builtin_text-CnhBxd",
     "formData": {
-      "text$pt": "Olá {{user.nome_do_usuario}}! Pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+      "text$pt": "Olá! Pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
       "markdown$pt": true,
       "typing$pt": true,
       "variations$pt": [
-        "Oi, {{user.nome_do_usuario}}! Estou aqui para ajudar com suas dúvidas sobre o Brasil Participativo. Você pode me perguntar sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
-        "Bem-vindo, {{user.nome_do_usuario}}! Se tiver perguntas sobre o Brasil Participativo, sinta-se à vontade para perguntar. Eu posso ajudar com informações sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
-        "Saudações, {{user.nome_do_usuario}}! Se precisa de informações sobre o Brasil Participativo, estou aqui para responder. Pergunte sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
+        "Oi! Estou aqui para ajudar com suas dúvidas sobre o Brasil Participativo. Você pode me perguntar sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+        "Boas-vindas! Se tiver perguntas sobre o Brasil Participativo, sinta-se à vontade para perguntar. Eu posso ajudar com informações sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+        "Saudações! Se precisa de informações sobre o Brasil Participativo, estou aqui para responder. Pergunte sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
       ]
     },
     "createdBy": "admin",
     "createdOn": "2024-04-18T14:05:35.371Z",
-    "modifiedOn": "2024-04-18T15:11:29.662Z"
+    "modifiedOn": "2024-04-28T20:09:53.281Z"
   },
   {
     "id": "builtin_text-rUfcmK",

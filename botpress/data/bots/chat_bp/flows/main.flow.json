@@ -12,17 +12,21 @@
       "next": [
         {
           "condition": "event.nlu.intent.name === 'saudacoes'",
-          "conditionType": "intent",
-          "node": "node-saudacoes"
+          "node": "node-opcoes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'none'",
+          "node": "node-misunderstand"
         },
         {
           "condition": "true",
-          "conditionType": "always",
-          "node": "node-misunderstand"
+          "node": "node-opcoes"
         }
       ],
-      "onEnter": [],
-      "onReceive": null
+      "onEnter": [
+        "say #!builtin_text-CnhBxd"
+      ],
+      "onReceive": []
     },
     {
       "id": "e7da5fc463",
@@ -111,28 +115,14 @@
         {
           "condition": "event.nlu.intent.name === 'colegiados'",
           "node": "node-sobre-colegiados"
+        },
+        {
+          "condition": "true",
+          "node": "node-misunderstand"
         }
       ],
       "onEnter": [],
-      "onReceive": [],
-      "type": "standard"
-    },
-    {
-      "id": "f92afa64e0",
-      "name": "node-saudacoes",
-      "next": [
-        {
-          "condition": "true",
-          "conditionType": "always",
-          "node": "node-intermediario"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-dwww2-"
-      ],
-      "onReceive": [
-        "builtin/setVariable {\"type\":\"user\",\"name\":\"nome_do_usuario\",\"value\":\"{{event.payload.text}}\"}"
-      ],
+      "onReceive": null,
       "type": "standard"
     },
     {
@@ -147,22 +137,6 @@
       ],
       "onEnter": [
         "say #!builtin_text-rUfcmK"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "c2444d551e",
-      "name": "node-intermediario",
-      "next": [
-        {
-          "condition": "true",
-          "conditionType": "always",
-          "node": "node-opcoes"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-CnhBxd"
       ],
       "onReceive": null,
       "type": "standard"
@@ -403,7 +377,7 @@
       "onEnter": [
         "say #!builtin_text-QtUBGi"
       ],
-      "onReceive": null,
+      "onReceive": [],
       "type": "standard"
     },
     {

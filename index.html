@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="http://localhost:3000/assets/modules/channel-web/inject.js"></script>
+
+<script>
+    window.botpressWebChat.init({
+    host: "http://localhost:3000",
+    botId: "chat_bp",
+    extraStylesheet: "http://localhost:3000/assets/modules/channel-web/style.css",
+    showPoweredBy: false})
+    window.addEventListener('message', function(event) {
+      if (event.data.name === 'webchatReady') {
+        window.botpressWebChat.sendEvent({
+          type: 'proactive-trigger',
+          channel: 'web',
+          payload: { text: 'oi' }
+        })
+      }
+    })
+</script>
+</body>
+</html>
