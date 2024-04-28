@@ -1,0 +1,20 @@
+{
+  "name": "sobre_enquete",
+  "utterances": {
+    "pt": [
+      "O que é uma enquete?",
+      "Pode explicar o que significa uma enquete?",
+      "Qual é o propósito de uma enquete?",
+      "Como funciona uma enquete?",
+      "O que acontece em uma enquete?",
+      "Quais são os objetivos de uma enquete?",
+      "Quem pode participar de uma enquete?",
+      "Que tipo de eventos são considerados enquetes?",
+      "Como são organizadas as enquetes?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

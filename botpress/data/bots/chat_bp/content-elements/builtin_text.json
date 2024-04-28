@@ -231,5 +231,27 @@
     "createdBy": "admin",
     "createdOn": "2024-04-22T14:37:04.325Z",
     "modifiedOn": "2024-04-22T14:37:04.325Z"
+  },
+  {
+    "id": "builtin_text-my9dhT",
+    "formData": {
+      "text$pt": "Uma enquete consiste do levantamento de opiniões e/ou percepções representativas de um grupo sobre um assunto de interesse geral que envolve um número restrito de entrevistados, podendo ser extrapolável para um grupo maior.",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-27T23:43:59.938Z",
+    "modifiedOn": "2024-04-27T23:43:59.938Z"
+  },
+  {
+    "id": "builtin_text-rSQWMw",
+    "formData": {
+      "text$pt": "Órgãos colegiados são instâncias consultivas e/ou deliberativas, compostas por representantes de diferentes setores públicos e também da sociedade civil, constituídos para tratar de temas específicos, de forma a subsidiar a atuação governamental e compatibilizar os interesses coletivos com as políticas públicas.",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-28T16:31:45.872Z",
+    "modifiedOn": "2024-04-28T16:31:45.872Z"
   }
 ]

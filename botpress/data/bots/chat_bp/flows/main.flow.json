@@ -103,6 +103,14 @@
           "condition": "event.nlu.intent.name === 'identificacao_imprensa'",
           "conditionType": "intent",
           "node": "node-imprensa"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_enquete'",
+          "node": "node-enquetes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'colegiados'",
+          "node": "node-sobre-colegiados"
         }
       ],
       "onEnter": [],
@@ -426,6 +434,36 @@
       ],
       "onEnter": [
         "say #!builtin_text-mi5Ap_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b7dc2ef199",
+      "name": "node-enquetes",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-my9dhT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fb7a9001ed",
+      "name": "node-sobre-colegiados",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rSQWMw"
       ],
       "onReceive": null,
       "type": "standard"
