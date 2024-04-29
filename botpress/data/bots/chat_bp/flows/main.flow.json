@@ -147,8 +147,7 @@
       "next": [
         {
           "condition": "event.nlu.intent.name === 'afirmacao'",
-          "conditionType": "intent",
-          "node": "node-afirmacao"
+          "node": "node-intermediario"
         },
         {
           "condition": "event.nlu.intent.name === 'negacao'",
@@ -158,27 +157,6 @@
       ],
       "onEnter": [
         "say #!builtin_text-sy0xUj"
-      ],
-      "onReceive": [],
-      "type": "standard"
-    },
-    {
-      "id": "6c66a2af8b",
-      "name": "node-afirmacao",
-      "next": [
-        {
-          "condition": "event.nlu.intent.name === 'afirmacao'",
-          "conditionType": "intent",
-          "node": "node-digite-duvida"
-        },
-        {
-          "condition": "event.nlu.intent.name === 'negacao'",
-          "conditionType": "intent",
-          "node": "node-encerramento"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-ljV0bI"
       ],
       "onReceive": [],
       "type": "standard"
@@ -440,6 +418,21 @@
         "say #!builtin_text-rSQWMw"
       ],
       "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6dc2a198e6",
+      "name": "node-intermediario",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-M1O4OQ"
+      ],
+      "onReceive": [],
       "type": "standard"
     }
   ]
