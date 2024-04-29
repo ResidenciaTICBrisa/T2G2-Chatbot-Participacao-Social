@@ -32,18 +32,18 @@
   {
     "id": "builtin_text-CnhBxd",
     "formData": {
-      "text$pt": "Olá! Pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+      "text$pt": "Olá, pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
       "markdown$pt": true,
       "typing$pt": true,
       "variations$pt": [
-        "Oi! Estou aqui para ajudar com suas dúvidas sobre o Brasil Participativo. Você pode me perguntar sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
-        "Boas-vindas! Se tiver perguntas sobre o Brasil Participativo, sinta-se à vontade para perguntar. Eu posso ajudar com informações sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
-        "Saudações! Se precisa de informações sobre o Brasil Participativo, estou aqui para responder. Pergunte sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
+        "Saudações! Estou aqui para ajudar com suas dúvidas sobre o Brasil Participativo. Você pode me perguntar sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+        "Oi! Se tiver perguntas sobre o Brasil Participativo, sinta-se à vontade para perguntar. Eu posso ajudar com informações sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+        "Se precisa de informações sobre o Brasil Participativo, estou aqui para responder. Pergunte sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
       ]
     },
     "createdBy": "admin",
     "createdOn": "2024-04-18T14:05:35.371Z",
-    "modifiedOn": "2024-04-28T20:09:53.281Z"
+    "modifiedOn": "2024-04-29T13:04:11.995Z"
   },
   {
     "id": "builtin_text-rUfcmK",
@@ -253,5 +253,19 @@
     "createdBy": "admin",
     "createdOn": "2024-04-28T16:31:45.872Z",
     "modifiedOn": "2024-04-28T16:31:45.872Z"
+  },
+  {
+    "id": "builtin_text-M1O4OQ",
+    "formData": {
+      "text$pt": "Ok, pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+      "markdown$pt": true,
+      "typing$pt": true,
+      "variations$pt": [
+        "Certo, posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T13:05:40.272Z",
+    "modifiedOn": "2024-04-29T13:05:40.272Z"
   }
 ]
