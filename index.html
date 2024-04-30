@@ -6,23 +6,26 @@
     <title>Document</title>
 </head>
 <body>
+  <div>
     <script src="http://localhost:3000/assets/modules/channel-web/inject.js"></script>
 
-<script>
-    window.botpressWebChat.init({
-    host: "http://localhost:3000",
-    botId: "chat_bp",
-    extraStylesheet: "http://localhost:3000/assets/modules/channel-web/style.css",
-    showPoweredBy: false})
-    window.addEventListener('message', function(event) {
-      if (event.data.name === 'webchatReady') {
-        window.botpressWebChat.sendEvent({
-          type: 'proactive-trigger',
-          channel: 'web',
-          payload: { text: 'oi' }
+    <script>
+        window.botpressWebChat.init({
+        host: "http://localhost:3000",
+        botId: "chat_bp",
+        extraStylesheet: "http://localhost:3000/assets/modules/channel-web/style.css",
+        showPoweredBy: false})
+        window.addEventListener('message', function(event) {
+          if (event.data.name === 'webchatReady') {
+            window.botpressWebChat.sendEvent({
+              type: 'proactive-trigger',
+              channel: 'web',
+              payload: { text: 'oi' }
+            })
+          }
         })
-      }
-    })
-</script>
+    </script>
+
+  </div>
 </body>
 </html>
