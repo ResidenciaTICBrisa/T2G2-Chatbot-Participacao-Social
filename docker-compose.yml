@@ -8,9 +8,6 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./botpress/data:/botpress/data/
-      - ./botpress/modules:/botpress/modules/
-      - ./botpress/bindings:/botpress/bindings/
-      - ./botpress/uploads:/botpress/uploads/
+      - ./data:/botpress/data
     restart: always
 
