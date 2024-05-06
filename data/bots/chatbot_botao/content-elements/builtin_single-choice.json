@@ -1,0 +1,293 @@
+[
+  {
+    "id": "builtin_single-choice-R2UFpN",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é o Brasil Participativo",
+          "value": "1"
+        },
+        {
+          "title": "Processos participativos",
+          "value": "2"
+        },
+        {
+          "value": "3",
+          "title": "Dificuldade de acesso"
+        },
+        {
+          "value": "4",
+          "title": "Perguntas frequentes"
+        },
+        {
+          "title": "Outros assuntos",
+          "value": "5"
+        },
+        {
+          "title": "Sou da impresa",
+          "value": "6"
+        },
+        {
+          "value": "7",
+          "title": "Sou representante de um órgão público"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Selecione a opção que deseja acessar."
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T13:51:40.608Z",
+    "modifiedOn": "2024-04-29T14:46:37.826Z"
+  },
+  {
+    "id": "builtin_single-choice-Lj5Esn",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "Plano Clima/PPA Participativo",
+          "value": "1"
+        },
+        {
+          "title": "Confências",
+          "value": "2"
+        },
+        {
+          "title": "Consultas Públicas",
+          "value": "3"
+        },
+        {
+          "title": "Enquetes",
+          "value": "4"
+        },
+        {
+          "title": "Audiências Públicas",
+          "value": "5"
+        },
+        {
+          "title": "Colegiados",
+          "value": "6"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Seleciona a opção relacionada a Processos Participativos"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T14:21:53.006Z",
+    "modifiedOn": "2024-04-29T15:23:23.684Z"
+  },
+  {
+    "id": "builtin_single-choice-5153sr",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "Sim",
+          "value": "sim"
+        },
+        {
+          "title": "Não",
+          "value": "não"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sua dúvida foi atendida?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T14:28:01.069Z",
+    "modifiedOn": "2024-04-29T14:28:01.069Z"
+  },
+  {
+    "id": "builtin_single-choice-zvOoAA",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        },
+        {
+          "title": "Conferências abertas/ativas",
+          "value": "3"
+        },
+        {
+          "title": "Conferências fechadas/encerradas",
+          "value": "4"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre Conferências:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T15:28:13.343Z",
+    "modifiedOn": "2024-04-29T15:28:13.343Z"
+  },
+  {
+    "id": "builtin_single-choice-G66eKM",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        },
+        {
+          "title": "Consultas abertas/ativas",
+          "value": "3"
+        },
+        {
+          "title": "Consultas fechadas/encerradas",
+          "value": "4"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre Consultas Públicas:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T15:31:52.997Z",
+    "modifiedOn": "2024-04-29T15:31:52.997Z"
+  },
+  {
+    "id": "builtin_single-choice-Rzeee5",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        },
+        {
+          "title": "Enquetes abertas/ativas",
+          "value": "3"
+        },
+        {
+          "title": "Enquetes fechadas/encerradas",
+          "value": "4"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre enquetes:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T15:34:07.065Z",
+    "modifiedOn": "2024-04-29T15:34:07.065Z"
+  },
+  {
+    "id": "builtin_single-choice-gGr6b4",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        },
+        {
+          "title": "Audiências abertas/ativas",
+          "value": "3"
+        },
+        {
+          "title": "Audiências fechadas/encerradas",
+          "value": "4"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre Audiências Públicas:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T15:36:36.436Z",
+    "modifiedOn": "2024-04-29T15:36:36.436Z"
+  },
+  {
+    "id": "builtin_single-choice-EUzFyk",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        },
+        {
+          "title": "Colegiados abertos/ativos",
+          "value": "3"
+        },
+        {
+          "title": "Colegiados fechados/encerrados",
+          "value": "4"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre Colegiados:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T15:38:18.810Z",
+    "modifiedOn": "2024-04-29T15:38:18.810Z"
+  },
+  {
+    "id": "builtin_single-choice-x9PZ0H",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        },
+        {
+          "title": "Plano Clima/PPA Participativo abertos/ativos",
+          "value": "3"
+        },
+        {
+          "title": "Plano Clima/PPA Participativo fechado/encerrados",
+          "value": "4"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre o Plano Clima/PPA Participativo"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T15:41:58.451Z",
+    "modifiedOn": "2024-04-29T15:41:58.451Z"
+  }
+]

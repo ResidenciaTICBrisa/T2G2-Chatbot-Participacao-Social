@@ -1,5 +1,4 @@
 /* Old version IE 10 and 11 only */
-/* editado */
 :root {
   --main-bg-color: #ffffff;
   --main-bg-color-hover: rgba(255, 255, 255, 0.9);
@@ -50,7 +49,7 @@ body {
 }
 
 .bpw-widget-btn {
-  background-color: #183EFF;  /* Original dark blue color */
+  background-color: #000000;
 }
 
 .bpw-message-read-more {
@@ -65,9 +64,12 @@ body {
   text-align: left;
   text-decoration: underline;
 }
-.bpw-widget-btn:focus, .bpw-widget-btn:hover {
-  background-color: #183EFF;
+
+.bpw-widget-btn:focus,
+.bpw-widget-btn:hover {
+  background-color: #333;
 }
+
 .bpw-chat-container {
   background-color: #ffffff;
   color: #000000;
@@ -659,7 +661,6 @@ body {
 .bpw-send-buttons {
   display: flex;
   align-items: center;
-  padding: 6px;
 }
 
 .bpw-send-button {

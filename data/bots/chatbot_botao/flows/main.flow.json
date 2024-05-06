@@ -1,0 +1,196 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "first-entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "first-entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-iuoWjO"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "266bea456e",
+      "name": "node-Brasil-participativo",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tnaTjd"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0de6600dcb",
+      "name": "node-dificuldade-acesso",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-saUdE7"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3bd05e6fce",
+      "name": "node-perguntas-frequentes_",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text--hrHT-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ca6c2043f2",
+      "name": "node-outros-assuntos",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_JcbYb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5e5a4aa3dc",
+      "name": "node-representante-imprensa",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-15MMt9"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4ddf4a4b4c",
+      "name": "node-representante-administracao",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-x5ThSC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-2264aa",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-opcoes",
+      "flow": "skills/choice-2264aa.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"1\"",
+          "node": "node-Brasil-participativo"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"2\"",
+          "node": "processo_parti.flow.json#entry"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"3\"",
+          "node": "node-dificuldade-acesso"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"4\"",
+          "node": "node-perguntas-frequentes_"
+        },
+        {
+          "caption": "User picked [5]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"5\"",
+          "node": "node-outros-assuntos"
+        },
+        {
+          "caption": "User picked [6]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"6\"",
+          "node": "node-representante-imprensa"
+        },
+        {
+          "caption": "User picked [7]",
+          "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"7\"",
+          "node": "node-representante-administracao"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-1a1d63",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-duvida_atendida",
+      "flow": "skills/choice-1a1d63.flow.json",
+      "next": [
+        {
+          "caption": "User picked [sim]",
+          "condition": "temp['skill-choice-ret-2c14871h5i'] == \"sim\"",
+          "node": "node-encerramento"
+        },
+        {
+          "caption": "User picked [não]",
+          "condition": "temp['skill-choice-ret-2c14871h5i'] == \"não\"",
+          "node": "choice-opcoes"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "6f59ffffc3",
+      "name": "node-encerramento",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-BwJBAi"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
