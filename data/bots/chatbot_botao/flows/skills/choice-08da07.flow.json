@@ -1,0 +1,113 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "38lgtavyrx",
+    "contentId": "builtin_single-choice-Lj5Esn",
+    "invalidContentId": "",
+    "keywords": {
+      "1": [
+        "1",
+        "Plano Clima/PPA Participativo"
+      ],
+      "2": [
+        "2",
+        "Confências"
+      ],
+      "3": [
+        "3",
+        "Consultas Públicas"
+      ],
+      "4": [
+        "4",
+        "Enquetes"
+      ],
+      "5": [
+        "5",
+        "Audiências Públicas"
+      ],
+      "6": [
+        "6",
+        "Colegiados"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false,
+      "variableName": ""
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-Lj5Esn {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "602141"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"38lgtavyrx\",\"contentId\":\"builtin_single-choice-Lj5Esn\",\"invalidContentId\":\"\",\"keywords\":{\"1\":[\"1\",\"Plano Clima/PPA Participativo\"],\"2\":[\"2\",\"Confências\"],\"3\":[\"3\",\"Consultas Públicas\"],\"4\":[\"4\",\"Enquetes\"],\"5\":[\"5\",\"Audiências Públicas\"],\"6\":[\"6\",\"Colegiados\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-38lgtavyrx'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "id": "always"
+            }
+          ]
+        }
+      ],
+      "onEnter": [],
+      "id": "076979"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"38lgtavyrx\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-38lgtavyrx']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "886601"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "724257"
+    }
+  ]
+}
