@@ -1,5 +1,5 @@
 /* Old version IE 10 and 11 only */
-/* editado */
+/* editado 7/05 10:59 */
 :root {
   --main-bg-color: #ffffff;
   --main-bg-color-hover: rgba(255, 255, 255, 0.9);
@@ -633,7 +633,7 @@ body {
 }
 
 .bpw-composer-inner {
-  display: flex;
+  display: none;
   padding: 5px;
 }
 
@@ -657,7 +657,7 @@ body {
 }
 
 .bpw-send-buttons {
-  display: flex;
+  display: none;
   align-items: center;
   padding: 6px;
 }

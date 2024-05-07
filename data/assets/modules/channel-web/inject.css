@@ -1,9 +1,10 @@
+/*editado 06/05*/
 .bp-widget-web {
   border: none;
   display: block;
   position: fixed;
   visibility: none;
-  z-index: 20;
+  z-index: 10000000 ;
   max-height: 100vh;
   max-width: 100vw;
   transition: none;
@@ -18,10 +19,10 @@
 .bp-widget-widget {
   top: auto;
   left: auto;
-  bottom: 24px;
-  right: 36px;
+  bottom: 30px;
+  right: 22px;
   width: 76px !important;
-  height: 76px !important;
+  height: 115px !important;
 }
 
 .bp-widget-hidden {
