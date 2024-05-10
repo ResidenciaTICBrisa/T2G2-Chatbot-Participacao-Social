@@ -1,5 +1,4 @@
-
-# **O Mínimo Produto Viável (MVP)**
+# **O Mínimo Produto Viável - Versão Telegram**
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -53,6 +52,6 @@
 
 | Versão |    Data    |           Descrição            |      Autor      |
 |:------:|:----------:|:------------------------------:|:---------------:|
-|  1.0   | 28/03/2024 | Criação do histórico de versão | Gabriel Scheidt |
+|  1.0   | 28/03/2024 | Criação do documento           | Gabriel Scheidt |
 |  2.0   | 28/03/2024 |  Alteração de layout e do MVP  | Gabriel Scheidt |
 |  2.1   | 08/04/2024 |       Atualização do MVP       | Isaque Augusto  |
