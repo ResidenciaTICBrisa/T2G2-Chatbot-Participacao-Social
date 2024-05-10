@@ -9,10 +9,8 @@
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?utm_content=DAGB1eJv_gI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">MVP</a>
 
-<p align="center">
-  <img src="../images/Teste_chatbot.png" style="max-width: 100%;" />
-</p>
 
+![imagem_telegram](../images/Teste_chatbot.png)
 
 <p align="justify">&emsp;&emsp;O Mínimo Produto Viável (MVP) é uma abordagem essencial no desenvolvimento de produtos, cujo principal objetivo é criar uma versão inicial simplificada que entregue a proposta de valor central da ideia. Para esta finalidade, utilizamos a ferramenta Canva para a produção do MVP.</p>
 

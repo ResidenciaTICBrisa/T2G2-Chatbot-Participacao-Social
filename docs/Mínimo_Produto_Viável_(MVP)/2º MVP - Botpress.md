@@ -5,12 +5,9 @@
 </div>
 
 
-
 <p align="justify">&emsp;&emsp;O vídeo é uma demonstração detalhada do funcionamento do nosso Mínimo Produto Viável (MVP) para o site Brasil Participativo. Este vídeo mostra a interface do usuário diretamente no site, onde o chatbot está integrado para melhorar a experiência do usuário.</p>
 
-<p align="center">
-  <img src="../images/bot_no_BP.png" style="max-width: 100%;" />
-</p>
+![imagem_telegram](../images/bot_no_BP.png)
 
 **Figura 1:** Captura de tela do chatbot operando no servidor de teste do site Brasil Participativo. 
 
