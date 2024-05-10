@@ -1,11 +1,16 @@
 # **2º MVP - Versão Botpress**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xub_9X0AarM?si=WNXmVxppv92del0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xub_9X0AarM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 
 <p align="justify">&emsp;&emsp;O vídeo é uma demonstração detalhada do funcionamento do nosso Mínimo Produto Viável (MVP) para o site Brasil Participativo. Este vídeo mostra a interface do usuário diretamente no site, onde o chatbot está integrado para melhorar a experiência do usuário.</p>
 
-![Chatbot no Brasil Participativo](../images/bot_no_BP.png)
+<p align="center">
+  <img src="../images/bot_no_BP.png" style="max-width: 100%;" />
+</p>
 
 **Figura 1:** Captura de tela do chatbot operando no servidor de teste do site Brasil Participativo. 
 

@@ -11,7 +11,7 @@
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)<br>
 - [Gabriel Santos Pinto](https://github.com/GabrielSPinto)<br>
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)<br>
-- [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)<br>
+- [Thiago Henrique Marques Rocha](https://github.com/MarquesAerospace)<br>
 
 ### Objetivos: 
 Realizar a reunião semanal, somente com os membros, para dar andamento ao trabalho.
