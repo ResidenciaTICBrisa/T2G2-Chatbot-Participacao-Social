@@ -3,12 +3,12 @@
   "nluServer": {
     "autoStart": true
   },
-  "ducklingURL": "https://duckling.botpress.io",
+  "ducklingURL": "http://localhost:8000",
   "ducklingEnabled": true,
   "preloadModels": true,
   "languageSources": [
     {
-      "endpoint": "https://lang-01.botpress.io"
+      "endpoint": "http://localhost:3100"
     }
   ],
   "modelCacheSize": "850mb",

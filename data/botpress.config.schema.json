@@ -20,7 +20,7 @@
           "type": "number"
         },
         "proxy": {
-          "description": "There are three external URLs that Botpress calls: https://license.botpress.io, https://duckling.botpress.io and https://lang-01.botpress.io\nIf you are behind a corporate proxy, you can configure it below.\nIt is also possible to self-host Duckling, please check the documentation",
+          "description": "There are three external URLs that Botpress calls: https://license.botpress.io, https://duckling.botpress.io and http://localhost:3100\nIf you are behind a corporate proxy, you can configure it below.\nIt is also possible to self-host Duckling, please check the documentation",
           "type": "string"
         },
         "backlog": {
