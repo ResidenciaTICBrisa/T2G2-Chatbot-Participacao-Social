@@ -6,6 +6,7 @@ services:
     environment:
       BP_PRODUCTION: 'true'
       BP_HTTP_PORT: '3000'
+      DATABASE_URL: postgres://chatBotBP:cafeteira123@postgres_db_bp:5432/chatBotDatabase
     ports:
       - "3000:3000"
       - "3100:3100"
@@ -14,10 +15,30 @@ services:
       - 3000
       - 3100
       - 8000
+    depends_on:
+      - postgres
     volumes:
       - ./data:/botpress/data
-      - /home/gabriel/NLU:/botpress/NLU
+      - ./NLU:/botpress/NLU
     
-
+  postgres:
+    image: postgres:16.2
+    container_name: postgres_db_bp
+    ports:
+      - "5432:5432"
+    volumes: 
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: chatBotBP
+      POSTGRES_PASSWORD: cafeteira123
+      POSTGRES_DB: chatBotDatabase
   
+  adminer:
+      image: adminer
+      restart: always
+      ports:
+        - "8080:8080"
+
+volumes:
+  postgres_data:
 
