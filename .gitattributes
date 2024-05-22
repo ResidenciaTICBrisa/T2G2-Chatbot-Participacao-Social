@@ -1,1 +1,1 @@
-*.bin filter=lfs diff=lfs merge=lfs -text
+bp.pt.100.bin filter=lfs diff=lfs merge=lfs -text
