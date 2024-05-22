@@ -11,7 +11,7 @@ RUN cd NLU/
 # Substitua os URLs pelos URLs reais dos arquivos que você precisa
 RUN apt-get update && apt-get install -y wget && \
     wget --progress=bar http://botpress-public.nyc3.digitaloceanspaces.com/embeddings/bp.pt.bpe.model && \
-    wget --progress=bar http://botpress-public.nyc3.digitaloceanspaces.com/embeddings/bp.pt.100.bin && \
+    wget --progress=bar http://botpress-public.nyc3.digitaloceanspaces.com/embeddings/bp.pt.300.bin && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
     RUN cd ..
 # Copie os arquivos de configuração para o contêiner
@@ -28,4 +28,4 @@ EXPOSE 3100
 EXPOSE 8000
 
 # Comando para iniciar o Botpress com Duckling e o serviço de linguagem
-CMD ["bash", "-c", "./duckling & ./bp lang --offline --dim 100 --langDir /botpress & ./bp"]
+CMD ["bash", "-c", "./duckling & ./bp lang --offline --dim 300 --langDir /botpress & ./bp"]

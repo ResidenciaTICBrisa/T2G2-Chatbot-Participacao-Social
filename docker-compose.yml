@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    command: bash -c "./duckling & ./bp lang --offline --dim 100 --langDir /botpress & ./bp"
+    command: bash -c "./duckling & ./bp lang --offline --dim 300 --langDir /botpress & ./bp"
     ports:
       - "3000:3000"
       - "8000:8000"
