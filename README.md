@@ -33,11 +33,14 @@ O foco central deste projeto é a implementação de um chatbot destinado a orie
 As principais tecnologias utilizadas no projeto serão o JavaScript, devido à sua ampla aceitação e eficácia na construção de aplicações interativas, e o Botpress, que oferece uma plataforma robusta e extensível para o desenvolvimento de chatbots com inteligência artificial. O Botpress facilita a integração de funcionalidades avançadas, permitindo uma interação mais natural e eficiente com os usuários.
 
 Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.
+Abaixo temos uma captura de tela do chatbot operando no servidor de teste do site Brasil Participativo. 
+![imagem_telegram](docs/images/bot_no_BP.png)
+
+
+O vídeo abaixo é uma demonstração detalhada do funcionamento do nosso Mínimo Produto Viável (MVP) para o site Brasil Participativo. Este vídeo mostra a interface do usuário diretamente no site, onde o chatbot está integrado para melhorar a experiência do usuário.]
 
 ![Demonstração do projeto](docs/images/Chat-Bot-Brasil-Participativo-funcionando-com-botões.gif)
 
-
-<p align="justify">&emsp;&emsp;O vídeo é uma demonstração detalhada do funcionamento do nosso Mínimo Produto Viável (MVP) para o site Brasil Participativo. Este vídeo mostra a interface do usuário diretamente no site, onde o chatbot está integrado para melhorar a experiência do usuário.</p>
 
 ## Colaboradores e Parceiros
 
