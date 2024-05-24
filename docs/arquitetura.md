@@ -2,6 +2,13 @@
 
 Este documento busca elucidar um pouco maissobre como estará estruturada a arquitetura do bot em desenvolvimento pela equipe, fornecendo uma visualização de como utilizaremos as tecnlogias em busca da resoução do problema em nosso escopo.
 
+#### Diagrama
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKW0f20U=/?moveToViewport=-84,-2729,6912,3498&embedId=76542088332" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+Neste diagrama podemos ver como as tecnologias selecionadas atuam no nosso bot.
+
+
 ## Escopo
 
 Podemos dividir o escopo do projeto da seguinte forma:
@@ -18,14 +25,9 @@ Nossa solução é a implementação de um chatbot para que possamos dar respost
 
 O grupo decidiu pela utilização da ferramenta "Botpress" como a principal ferramenta para a criação do bot, mais informações podem ser conferidas no documento de [tecnologia](https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/blob/main/docs/tecnologias.md).
 
-#### Diagrama
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKW0f20U=/?moveToViewport=-84,-2729,6912,3498&embedId=76542088332" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
-Neste diagrama podemos ver como as tecnologias selecionadas atuam no nosso bot.
 
 # Histórico de versão
 
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
-|  1.0   | 06/05/2024 |                  Criação do documento                 |  Arthur Taylor |
+|  1.0   | 06/05/2024 |                  Criação do documento                 |  Arthur Taylor   |
