@@ -34,9 +34,7 @@ As principais tecnologias utilizadas no projeto serão o JavaScript, devido à s
 
 Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.
 
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xub_9X0AarM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+![Demonstração do projeto](docs/images/Chat-Bot-Brasil-Participativo-funcionando-com-botões.gif)
 
 
 <p align="justify">&emsp;&emsp;O vídeo é uma demonstração detalhada do funcionamento do nosso Mínimo Produto Viável (MVP) para o site Brasil Participativo. Este vídeo mostra a interface do usuário diretamente no site, onde o chatbot está integrado para melhorar a experiência do usuário.</p>
