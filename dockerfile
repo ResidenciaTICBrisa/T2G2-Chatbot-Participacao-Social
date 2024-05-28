@@ -11,16 +11,19 @@ RUN cd NLU/
 # Substitua os URLs pelos URLs reais dos arquivos que você precisa
 RUN apt-get update && apt-get install -y wget && \
     wget --progress=bar http://botpress-public.nyc3.digitaloceanspaces.com/embeddings/bp.pt.bpe.model && \
-    wget --progress=bar http://botpress-public.nyc3.digitaloceanspaces.com/embeddings/bp.pt.300.bin && \
+    wget --progress=bar http://botpress-public.nyc3.digitaloceanspaces.com/embeddings/bp.pt.100.bin && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
     RUN cd ..
 # Copie os arquivos de configuração para o contêiner
 COPY ./data /botpress/data
 
 # Defina as variáveis de ambiente
+ARG POSTGRES_USER
+ARG POSTGRES_PASSWORD
+ARG POSTGRES_DB
 ENV BP_PRODUCTION=true
 ENV BP_HTTP_PORT=3000
-ENV DATABASE_URL=postgres://chatBotBP:cafeteira123@postgres_db_bp:5432/chatBotDatabase
+ENV DATABASE_URL=postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
 
 # Exponha as portas necessárias
 EXPOSE 3000
