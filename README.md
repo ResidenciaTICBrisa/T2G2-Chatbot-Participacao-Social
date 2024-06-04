@@ -33,20 +33,6 @@ As principais tecnologias utilizadas no projeto serão o JavaScript, devido à s
 
 Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.
 
-
-## Pré-requisitos
-Certifique-se de estar com o sistema atualizado, no terminal rode o seguinte comado:
-```bash
-    sudo apt update && sudo apt upgrade
-```
-
-Antes de iniciar, certifique-se de que você tenha os seguintes softwares instalados na sua máquina:
-
-- Git [guia de instalação](https://git-scm.com/download/linux)
-- Docker [guia de instalação](https://docs.docker.com/desktop/install/ubuntu/)
-- Docker compose [guia de instalação](https://docs.docker.com/compose/install/)
-
-
 ## Colaboradores e Parceiros
 
 Este projeto é fruto da colaboração entre a empresa BRISA, o Ministério da Ciência, Tecnologia e Inovação (MCTI) e a Universidade de Brasília. Agradecemos a todos os envolvidos por contribuírem para a evolução do Brasil Participativo.
@@ -132,7 +118,7 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 ```
 
 
-## Passo 4: Executar o Bot do Telegram
+## Passo 4: Executar o docker compose
 Dentro da branch, de o seguinte comando para rodar o sistema:
 ```bash
     docker compose up
