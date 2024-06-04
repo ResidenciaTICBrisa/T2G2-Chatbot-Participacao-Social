@@ -120,9 +120,9 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 1. Abra o terminal ou prompt de comando.
 2. Clone o repositório usando o comando:
 
-    ```bash
+```bash
     git clone https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
-    ```
+```
 
 ## Passo 3: Acessar a Branch 'botpress_nlu_duckling'
 
@@ -135,5 +135,9 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 ## Passo 4: Executar o Bot do Telegram
 Dentro da branch, de o seguinte comando para rodar o sistema:
 ```bash
-docker compose up
+    docker compose up
 ```
+## Passo 5: Acessar o sistema
+Se tudo tiver sido da forma adequada, acesse o projeto através do 
+[http://localhost:8000](http://localhost:8000)
+
