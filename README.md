@@ -33,6 +33,22 @@ As principais tecnologias utilizadas no projeto serão o JavaScript, devido à s
 
 Além disso, como o projeto Chatbot de Participação Social será um plugin para a Plataofrma do Brasil Participativo, ele poderá ser utilizado em outros projetos que utilizam a plataforma digital Decidim.
 
+# Passo a Passo para Executar o Projeto
+Este projeto foi desenvolvido no Ubuntu LTS 22.04. Pode funcionar em outros sistemas operacionais, mas ainda não foi testado. Para rodar o projeto, siga as instruções abaixo:
+
+## Pré-requisitos
+Certifique-se de estar com o sistema atualizado, no terminal rode o seguinte comado:
+```bash
+    sudo apt update && sudo apt upgrade
+```
+
+Antes de iniciar, certifique-se de que você tenha os seguintes softwares instalados na sua máquina:
+
+- Git [guia de instalação](https://git-scm.com/download/linux)
+- Docker [guia de instalação](https://docs.docker.com/desktop/install/ubuntu/)
+- Docker compose [guia de instalação](https://docs.docker.com/compose/install/)
+
+
 ## Colaboradores e Parceiros
 
 Este projeto é fruto da colaboração entre a empresa BRISA, o Ministério da Ciência, Tecnologia e Inovação (MCTI) e a Universidade de Brasília. Agradecemos a todos os envolvidos por contribuírem para a evolução do Brasil Participativo.
