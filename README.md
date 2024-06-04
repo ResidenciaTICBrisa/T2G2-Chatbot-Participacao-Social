@@ -116,14 +116,28 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
  ```bash
     git checkout botpress_nlu_duckling'
 ```
+## Passo 4: Configurar o Arquivo .env
+1. Crie um arquivo .env no diretório raiz do projeto.
+2. Abra o arquivo .env com seu editor de texto preferido.
+3. Adicione a seguintes linhas ao arquivo .env e substitua os '*' pelas credenciais que deseja criar no botpress:
 
+    ```bash
+    #Credenciais do postgres
+    POSTGRES_USER= * #Usuário postgress
+    POSTGRES_PASSWORD= * #Senha do usuário postgres
+    POSTGRES_DB= * #Nome do dbanco de dados
 
-## Passo 4: Executar o docker compose
+    #Credencias da conta administrador do botpress
+    BOTPRESS_ADMIN_EMAIL= * #Email da conta administrador
+    BOTPRESS_ADMIN_PASSWORD=* #Senha da conta administrador
+    ```
+## Passo 5: Executar o docker compose
 Dentro da branch, de o seguinte comando para rodar o sistema:
 ```bash
     docker compose up
 ```
-## Passo 5: Acessar o sistema
+
+## Passo 6: Acessar o sistema
 Se tudo tiver sido da forma adequada, acesse o projeto através do 
-[http://localhost:8000](http://localhost:8000)
+[http://localhost:3000](http://localhost:3000)
 
