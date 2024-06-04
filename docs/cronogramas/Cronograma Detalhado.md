@@ -2,7 +2,7 @@
 
 ## Introdução
 
-<p align="justify">&emsp;&emsp;O cronograma detalhado é uma ferramenta que tem como objetivo organizar as atividades, os recursos e os prazos de um projeto de forma visual, neste caso, em tabelas. Os cronogramas a seguir foram construídos a partir das datas e prazos estimulados pelos integrantes do Projeto.</p>
+O cronograma detalhado é uma ferramenta que tem como objetivo organizar as atividades, os recursos e os prazos de um projeto de forma visual, neste caso, em tabelas. Os cronogramas a seguir foram construídos a partir das datas e prazos estimulados pelos integrantes do Projeto.</p>
 
 ## Cronograma Detalhado
 
