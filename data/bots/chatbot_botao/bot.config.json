@@ -1,0 +1,61 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "/api/v1/bots/chatbot_botao/media/7285ozohvbsbvz681aiz-WhatsApp%20Image%202024-02-26%20at%2017.06.24.jpeg",
+    "coverPictureUrl": "/api/v1/bots/chatbot_botao/media/yvgfy8pdjpfnb59eio5n-botinho.jpeg"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "",
+  "active": true,
+  "version": "12.31.6",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_audio",
+      "builtin_card",
+      "builtin_carousel",
+      "dropdown",
+      "builtin_file",
+      "builtin_image",
+      "builtin_location",
+      "builtin_single-choice",
+      "builtin_text",
+      "builtin_video"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "pt",
+  "languages": [
+    "pt"
+  ],
+  "id": "chatbot_botao",
+  "name": "Brasil Participativo - Chatbot",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2024-05-06T12:20:54.872Z",
+      "promoted_by": "system"
+    }
+  },
+  "messaging": {
+    "id": "fc662f1a-f3b9-4f87-822c-ce607b74ed30",
+    "token": "pALm9VIKr10Gw4O8LSHF4X4CMDZKPNZ5/iL2uXBDQyfPeOWEEsNAyk00CQrWGKP6C6IGZYfCgufqkR14Zk34ThAs"
+  }
+}

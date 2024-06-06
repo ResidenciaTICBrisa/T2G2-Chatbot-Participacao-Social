@@ -1,0 +1,21 @@
+{
+  "name": "conferencias_fechadas",
+  "utterances": {
+    "pt": [
+      "Quais conferências já estão encerradas?",
+      "Gostaria de saber sobre conferências que já terminaram.",
+      "Quais foram as últimas conferências encerradas?",
+      "Pode me informar quais conferências já fecharam as inscrições?",
+      "Estou procurando informações sobre conferências passadas, você pode ajudar?",
+      "Quero saber sobre conferências que não estão mais aceitando inscrições.",
+      "Existem conferências que já ocorreram este ano?",
+      "Quais eventos ou conferências já foram concluídos?",
+      "Quero uma lista de conferências encerradas recentemente.",
+      "Pode me dar detalhes sobre conferências que já encerraram?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

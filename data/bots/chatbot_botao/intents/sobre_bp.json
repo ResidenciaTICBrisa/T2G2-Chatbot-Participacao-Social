@@ -1,0 +1,42 @@
+{
+  "name": "sobre_bp",
+  "utterances": {
+    "pt": [
+      "O que é Brasil Participativo?",
+      "bp",
+      "Oq  é o bp?",
+      "Brasil Participativo",
+      "O que é isso?",
+      "Mais informações",
+      "Mais detalhes",
+      "Mais explicações",
+      "Quero mais informações",
+      "Como é isso?",
+      "Qual a finalidade?",
+      "Para que serve?",
+      "Qual serviço oferece?",
+      "Informações sobre a plataforma",
+      "Gostaria de saber mais sobre",
+      "Saber mais",
+      "Pode me explicar o que é Brasil Participativo?",
+      "O que posso esperar do Brasil Participativo?",
+      "O que faz o Brasil Participativo?",
+      "Poderia me dar detalhes sobre o Brasil Participativo?",
+      "O que engloba o Brasil Participativo?",
+      "Quais são os objetivos do Brasil Participativo?",
+      "Como funciona o Brasil Participativo?",
+      "Qual é a missão do Brasil Participativo?",
+      "Que tipo de serviços o Brasil Participativo oferece?",
+      "Qual é a importância do Brasil Participativo?",
+      "O que eu preciso saber sobre o Brasil Participativo?",
+      "Pode me contar mais sobre a iniciativa Brasil Participativo?",
+      "Quais são as principais atividades do Brasil Participativo?",
+      "Como posso usar o Brasil Participativo?",
+      "Quais benefícios o Brasil Participativo traz?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

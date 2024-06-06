@@ -1,0 +1,21 @@
+{
+  "name": "colegiados",
+  "utterances": {
+    "pt": [
+      "O que é um colegiado?",
+      "Pode explicar o que significa um colegiado?",
+      "Qual é o propósito de um colegiado?",
+      "Como funciona um colegiado?",
+      "O que acontece em um colegiado?",
+      "Quais são os objetivos de um colegiado?",
+      "Quem pode participar de um colegiado?",
+      "Que tipo de eventos são considerados colegiados?",
+      "Uma conferência é o mesmo que um colegiado?",
+      "Como são organizados os colegiados?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

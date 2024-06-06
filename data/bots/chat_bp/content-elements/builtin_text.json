@@ -1,0 +1,271 @@
+[
+  {
+    "id": "builtin_text-dwww2-",
+    "formData": {
+      "text$pt": "Seja bem-vindo(a) ao serviço virtual do Brasil Participativo. Para iniciar, poderia nos informar o seu nome?",
+      "markdown$pt": false,
+      "typing$pt": true,
+      "variations$pt": [
+        "Olá! Para darmos início, gostaríamos de saber o seu nome no atendimento virtual do Brasil Participativo.",
+        "Saudações! Para começarmos, seria possível você nos dizer qual é o seu nome?",
+        "Bem-vindo(a) ao suporte online do Brasil Participativo. Para nos ajudar, poderia nos fornecer o seu nome, por favor?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-17T17:50:29.370Z",
+    "modifiedOn": "2024-04-17T17:50:29.370Z"
+  },
+  {
+    "id": "builtin_text-cxMg13",
+    "formData": {
+      "text$pt": "Desculpe, acho que não sei nada sobre isso. Mas você pode me fazer uma nova pergunta ou entrar em contato pelo e:mail: participacaodigital@presidencia.gov.br",
+      "markdown$pt": false,
+      "typing$pt": true,
+      "variations$pt": [
+        "Desculpa, não entendi. Mas você pode me fazer uma nova pergunta ou entrar em contato pelo e:mail: participacaodigital@presidencia.gov.br"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-17T17:51:25.637Z",
+    "modifiedOn": "2024-04-22T01:33:42.430Z"
+  },
+  {
+    "id": "builtin_text-CnhBxd",
+    "formData": {
+      "text$pt": "Olá, pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+      "markdown$pt": true,
+      "typing$pt": true,
+      "variations$pt": [
+        "Saudações! Estou aqui para ajudar com suas dúvidas sobre o Brasil Participativo. Você pode me perguntar sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+        "Oi! Se tiver perguntas sobre o Brasil Participativo, sinta-se à vontade para perguntar. Eu posso ajudar com informações sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+        "Se precisa de informações sobre o Brasil Participativo, estou aqui para responder. Pergunte sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-18T14:05:35.371Z",
+    "modifiedOn": "2024-04-29T13:04:11.995Z"
+  },
+  {
+    "id": "builtin_text-rUfcmK",
+    "formData": {
+      "text$pt": "A Plataforma Brasil Participativo é a nova plataforma de participação social do governo federal, construída para que a população possa contribuir com a criação e melhoria das políticas públicas por meio de iniciativas do governo para a escuta à população. \nPodem participar cidadãs e cidadãos com cadastro no Gov.Br e pessoas estrangeiras.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-18T15:27:24.981Z",
+    "modifiedOn": "2024-04-22T00:05:31.112Z"
+  },
+  {
+    "id": "builtin_text-NMTi6Z",
+    "formData": {
+      "text$pt": "Para participar, basta entrar com seu login e senha do Gov.Br.\nA participação é feita de acordo com a iniciativa de participação social escolhida, podendo ser por meio de votos, submissão de propostas, projetos e/ou comentários.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T00:24:39.983Z",
+    "modifiedOn": "2024-04-22T00:24:39.983Z"
+  },
+  {
+    "id": "builtin_text-QxkO9b",
+    "formData": {
+      "text$pt": "Podem participar todos os cidadãos e cidadãs brasileiros com cadastro com Gov.Br e pessoas estrangeiras. ",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T00:33:17.645Z",
+    "modifiedOn": "2024-04-22T00:33:17.645Z"
+  },
+  {
+    "id": "builtin_text-rDLikq",
+    "formData": {
+      "text$pt": "A plataforma Brasil Participativo é integrada ao login único do Gov.Br. \nEm caso de perda de senha, dificuldade de acesso ou divergências nos dados cadastrais, solicite as informações de recuperação de senha e acesso através do endereço [atendimento gov.br](gov.br/atendimento)",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:03:00.245Z",
+    "modifiedOn": "2024-04-22T01:32:08.948Z"
+  },
+  {
+    "id": "builtin_text-XNNmAA",
+    "formData": {
+      "text$pt": "A participação social é participação da população na criação e melhoria das políticas públicas. Uma ação democrática participativa, onde a sociedade civil pode atuar nas políticas institucionais. Ela ocorre de diferentes formas e em diferentes meios. Podendo ser por meio de conselhos participativos, consultas públicas, iniciativas do governo para a escuta à população,  conferências nacionais, entre outros.\n\n\nNós, da Diretoria de Participação Digital e Comunicação em Rede, da Secretaria-Geral da Presidência da República, somos responsáveis por promover a participação social de forma digital à toda sociedade por meio das iniciativas abrigadas na Plataforma Brasil Participativo.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:10:49.739Z",
+    "modifiedOn": "2024-04-22T01:10:49.739Z"
+  },
+  {
+    "id": "builtin_text-PeS8Bb",
+    "formData": {
+      "text$pt": "É um mecanismo de participação social, de caráter consultivo, realizado com prazo definido e aberto a qualquer interessado, com o objetivo de receber contribuições sobre determinado assunto. Incentiva a participação da sociedade na tomada de decisões relativas à formulação e definição de políticas públicas.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:15:30.183Z",
+    "modifiedOn": "2024-04-22T01:15:30.183Z"
+  },
+  {
+    "id": "builtin_text-k0YgRN",
+    "formData": {
+      "text$pt": "Instância periódica de debate, de formulação e de avaliação sobre temas específicos e de interesse público, com a participação de representantes do governo e da sociedade civil, podendo contemplar etapas estaduais, distrital, municipais ou regionais, para propor diretrizes e ações acerca do tema tratado.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:17:52.008Z",
+    "modifiedOn": "2024-04-22T01:17:52.008Z"
+  },
+  {
+    "id": "builtin_text-nRvEBU",
+    "formData": {
+      "text$pt": "Mecanismo participativo de caráter presencial, consultivo, aberto a qualquer interessado, com a possibilidade de manifestação oral dos participantes, cujo objetivo é subsidiar decisões governamentais.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:21:21.505Z",
+    "modifiedOn": "2024-04-22T01:21:21.505Z"
+  },
+  {
+    "id": "builtin_text-Co0fTe",
+    "formData": {
+      "text$pt": "Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:23:27.084Z",
+    "modifiedOn": "2024-04-22T01:23:27.084Z"
+  },
+  {
+    "id": "builtin_text-s3gepK",
+    "formData": {
+      "text$pt": "Entenda todo processo do Plano Plurianual (PPA) por meio do link: https://brasilparticipativo.presidencia.gov.br/pages/relatoriodaplataforma",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T01:31:13.170Z",
+    "modifiedOn": "2024-04-22T01:31:13.170Z"
+  },
+  {
+    "id": "builtin_text-sy0xUj",
+    "formData": {
+      "text$pt": "Sua demanda foi atendida?",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T13:18:48.719Z",
+    "modifiedOn": "2024-04-22T13:18:48.719Z"
+  },
+  {
+    "id": "builtin_text-ljV0bI",
+    "formData": {
+      "text$pt": "Você tem outra dúvida?",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T13:37:09.788Z",
+    "modifiedOn": "2024-04-22T13:37:09.788Z"
+  },
+  {
+    "id": "builtin_text-G6nidS",
+    "formData": {
+      "text$pt": "Desculpe, pode ser que eu não tenha entendido sua pergunta. Deseja refazê-la?",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T13:48:07.705Z",
+    "modifiedOn": "2024-04-22T13:48:53.244Z"
+  },
+  {
+    "id": "builtin_text-behHnn",
+    "formData": {
+      "text$pt": "Agradecemos o seu contato e continuamos à disposição! Para acompanhar todas as atividades realizadas pelo Brasil Participativo, acesse https://brasilparticipativo.presidencia.gov.br/",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T13:51:14.059Z",
+    "modifiedOn": "2024-04-22T13:51:27.760Z"
+  },
+  {
+    "id": "builtin_text-QtUBGi",
+    "formData": {
+      "text$pt": "Digite sua dúvida por favor.",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T14:15:16.117Z",
+    "modifiedOn": "2024-04-22T14:15:16.117Z"
+  },
+  {
+    "id": "builtin_text-fUJozE",
+    "formData": {
+      "text$pt": "Confira as principais perguntas sobre os serviços relacionados ao Brasil Participativo (inserir link, da plataforma, de perguntas frequentes)",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T14:34:57.095Z",
+    "modifiedOn": "2024-04-22T14:34:57.095Z"
+  },
+  {
+    "id": "builtin_text-mi5Ap_",
+    "formData": {
+      "text$pt": "Por favor, entre em contato pelo e-mail: participacaodigital@presidencia.gov.br",
+      "markdown$pt": false,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-22T14:37:04.325Z",
+    "modifiedOn": "2024-04-22T14:37:04.325Z"
+  },
+  {
+    "id": "builtin_text-my9dhT",
+    "formData": {
+      "text$pt": "Uma enquete consiste do levantamento de opiniões e/ou percepções representativas de um grupo sobre um assunto de interesse geral que envolve um número restrito de entrevistados, podendo ser extrapolável para um grupo maior.",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-27T23:43:59.938Z",
+    "modifiedOn": "2024-04-27T23:43:59.938Z"
+  },
+  {
+    "id": "builtin_text-rSQWMw",
+    "formData": {
+      "text$pt": "Órgãos colegiados são instâncias consultivas e/ou deliberativas, compostas por representantes de diferentes setores públicos e também da sociedade civil, constituídos para tratar de temas específicos, de forma a subsidiar a atuação governamental e compatibilizar os interesses coletivos com as políticas públicas.",
+      "markdown$pt": true,
+      "typing$pt": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-28T16:31:45.872Z",
+    "modifiedOn": "2024-04-28T16:31:45.872Z"
+  },
+  {
+    "id": "builtin_text-M1O4OQ",
+    "formData": {
+      "text$pt": "Ok, pergunte-me sobre o Brasil Participativo. Posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual",
+      "markdown$pt": true,
+      "typing$pt": true,
+      "variations$pt": [
+        "Certo, posso responder sobre:\n- Acesso à plataforma\n- Participação na plataforma\n- Gov.br\n- Participação social\n- Consultas públicas\n- Conferências\n- Audiências públicas\n- Colegiados\n- Participação digital\n- Atendimento humano\n- Plano Plurianual"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-04-29T13:05:40.272Z",
+    "modifiedOn": "2024-04-29T13:05:40.272Z"
+  }
+]

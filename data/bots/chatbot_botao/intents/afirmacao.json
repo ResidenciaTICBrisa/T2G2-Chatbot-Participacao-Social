@@ -1,0 +1,23 @@
+{
+  "name": "afirmacao",
+  "utterances": {
+    "pt": [
+      "Com certeza",
+      "Claro",
+      "Obviamente",
+      "Definitivamente",
+      "Absolutamente",
+      "Concordo",
+      "Exato",
+      "Isso mesmo",
+      "Positivo",
+      "Sim",
+      "s",
+      "si"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

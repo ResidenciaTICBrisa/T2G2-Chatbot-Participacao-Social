@@ -1,0 +1,21 @@
+{
+  "name": "sobre_conferencia",
+  "utterances": {
+    "pt": [
+      "O que é uma conferência?",
+      "Pode explicar o que significa uma conferência?",
+      "Qual é o propósito de uma conferência?",
+      "Como funciona uma conferência?",
+      "O que acontece em uma conferência?",
+      "Quais são os objetivos de uma conferência?",
+      "Quem pode participar de uma conferência?",
+      "Que tipo de eventos são considerados conferências?",
+      "Uma conferência é o mesmo que um seminário?",
+      "Como são organizadas as conferências?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

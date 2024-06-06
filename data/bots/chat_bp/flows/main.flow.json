@@ -1,0 +1,439 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "first-entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "first-entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'saudacoes'",
+          "node": "node-opcoes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'none'",
+          "node": "node-misunderstand"
+        },
+        {
+          "condition": "true",
+          "node": "node-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CnhBxd"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "e7da5fc463",
+      "name": "node-misunderstand",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "first-entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-cxMg13"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "342d367929",
+      "name": "node-opcoes",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'sobre_bp'",
+          "conditionType": "intent",
+          "node": "node-sobre-bp"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'como_participar_conferencia'",
+          "conditionType": "intent",
+          "node": "node-como-participar"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'quem_participa'",
+          "conditionType": "intent",
+          "node": "node-quem-participa"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'dificuldades_de_acesso'",
+          "conditionType": "intent",
+          "node": "node-acesso"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'participacao_social'",
+          "conditionType": "intent",
+          "node": "node-participacao"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_consulta_publica'",
+          "conditionType": "intent",
+          "node": "node-sobre-consulta-p"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_conferencia'",
+          "conditionType": "intent",
+          "node": "node-sobre-conferencia"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_audiencia'",
+          "conditionType": "intent",
+          "node": "node-sobre-audiencia"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'atendimento_humano'",
+          "conditionType": "intent",
+          "node": "node-atendimento-humano"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'plano-pluri-anual'",
+          "conditionType": "intent",
+          "node": "node-ppa"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'duvidas_frequentes'",
+          "conditionType": "intent",
+          "node": "node-duvidas-frequentes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'identificacao_imprensa'",
+          "conditionType": "intent",
+          "node": "node-imprensa"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_enquete'",
+          "node": "node-enquetes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'colegiados'",
+          "node": "node-sobre-colegiados"
+        },
+        {
+          "condition": "true",
+          "node": "node-misunderstand"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "93a26827f4",
+      "name": "node-sobre-bp",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rUfcmK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b0fb6d6b2d",
+      "name": "node-satisfacao",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'afirmacao'",
+          "node": "node-intermediario"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negacao'",
+          "conditionType": "intent",
+          "node": "node-negacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sy0xUj"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "67c2ab991b",
+      "name": "node-como-participar",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NMTi6Z"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9a5563b83b",
+      "name": "node-quem-participa",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QxkO9b"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0b7ce3ef7a",
+      "name": "node-acesso",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rDLikq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4d8d0e9926",
+      "name": "node-participacao",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XNNmAA"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6a14730fda",
+      "name": "node-sobre-consulta-p",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PeS8Bb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9207eddd89",
+      "name": "node-sobre-conferencia",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-k0YgRN"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2b229cdb81",
+      "name": "node-sobre-audiencia",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-nRvEBU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "171aeab868",
+      "name": "node-atendimento-humano",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Co0fTe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "571aa9a997",
+      "name": "node-ppa",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-s3gepK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "44bba1356a",
+      "name": "node-negacao",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'afirmacao'",
+          "conditionType": "intent",
+          "node": "node-digite-duvida"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negacao'",
+          "conditionType": "intent",
+          "node": "node-encerramento"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-G6nidS"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "8bcce320f1",
+      "name": "node-encerramento",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-behHnn"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "219f5f0a23",
+      "name": "node-digite-duvida",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QtUBGi"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "22efe0766a",
+      "name": "node-duvidas-frequentes",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fUJozE"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "510c6c106e",
+      "name": "node-imprensa",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mi5Ap_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b7dc2ef199",
+      "name": "node-enquetes",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-my9dhT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "fb7a9001ed",
+      "name": "node-sobre-colegiados",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rSQWMw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6dc2a198e6",
+      "name": "node-intermediario",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-M1O4OQ"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    }
+  ]
+}

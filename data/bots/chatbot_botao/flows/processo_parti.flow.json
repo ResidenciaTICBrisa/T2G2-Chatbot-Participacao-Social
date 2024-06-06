@@ -1,0 +1,609 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "triggers": [],
+  "description": "",
+  "nodes": [
+    {
+      "id": "8e0c78c7cc",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-opcao-2"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-08da07",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-opcao-2",
+      "flow": "skills/choice-08da07.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-38lgtavyrx'] == \"1\"",
+          "node": "choice-plano-clima"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-38lgtavyrx'] == \"2\"",
+          "node": "choice-conferencias"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-38lgtavyrx'] == \"3\"",
+          "node": "choice-consulta"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-38lgtavyrx'] == \"4\"",
+          "node": "choice-enquetes"
+        },
+        {
+          "caption": "User picked [5]",
+          "condition": "temp['skill-choice-ret-38lgtavyrx'] == \"5\"",
+          "node": "choice-audiencias"
+        },
+        {
+          "caption": "User picked [6]",
+          "condition": "temp['skill-choice-ret-38lgtavyrx'] == \"6\"",
+          "node": "choice-colegiados"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-8a23e1",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-conferencias",
+      "flow": "skills/choice-8a23e1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"1\"",
+          "node": "node-oq-2"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"2\"",
+          "node": "node-como-2"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"3\"",
+          "node": "node-abertas2"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"4\"",
+          "node": "node-fechadas-2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "af3a238b89",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-consulta",
+      "flow": "skills/choice-8a23e1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"1\"",
+          "node": "node-oq-3"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"2\"",
+          "node": "node-como-3"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"3\"",
+          "node": "node-abertas-3"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"4\"",
+          "node": "node-fechadas-3"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "18a578b33f",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-enquetes",
+      "flow": "skills/choice-8a23e1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"1\"",
+          "node": "node-oq-4"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"2\"",
+          "node": "node-como-4"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"3\"",
+          "node": "node-abertas-4"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"4\"",
+          "node": "node-fechadas-4"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "075f3f5fd2",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-audiencias",
+      "flow": "skills/choice-8a23e1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"1\"",
+          "node": "node-oq-5"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"2\"",
+          "node": "node-como-5"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"3\"",
+          "node": "node-abertas-5"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"4\"",
+          "node": "node-fechada-5"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "3f9b1bc1e9",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-colegiados",
+      "flow": "skills/choice-8a23e1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"1\"",
+          "node": "node-oq-6"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"2\"",
+          "node": "node-como-6"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"3\"",
+          "node": "node-abertas-6"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"4\"",
+          "node": "node-fechadas-6"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8a21237069",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-plano-clima",
+      "flow": "skills/choice-8a23e1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"1\"",
+          "node": "node-oq-1"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"2\"",
+          "node": "node-como-1"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"3\"",
+          "node": "node-abertas-1"
+        },
+        {
+          "caption": "User picked [4]",
+          "condition": "temp['skill-choice-ret-mtix4ji08v'] == \"4\"",
+          "node": "node-fechadas-1-"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "640031857e",
+      "name": "node-oq-1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_WQJSw"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9016d19a3c",
+      "name": "node-como-1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-9AfX4e"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c0d17a4685",
+      "name": "node-abertas-1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-S5Ptmz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "39b5b98e98",
+      "name": "node-fechadas-1-",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hZ3113"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d1c59e2250",
+      "name": "node-oq-2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-v0pudn"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "51b06201ac",
+      "name": "node-como-2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dbp10Y"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f9f99d5985",
+      "name": "node-abertas2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GGbk_F"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ef31fb1730",
+      "name": "node-fechadas-2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-qFOJ9G"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ac35235b08",
+      "name": "node-oq-3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2_lbTz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2822b0fa66",
+      "name": "node-como-3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sAfXtD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d75a378501",
+      "name": "node-abertas-3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-r3QRm_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9430f6f90b",
+      "name": "node-fechadas-3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_a5c12"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "14b8c7e8a5",
+      "name": "node-oq-4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-FmFKMC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6102ae38c5",
+      "name": "node-abertas-4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yNfwVb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "dfff03512d",
+      "name": "node-como-4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1oKRIO"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a9465b3f0a",
+      "name": "node-oq-5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vivqDY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9fad376e8e",
+      "name": "node-fechadas-4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xfOjkq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4d5b931b2d",
+      "name": "node-como-5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LncbjC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "14ec037866",
+      "name": "node-abertas-5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-X_KBxh"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d40bfb14f2",
+      "name": "node-fechada-5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wkMlyF"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0395969f71",
+      "name": "node-oq-6",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OhX1pn"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "14c0842fc0",
+      "name": "node-como-6",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-znanor"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0c21947316",
+      "name": "node-fechadas-6",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1AmbaT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4d6c901945",
+      "name": "node-abertas-6",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json#choice-duvida_atendida"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kBZr4G"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

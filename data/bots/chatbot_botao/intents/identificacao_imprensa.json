@@ -1,0 +1,30 @@
+{
+  "name": "identificacao_imprensa",
+  "utterances": {
+    "pt": [
+      "Sou jornalista e gostaria de mais informações.",
+      "Como repórter, estou interessado em cobrir este evento.",
+      "Trabalho para um jornal e tenho algumas perguntas.",
+      "Estou aqui como membro da imprensa.",
+      "Sou editor e estou procurando por informações oficiais.",
+      "Como fotógrafo da imprensa, onde posso obter credenciais?",
+      "Sou blogueiro e estou investigando essa história.",
+      "Represento uma revista, podem me ajudar com algumas informações?",
+      "Trabalho em um canal de notícias, quem é o porta-voz?",
+      "Sou produtor de conteúdo para uma plataforma de mídia digital.",
+      "Estou preparando uma matéria, vocês têm um momento para uma entrevista?",
+      "Como correspondente, estou acompanhando os desenvolvimentos aqui.",
+      "Sou colunista e gostaria de discutir alguns pontos.",
+      "Trabalho para uma agência de notícias e quero saber mais sobre o evento.",
+      "Como crítico, estou interessado em sua perspectiva.",
+      "Estou aqui para um documentário, há alguém com quem eu possa falar?",
+      "Sou parte da equipe de uma emissora de TV, vocês têm um briefing de imprensa?",
+      "Como jornalista freelancer, estou aqui para entender melhor a situação.",
+      "Represento um portal de notícias e gostaria de um comentário oficial."
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

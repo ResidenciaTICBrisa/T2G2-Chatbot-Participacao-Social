@@ -1,0 +1,21 @@
+{
+  "name": "sobre_consulta_publica",
+  "utterances": {
+    "pt": [
+      "O que é uma consulta pública?",
+      "Pode explicar o que significa uma consulta pública?",
+      "Qual é o propósito de uma consulta pública?",
+      "Como funciona uma consulta pública?",
+      "O que acontece em uma consulta pública?",
+      "Quais são os objetivos de uma consulta pública?",
+      "Quem pode participar de uma consulta pública?",
+      "Que tipo de eventos são considerados consultas públicas?",
+      "Uma consulta pública é o mesmo que um seminário?",
+      "Como são organizadas as consultas públicas?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "first-entry",
+  "nodes": [
+    {
+      "id": "d74bf279cd",
+      "name": "first-entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'saudacoes'",
+          "conditionType": "intent",
+          "node": "node-saudacoes"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-misunderstand"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "ca3d93878b",
+      "name": "node-misunderstand",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "first-entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-cxMg13"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "ba1c44e815",
+      "name": "node-opcoes",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'sobre_bp'",
+          "conditionType": "intent",
+          "node": "node-sobre-bp"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'como_participar_conferencia'",
+          "conditionType": "intent",
+          "node": "node-como-participar"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'quem_participa'",
+          "conditionType": "intent",
+          "node": "node-quem-participa"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'dificuldades_de_acesso'",
+          "conditionType": "intent",
+          "node": "node-acesso"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'participacao_social'",
+          "conditionType": "intent",
+          "node": "node-participacao"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_consulta_publica'",
+          "conditionType": "intent",
+          "node": "node-sobre-consulta-p"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_conferencia'",
+          "conditionType": "intent",
+          "node": "node-sobre-conferencia"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'sobre_audiencia'",
+          "conditionType": "intent",
+          "node": "node-sobre-audiencia"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'atendimento_humano'",
+          "conditionType": "intent",
+          "node": "node-atendimento-humano"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'plano-pluri-anual'",
+          "conditionType": "intent",
+          "node": "node-ppa"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'duvidas_frequentes'",
+          "conditionType": "intent",
+          "node": "node-duvidas-frequentes"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'identificacao_imprensa'",
+          "conditionType": "intent",
+          "node": "node-imprensa"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "c2c04ba408",
+      "name": "node-saudacoes",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-intermediario"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dwww2-"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"nome_do_usuario\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a4b6cc22d6",
+      "name": "node-sobre-bp",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rUfcmK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5f58ffbe34",
+      "name": "node-intermediario",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CnhBxd"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9fbb04ae06",
+      "name": "node-satisfacao",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'afirmacao'",
+          "conditionType": "intent",
+          "node": "node-afirmacao"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negacao'",
+          "conditionType": "intent",
+          "node": "node-negacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sy0xUj"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "137b69d305",
+      "name": "node-afirmacao",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'afirmacao'",
+          "conditionType": "intent",
+          "node": "node-digite-duvida"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negacao'",
+          "conditionType": "intent",
+          "node": "node-encerramento"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ljV0bI"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "0ad03f7984",
+      "name": "node-como-participar",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NMTi6Z"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f8c424ddad",
+      "name": "node-quem-participa",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QxkO9b"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "790d9475ff",
+      "name": "node-acesso",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rDLikq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "06a3e8f17f",
+      "name": "node-participacao",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XNNmAA"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "933e64cb42",
+      "name": "node-sobre-consulta-p",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PeS8Bb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "28ba736472",
+      "name": "node-sobre-conferencia",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-k0YgRN"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7eeac5f383",
+      "name": "node-sobre-audiencia",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-nRvEBU"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "dda469a85d",
+      "name": "node-atendimento-humano",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Co0fTe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ddc09066b6",
+      "name": "node-ppa",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-s3gepK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "97457af0d1",
+      "name": "node-negacao",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'afirmacao'",
+          "conditionType": "intent",
+          "node": "node-digite-duvida"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'negacao'",
+          "conditionType": "intent",
+          "node": "node-encerramento"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-G6nidS"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "56648bb26d",
+      "name": "node-encerramento",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-behHnn"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "024befa3ef",
+      "name": "node-digite-duvida",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-opcoes"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QtUBGi"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "74339aa25f",
+      "name": "node-duvidas-frequentes",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-fUJozE"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "10e584dbad",
+      "name": "node-imprensa",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "node-satisfacao"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mi5Ap_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

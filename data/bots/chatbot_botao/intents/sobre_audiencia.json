@@ -1,0 +1,23 @@
+{
+  "name": "sobre_audiencia",
+  "utterances": {
+    "pt": [
+      "Audiência",
+      "Audiência Pública",
+      "O que é uma audiência pública?",
+      "Pode explicar o que significa uma audiência pública?",
+      "Qual é o propósito de uma audiência pública?",
+      "Como funciona uma audiência pública?",
+      "O que acontece em uma audiência pública?",
+      "Quais são os objetivos de uma audiência pública?",
+      "Quem pode participar de uma audiência pública?",
+      "Que tipo de eventos são considerados audiências públicas?",
+      "Uma audiência pública é o mesmo que um seminário?",
+      "Como são organizadas as audiências públicas?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
