@@ -1,5 +1,4 @@
-
-# **O Mínimo Produto Viável (MVP)**
+# **1º MVP - Versão Telegram**
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -10,10 +9,8 @@
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?utm_content=DAGB1eJv_gI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">MVP</a>
 
-<p align="center">
-  <img src="../images/Teste_chatbot.png" style="max-width: 100%;" />
-</p>
 
+![imagem_telegram](../images/Teste_chatbot.png)
 
 <p align="justify">&emsp;&emsp;O Mínimo Produto Viável (MVP) é uma abordagem essencial no desenvolvimento de produtos, cujo principal objetivo é criar uma versão inicial simplificada que entregue a proposta de valor central da ideia. Para esta finalidade, utilizamos a ferramenta Canva para a produção do MVP.</p>
 
@@ -53,6 +50,6 @@
 
 | Versão |    Data    |           Descrição            |      Autor      |
 |:------:|:----------:|:------------------------------:|:---------------:|
-|  1.0   | 28/03/2024 | Criação do histórico de versão | Gabriel Scheidt |
+|  1.0   | 28/03/2024 | Criação do documento           | Gabriel Scheidt |
 |  2.0   | 28/03/2024 |  Alteração de layout e do MVP  | Gabriel Scheidt |
 |  2.1   | 08/04/2024 |       Atualização do MVP       | Isaque Augusto  |

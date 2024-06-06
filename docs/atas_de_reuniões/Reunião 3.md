@@ -11,7 +11,7 @@
 - [Gabriel Scheidt](https://github.com/Gxaite)<br>
 - [Gabriel Pinto](https://github.com/GabrielSPinto)<br>
 - [Isaque Augusto](https://github.com/seraphritt)<br>
-- [Thiago Marques](https://github.com/ThiagoMarquesAeroespacial)<br>
+- [Thiago Marques](https://github.com/MarquesAerospace)<br>
 
 ### Objetivos:
 Encaminhamentos para a 3º semana

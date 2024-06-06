@@ -11,7 +11,7 @@
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)  
 - [Gabriel Santos Pinto](https://github.com/GabrielSPinto)  
 - [Isaque Augusto da Silva Santos](https://github.com/seraphritt)  
-- [Thiago Henrique Marques Rocha](https://github.com/ThiagoMarquesAeroespacial)  
+- [Thiago Henrique Marques Rocha](https://github.com/MarquesAerospace)  
 
 ### Objetivos:
 
