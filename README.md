@@ -119,13 +119,7 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
     git clone https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
 ```
 
-## Passo 3: Acessar a Branch 'botpress_nlu_duckling'
-
-1. Mude para a branch bot_telegram com o comando:
- ```bash
-    git checkout botpress_nlu_duckling'
-```
-## Passo 4: Configurar o Arquivo .env
+## Passo 3: Configurar o Arquivo .env
 1. Crie um arquivo .env no diretório raiz do projeto.
 2. Abra o arquivo .env com seu editor de texto preferido.
 3. Adicione a seguintes linhas ao arquivo .env e substitua os '*' pelas credenciais que deseja criar no botpress:
@@ -140,13 +134,13 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
     BOTPRESS_ADMIN_EMAIL= * #Email da conta administrador
     BOTPRESS_ADMIN_PASSWORD=* #Senha da conta administrador
     ```
-## Passo 5: Executar o docker compose
-Dentro da branch, de o seguinte comando para rodar o sistema:
+## Passo 4: Executar o docker compose
+De o seguinte comando para rodar o sistema:
 ```bash
     docker compose up
 ```
 
-## Passo 6: Acessar o sistema
+## Passo 5: Acessar o sistema
 Se tudo tiver sido da forma adequada, acesse o projeto através do 
 [http://localhost:3000](http://localhost:3000)
 
