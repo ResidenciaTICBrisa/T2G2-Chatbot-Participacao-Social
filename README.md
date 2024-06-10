@@ -107,8 +107,7 @@ Certifique-se de estar com o sistema atualizado, no terminal rode o seguinte com
 Antes de iniciar, certifique-se de que você tenha os seguintes softwares instalados na sua máquina:
 
 - Git [guia de instalação](https://git-scm.com/download/linux)
-- Docker [guia de instalação](https://docs.docker.com/desktop/install/ubuntu/)
-- Docker compose [guia de instalação](https://docs.docker.com/compose/install/)
+- Docker e docker compose [guia de instalação](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 ## Passo 2: Clonar o Repositório
 
