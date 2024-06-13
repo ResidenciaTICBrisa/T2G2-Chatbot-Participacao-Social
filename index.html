@@ -7,13 +7,13 @@
 </head>
 <body>
   <div>
-    <script src="http://164.41.98.13/assets/modules/channel-web/inject.js"></script>
+    <script src="http://192.168.3.30:3000/assets/modules/channel-web/inject.js"></script>
 
     <script>
         window.botpressWebChat.init({
-        host: "http://164.41.98.13",
-        botId: "bot_botao",
-        extraStylesheet: "http://164.41.98.13/assets/modules/channel-web/style.css",
+        host: "http://192.168.3.30:3000",
+        botId: "chatbot_botao",
+        extraStylesheet: "http://192.168.3.30:3000/assets/modules/channel-web/style.css",
         showPoweredBy: false})
         window.addEventListener('message', function(event) {
           if (event.data.name === 'webchatReady') {
