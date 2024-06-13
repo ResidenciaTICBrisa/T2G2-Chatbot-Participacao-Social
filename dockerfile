@@ -31,4 +31,4 @@ EXPOSE 3100
 EXPOSE 8000
 
 # Comando para iniciar o Botpress com Duckling e o serviço de linguagem
-CMD ["bash", "-c", "./duckling & ./bp lang --offline --dim 300 --langDir /botpress & ./bp"]
+CMD ["bash", "-c", "./duckling & ./bp lang --offline --dim 100 --langDir /botpress & ./bp"]
