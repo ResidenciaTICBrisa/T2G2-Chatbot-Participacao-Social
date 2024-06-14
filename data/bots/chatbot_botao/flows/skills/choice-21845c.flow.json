@@ -5,16 +5,16 @@
   },
   "startNode": "entry",
   "skillData": {
-    "randomId": "2c14871h5i",
+    "randomId": "8t8xwb80mf",
     "contentId": "builtin_single-choice-5153sr",
     "invalidContentId": "",
     "keywords": {
       "Retornar": [
-        "Retornar",
-        "Retornar ao menu anterior"
+        "1",
+        "Retorne ao menu anterior"
       ],
       "Encerrar": [
-        "Encerrar",
+        "2",
         "Encerrar atendimento"
       ]
     },
@@ -36,16 +36,16 @@
           "node": "parse"
         }
       ],
-      "id": "108312"
+      "id": "456175"
     },
     {
       "name": "parse",
       "onReceive": [
-        "basic-skills/choice_parse_answer {\"randomId\":\"2c14871h5i\",\"contentId\":\"builtin_single-choice-5153sr\",\"invalidContentId\":\"\",\"keywords\":{\"Retornar\":[\"Retornar\",\"Retornar ao menu anterior\"],\"Encerrar\":[\"Encerrar\",\"Encerrar atendimento\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+        "basic-skills/choice_parse_answer {\"randomId\":\"8t8xwb80mf\",\"contentId\":\"builtin_single-choice-5153sr\",\"invalidContentId\":\"\",\"keywords\":{\"Retornar\":[\"1\",\"Retorne ao menu anterior\"],\"Encerrar\":[\"2\",\"Encerrar atendimento\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
       ],
       "next": [
         {
-          "condition": "temp['skill-choice-valid-2c14871h5i'] === true",
+          "condition": "temp['skill-choice-valid-8t8xwb80mf'] === true",
           "node": "#"
         },
         {
@@ -63,16 +63,16 @@
         }
       ],
       "onEnter": [],
-      "id": "887830"
+      "id": "485856"
     },
     {
       "name": "invalid",
       "onEnter": [
-        "basic-skills/choice_invalid_answer {\"randomId\":\"2c14871h5i\"}"
+        "basic-skills/choice_invalid_answer {\"randomId\":\"8t8xwb80mf\"}"
       ],
       "next": [
         {
-          "condition": "Number(temp['skill-choice-invalid-count-2c14871h5i']) > Number(3)",
+          "condition": "Number(temp['skill-choice-invalid-count-8t8xwb80mf']) > Number(3)",
           "node": "#"
         },
         {
@@ -80,7 +80,7 @@
           "node": "sorry"
         }
       ],
-      "id": "018859"
+      "id": "301782"
     },
     {
       "name": "sorry",
@@ -91,7 +91,7 @@
           "node": "parse"
         }
       ],
-      "id": "839862"
+      "id": "295599"
     }
   ]
 }

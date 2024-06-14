@@ -16,14 +16,6 @@
       "2": [
         "2",
         "Como participar?"
-      ],
-      "3": [
-        "3",
-        "Plano Clima/PPA Participativo abertos/ativos"
-      ],
-      "4": [
-        "4",
-        "Plano Clima/PPA Participativo fechado/encerrados"
       ]
     },
     "config": {
@@ -44,12 +36,12 @@
           "node": "parse"
         }
       ],
-      "id": "200280"
+      "id": "056468"
     },
     {
       "name": "parse",
       "onReceive": [
-        "basic-skills/choice_parse_answer {\"randomId\":\"mtix4ji08v\",\"contentId\":\"builtin_single-choice-x9PZ0H\",\"invalidContentId\":\"\",\"keywords\":{\"1\":[\"1\",\"O que é?\"],\"2\":[\"2\",\"Como participar?\"],\"3\":[\"3\",\"Plano Clima/PPA Participativo abertos/ativos\"],\"4\":[\"4\",\"Plano Clima/PPA Participativo fechado/encerrados\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+        "basic-skills/choice_parse_answer {\"randomId\":\"mtix4ji08v\",\"contentId\":\"builtin_single-choice-x9PZ0H\",\"invalidContentId\":\"\",\"keywords\":{\"1\":[\"1\",\"O que é?\"],\"2\":[\"2\",\"Como participar?\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
       ],
       "next": [
         {
@@ -71,7 +63,7 @@
         }
       ],
       "onEnter": [],
-      "id": "122620"
+      "id": "192223"
     },
     {
       "name": "invalid",
@@ -88,7 +80,7 @@
           "node": "sorry"
         }
       ],
-      "id": "797525"
+      "id": "367893"
     },
     {
       "name": "sorry",
@@ -99,7 +91,7 @@
           "node": "parse"
         }
       ],
-      "id": "451245"
+      "id": "483399"
     }
   ]
 }

@@ -5,7 +5,7 @@
       "dropdownPlaceholder$pt": "Select...",
       "choices$pt": [
         {
-          "title": "O que é o Brasil Participativo",
+          "title": "O que é o Brasil Participativo?",
           "value": "1"
         },
         {
@@ -18,29 +18,29 @@
         },
         {
           "value": "4",
-          "title": "Perguntas frequentes"
+          "title": "Represento um órgão da Adminstração Pública Federal"
         },
         {
-          "title": "Outros assuntos",
+          "title": "Sou da imprensa",
           "value": "5"
         },
         {
-          "title": "Sou da impresa",
+          "title": "Dúvidas/Sugestões/Elogios",
           "value": "6"
         },
         {
-          "value": "7",
-          "title": "Sou representante de um órgão público"
+          "title": "Encerrar Atendimento",
+          "value": "7"
         }
       ],
       "markdown$pt": true,
       "disableFreeText$pt": false,
       "typing$pt": true,
-      "text$pt": "Selecione a opção que deseja acessar."
+      "text$pt": "Selecione a opção que deseja acessar:"
     },
     "createdBy": "admin",
     "createdOn": "2024-04-29T13:51:40.608Z",
-    "modifiedOn": "2024-04-29T14:46:37.826Z"
+    "modifiedOn": "2024-06-05T15:19:56.952Z"
   },
   {
     "id": "builtin_single-choice-Lj5Esn",
@@ -48,28 +48,32 @@
       "dropdownPlaceholder$pt": "Select...",
       "choices$pt": [
         {
-          "title": "Plano Clima/PPA Participativo",
+          "title": "PPA Participativo",
           "value": "1"
         },
         {
-          "title": "Confências",
+          "title": "O Brasil Unido Pelo Rio Grande do Sul",
           "value": "2"
         },
         {
-          "title": "Consultas Públicas",
+          "title": "Plano Clima",
           "value": "3"
         },
         {
-          "title": "Enquetes",
+          "title": "Conferências",
           "value": "4"
         },
         {
-          "title": "Audiências Públicas",
+          "title": "Consultas Públicas",
           "value": "5"
         },
         {
-          "title": "Colegiados",
+          "title": "Retorne ao menu anterior",
           "value": "6"
+        },
+        {
+          "title": "Encerrar atendimento",
+          "value": "7"
         }
       ],
       "markdown$pt": true,
@@ -79,7 +83,7 @@
     },
     "createdBy": "admin",
     "createdOn": "2024-04-29T14:21:53.006Z",
-    "modifiedOn": "2024-04-29T15:23:23.684Z"
+    "modifiedOn": "2024-06-05T15:57:52.591Z"
   },
   {
     "id": "builtin_single-choice-5153sr",
@@ -87,22 +91,22 @@
       "dropdownPlaceholder$pt": "Select...",
       "choices$pt": [
         {
-          "title": "Sim",
-          "value": "sim"
+          "title": "Retorne ao menu anterior",
+          "value": "Retornar"
         },
         {
-          "title": "Não",
-          "value": "não"
+          "title": "Encerrar atendimento",
+          "value": "Encerrar"
         }
       ],
       "markdown$pt": true,
       "disableFreeText$pt": false,
       "typing$pt": true,
-      "text$pt": "Sua dúvida foi atendida?"
+      "text$pt": "O que deseja fazer agora?"
     },
     "createdBy": "admin",
     "createdOn": "2024-04-29T14:28:01.069Z",
-    "modifiedOn": "2024-04-29T14:28:01.069Z"
+    "modifiedOn": "2024-06-05T16:03:56.502Z"
   },
   {
     "id": "builtin_single-choice-zvOoAA",
@@ -271,23 +275,103 @@
         {
           "title": "Como participar?",
           "value": "2"
-        },
-        {
-          "title": "Plano Clima/PPA Participativo abertos/ativos",
-          "value": "3"
-        },
-        {
-          "title": "Plano Clima/PPA Participativo fechado/encerrados",
-          "value": "4"
         }
       ],
       "markdown$pt": true,
       "disableFreeText$pt": false,
       "typing$pt": true,
-      "text$pt": "Sobre o Plano Clima/PPA Participativo"
+      "text$pt": "Sobre o PPA Participativo"
     },
     "createdBy": "admin",
     "createdOn": "2024-04-29T15:41:58.451Z",
-    "modifiedOn": "2024-04-29T15:41:58.451Z"
+    "modifiedOn": "2024-06-05T15:46:23.924Z"
+  },
+  {
+    "id": "builtin_single-choice-6EYIE9",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Brasil Unido Pelo Rio Grande do Sul"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-06-04T14:34:36.437Z",
+    "modifiedOn": "2024-06-04T14:34:36.437Z"
+  },
+  {
+    "id": "builtin_single-choice-EINZm0",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre o Plano Clima"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-06-05T15:47:36.906Z",
+    "modifiedOn": "2024-06-05T15:49:04.974Z"
+  },
+  {
+    "id": "builtin_single-choice-Uc2Rqk",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre Conferências"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-06-05T15:50:57.062Z",
+    "modifiedOn": "2024-06-05T15:50:57.062Z"
+  },
+  {
+    "id": "builtin_single-choice-adJaHn",
+    "formData": {
+      "dropdownPlaceholder$pt": "Select...",
+      "choices$pt": [
+        {
+          "title": "O que é?",
+          "value": "1"
+        },
+        {
+          "title": "Como participar?",
+          "value": "2"
+        }
+      ],
+      "markdown$pt": true,
+      "disableFreeText$pt": false,
+      "typing$pt": true,
+      "text$pt": "Sobre Consultas Públicas"
+    },
+    "createdBy": "admin",
+    "createdOn": "2024-06-05T15:52:13.588Z",
+    "modifiedOn": "2024-06-05T15:55:37.962Z"
   }
 ]

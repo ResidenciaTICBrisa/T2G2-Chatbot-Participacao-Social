@@ -8,8 +8,8 @@
     "emailAddress": "",
     "termsConditions": "",
     "privacyPolicy": "",
-    "avatarUrl": "/api/v1/bots/chatbot_botao/media/7285ozohvbsbvz681aiz-WhatsApp%20Image%202024-02-26%20at%2017.06.24.jpeg",
-    "coverPictureUrl": "/api/v1/bots/chatbot_botao/media/yvgfy8pdjpfnb59eio5n-botinho.jpeg"
+    "avatarUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/7285ozohvbsbvz681aiz-WhatsApp%20Image%202024-02-26%20at%2017.06.24.jpeg",
+    "coverPictureUrl": "/api/v1/bots/BOT_ID_PLACEHOLDER/media/yvgfy8pdjpfnb59eio5n-botinho.jpeg"
   },
   "$schema": "../../bot.config.schema.json",
   "description": "",
@@ -45,17 +45,17 @@
   "languages": [
     "pt"
   ],
-  "id": "chatbot_botao",
-  "name": "Brasil Participativo - Chatbot",
+  "id": "chatbot_botao_def",
+  "name": "Brasil Participativo - Chatbot (chatbot_botao_def)",
   "pipeline_status": {
     "current_stage": {
       "id": "prod",
-      "promoted_on": "2024-05-06T12:20:54.872Z",
+      "promoted_on": "2024-06-05T13:49:04.355Z",
       "promoted_by": "system"
     }
   },
   "messaging": {
-    "id": "fc662f1a-f3b9-4f87-822c-ce607b74ed30",
-    "token": "pALm9VIKr10Gw4O8LSHF4X4CMDZKPNZ5/iL2uXBDQyfPeOWEEsNAyk00CQrWGKP6C6IGZYfCgufqkR14Zk34ThAs"
+    "id": "ba20cdea-bea0-4697-b8e1-a804c707ca04",
+    "token": "NPTzRFcEUcLTOBqxltHvhO9flyXHyV24n9G+jSHx6CCDgE3PNNhA3SVlTjEQG3r4JHMja6hL/voaQZKJMdRPdILH"
   }
 }
