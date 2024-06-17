@@ -125,9 +125,13 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 
     ```bash
     #Credenciais do postgres
+    POSTGRES_DB= * #Nome do dbanco de dados
     POSTGRES_USER= * #Usuário postgress
     POSTGRES_PASSWORD= * #Senha do usuário postgres
-    POSTGRES_DB= * #Nome do dbanco de dados
+
+    #Credenciais da conta de administrador do pgadmin
+    PGADMIN_DEFAULT_EMAIL= * #email do usuário pgadmin
+    PGADMIN_DEFAULT_PASSWORD= * #Senha do usuário pgadmin
 
     #Credencias da conta administrador do botpress
     BOTPRESS_ADMIN_EMAIL= * #Email da conta administrador
