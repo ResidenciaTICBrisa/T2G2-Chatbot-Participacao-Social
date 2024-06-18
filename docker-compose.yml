@@ -16,6 +16,8 @@ services:
     depends_on:
       - postgres
     restart: always
+    volumes:
+      - botpress_data:/botpress/data
     
   postgres:
     image: postgres:16.2
@@ -47,4 +49,5 @@ services:
 volumes:
   postgres_data:
   pgadmin_data:
+  botpress_data:
 
