@@ -174,7 +174,7 @@ a {
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   background: #000000;
-  border: 3px solid #ffffff;
+  border: 0.1px solid #bbbbbb;
 }
 
 /* Styling for the general scrollbar in the web page */
