@@ -12,7 +12,7 @@ services:
     environment:
       BOTPRESS_ADMIN_EMAIL: ${BOTPRESS_ADMIN_EMAIL}
       BOTPRESS_ADMIN_PASSWORD: ${BOTPRESS_ADMIN_PASSWORD}
-      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@192.168.3.22:5432/${POSTGRES_DB}
     depends_on:
       - postgres
     restart: always
