@@ -48,12 +48,10 @@ p,
 /* Styling for the chat bubble content */
 .bpw-chat-bubble-content {
   background-color: #f5f5f5;
-  border-radius: 3px;
-  border: 1px transparent;
+  border-radius: 0px;
 }
 
 /* Styling for the date container, header name, and header subtitle */
-.bpw-date-container,
 .bpw-header-name,
 .bpw-header-subtitle {
   color: #ffffff;
