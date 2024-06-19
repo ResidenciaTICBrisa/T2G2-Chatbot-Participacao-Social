@@ -1,5 +1,5 @@
 /* This CSS rule sets the default font size of the entire document */
-/* gov_blue: #183eff */
+/* gov_blue: #1351b4 */
 /* editado 7/05 10:31 */
 html {
   font-size: 16px;
@@ -21,13 +21,13 @@ p,
 /* Changes the color of the new message indicator */
 .bpw-new-messages-indicator {
   background-color: #f5f5f5;
-  color: #183eff;
+  color: #1351b4;
 }
 
 /* Styling for the chat header container */
 .bpw-header-container {
   margin: 10px;
-  background: #183eff;
+  background: #1351b4;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -129,9 +129,9 @@ a {
 
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   scrollbar-width: thin;
-  scrollbar-color: #f5f5f5 #ffffff;
+  scrollbar-color: #f5f5f5 #f5f5f5;
   border: none;
 }
 
@@ -220,7 +220,7 @@ a {
 }
 
 .bpw-send-button{
-  background: #183eff;
+  background: #1351b4;
   color: #ffffff;
 }
 
@@ -231,7 +231,7 @@ a {
 /* Change Bot Widget Icon */
 @keyframes fadeColor {
   0% {
-    background: #183eff; /* Start color */
+    background: #1351b4; /* Start color */
   }
   100% {
     background: #3C3C3C; /* End color */
@@ -239,7 +239,7 @@ a {
 }
 .bpw-widget-btn{
   border-radius: 50%;
-  background:#183eff;
+  background:#1351b4;
 }
 
 /* .bpw-widget-btn:hover{

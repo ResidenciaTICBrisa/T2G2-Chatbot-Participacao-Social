@@ -50,7 +50,7 @@ body {
 }
 
 .bpw-widget-btn {
-  background-color: #183EFF;  /* Original dark blue color */
+  background-color: #1351b4;  /* Original dark blue color */
 }
 
 .bpw-message-read-more {
@@ -66,7 +66,7 @@ body {
   text-decoration: underline;
 }
 .bpw-widget-btn:focus, .bpw-widget-btn:hover {
-  background-color: #183EFF;
+  background-color: #1351b4;
 }
 .bpw-chat-container {
   background-color: #ffffff;
