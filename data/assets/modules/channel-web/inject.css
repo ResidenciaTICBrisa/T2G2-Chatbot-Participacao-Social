@@ -16,12 +16,12 @@
 }
 
 .bp-widget-widget {
-  top: auto;
-  left: auto;
-  bottom: 24px;
-  right: 36px;
-  width: 76px !important;
-  height: 76px !important;
+    left: auto;
+    top: auto;
+    bottom: 20%;
+    right: 36px;
+    width: 76px !important;
+    height: 76px !important;
 }
 
 .bp-widget-hidden {
