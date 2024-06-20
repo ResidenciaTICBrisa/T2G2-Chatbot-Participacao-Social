@@ -1,6 +1,6 @@
 /* This CSS rule sets the default font size of the entire document */
 /* gov_blue: #1351b4 */
-/* editado 19/06 */
+/* editado 20/06 */
 html {
   font-size: 16px;
 }
@@ -62,7 +62,7 @@ p,
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
-  width: 360px !important;
+  width: 95%;
   height: 82%;
   border-radius: 10px;
   right: 10px;
@@ -70,9 +70,9 @@ p,
   border: 1px;
 }
 /* Responsive design rules for devices with width less than or equal to 767px */
-@media screen and (max-device-width: 767px) {
+@media (max-height: 920px) {
   .bpw-layout {
-    width: 100% !important;
+    width: 100%;
     height: 100%;
     right: 0;
     bottom: 0;
@@ -209,8 +209,8 @@ a {
 .bpw-powered {
   text-align: center;
   padding: 10px;
-  color: #000000;
-  background: #ffffff;
+  color: #ffffff;
+  background: #1351B4;
   font-size: 14px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
