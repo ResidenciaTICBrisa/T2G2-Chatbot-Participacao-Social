@@ -100,7 +100,7 @@ As seguintes issues foram feitas nessa sprint:
     <li>Refatorar o Storymap <a href="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/59">#59</a></li>
     <li>Refatorar o MVP <a href="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/60">#60</a></li>
     <li>PR da primeira release para a main <a href="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/61">#61</a></li>
-    <li>Telebot integration<a href="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/62">#62</a></li>
+    <li>Telebot integration<a href="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/62"> #62</a></li>
 </ul>
 </details>
 
@@ -112,4 +112,4 @@ As seguintes issues foram feitas nessa sprint:
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
 |  1.0   | 28/03/2024 |           Criação do histórico de versão              |  Gabriel Scheidt |
 |  1.1   | 02/04/2024 |           Inserção do link para as issues             |  Arthur Taylor   |
-|  1.2   | 02/04/2024 |           Inserção da 4ª Sprint                       |  Thiago Marques  |
+|  1.2   | 21/06/2024 |           Inserção da 4ª Sprint                       |  Thiago Marques  |
