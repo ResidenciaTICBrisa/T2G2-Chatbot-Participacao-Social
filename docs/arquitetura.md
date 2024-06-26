@@ -1,6 +1,6 @@
 # Arquitetura
 
-Este documento busca elucidar um pouco maissobre como estará estruturada a arquitetura do bot em desenvolvimento pela equipe, fornecendo uma visualização de como utilizaremos as tecnlogias em busca da resoução do problema em nosso escopo.
+Este documento busca elucidar um pouco mais sobre como estará estruturada a arquitetura do bot em desenvolvimento pela equipe, fornecendo uma visualização de como utilizaremos as tecnlogias em busca da resoução do problema em nosso escopo.
 
 #### Diagrama
 
@@ -31,3 +31,4 @@ O grupo decidiu pela utilização da ferramenta "Botpress" como a principal ferr
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
 |  1.0   | 06/05/2024 |                  Criação do documento                 |  Arthur Taylor   |
+|  1.0   | 26/06/2024 |    Atualização do diagrama e corrige português        |  Arthur Taylor   |
