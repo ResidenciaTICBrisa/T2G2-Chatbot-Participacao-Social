@@ -88,13 +88,13 @@
     </tr>
     <tr>
         <td>RF12</td>
-        <td>O chatbot deve receber áudios em português, entendê-los e responder em texto ou áudio</td>
-        <td>US17</td>
-    </tr>
-    <tr>
-        <td>RF13</td>
         <td>O chatbot deve ser capaz de fornecer um e-mail de endereço de contato caso a dúvida do usuário não seja respondida</td>
         <td>US19</td>
+    </tr>
+        <tr>
+        <td>RF13</td>
+        <td>O chatbot deve ser navegado através de botões na tela</td>
+        <td>US18</td>
     </tr>
     <tr>
         <td rowspan="10" colspan="3">Não Funcionais</td>
@@ -147,7 +147,10 @@
         <td>O chatbot deve ter uma identidade visual agradável</td>
         <td>US18</td>
     </tr>
-
+        <tr>
+        <td>RNF11</td>
+        <td>O chatbot deve ter a logo do brasil participativo</td>
+        <td>US18</td>
 </table>
 
 
