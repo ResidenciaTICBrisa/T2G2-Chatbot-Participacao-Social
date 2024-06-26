@@ -31,4 +31,4 @@ O grupo decidiu pela utilização da ferramenta "Botpress" como a principal ferr
 | Versão |    Data    |                       Descrição                       |      Autor       |
 | :----: | :--------: | :---------------------------------------------------: | :--------------: |
 |  1.0   | 06/05/2024 |                  Criação do documento                 |  Arthur Taylor   |
-|  1.0   | 26/06/2024 |    Atualização do diagrama e corrige português        |  Arthur Taylor   |
+|  1.1   | 26/06/2024 |    Atualização do diagrama e corrige português        |  Arthur Taylor   |
