@@ -147,3 +147,9 @@ De o seguinte comando para rodar o sistema:
 Se tudo tiver sido da forma adequada, acesse o projeto através do 
 [http://localhost:3000](http://localhost:3000)
 
+## Documentação
+- [Cronograma](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/cronogramas/Cronograma%20Detalhado/)
+- [Backlog do produto](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/backlog/)
+- [Releases](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/releases/release1/)
+- [Arquitetura](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/arquitetura/)
+- [Atas de reunião](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/atas_de_reuni%C3%B5es/Reuni%C3%A3o%2001/)
