@@ -14,13 +14,13 @@
         host: "https://hml-bp-embedded-chatbot.lappis.rocks",
         botId: "chatbot_botao_v2_18_06",
         extraStylesheet: "https://hml-bp-embedded-chatbot.lappis.rocks/assets/modules/channel-web/style.css",
+        layoutWidth: "-",
         showPoweredBy: false,
         enableTranscriptDownload: false,
         enableConversationDeletion: false,
         enableReset: false,
         showConversationsButton: false,
-        enablePersistHistory: false,
-        useSessionStorage: true})
+        enablePersistHistory: false})
         window.addEventListener('message', function(event) {
           if (event.data.name === 'webchatReady') {
             window.botpressWebChat.sendEvent({
