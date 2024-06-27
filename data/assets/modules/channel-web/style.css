@@ -1,6 +1,6 @@
 /* This CSS rule sets the default font size of the entire document */
 /* gov_blue: #1351b4 */
-/* editado 20/06 */
+/* editado 27/06 */
 html {
   font-size: 16px;
 }
@@ -62,8 +62,8 @@ p,
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
-  width: 95%;
-  height: 82%;
+  width: 92%;
+  height: 75%;
   border-radius: 10px;
   right: 10px;
   bottom: 5px;
