@@ -1,0 +1,31 @@
+{
+  "name": "duvidas_frequentes",
+  "utterances": {
+    "pt": [
+      "Quais são as perguntas mais frequentes que você pode responder?",
+      "O que você pode me dizer?",
+      "Quais dúvidas você pode esclarecer?",
+      "O que este bot é capaz de fazer?",
+      "Quais perguntas você pode responder?",
+      "O que você sabe responder?",
+      "Como você pode me ajudar?",
+      "Que tipo de informações você pode fornecer?",
+      "Quais são as suas funcionalidades?",
+      "Quais questões você geralmente responde?",
+      "Pode me mostrar as dúvidas frequentes?",
+      "Quais são as principais perguntas que as pessoas fazem?",
+      "O que as pessoas geralmente perguntam aqui?",
+      "Quais serviços você oferece?",
+      "O que posso perguntar para você?",
+      "Que perguntas você está programado para responder?",
+      "Quais são as informações que você pode me dar?",
+      "Quais tópicos você cobre?",
+      "O que as pessoas costumam perguntar a você?",
+      "Quais são os temas mais abordados neste chat?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

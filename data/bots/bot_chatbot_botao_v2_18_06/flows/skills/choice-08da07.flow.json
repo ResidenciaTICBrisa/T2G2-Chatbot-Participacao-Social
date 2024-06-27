@@ -1,0 +1,117 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "38lgtavyrx",
+    "contentId": "builtin_single-choice-Lj5Esn",
+    "invalidContentId": "",
+    "keywords": {
+      "1": [
+        "1",
+        "PPA Participativo"
+      ],
+      "2": [
+        "2",
+        "Brasil Unido Pelo RS"
+      ],
+      "3": [
+        "3",
+        "Plano Clima"
+      ],
+      "4": [
+        "4",
+        "Conferências"
+      ],
+      "5": [
+        "5",
+        "Consultas públicas"
+      ],
+      "6": [
+        "6",
+        "Retorne ao menu anterior"
+      ],
+      "7": [
+        "7",
+        "Encerrar atendimento"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false,
+      "variableName": ""
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-Lj5Esn {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "280375"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"38lgtavyrx\",\"contentId\":\"builtin_single-choice-Lj5Esn\",\"invalidContentId\":\"\",\"keywords\":{\"1\":[\"1\",\"PPA Participativo\"],\"2\":[\"2\",\"Brasil Unido Pelo RS\"],\"3\":[\"3\",\"Plano Clima\"],\"4\":[\"4\",\"Conferências\"],\"5\":[\"5\",\"Consultas públicas\"],\"6\":[\"6\",\"Retorne ao menu anterior\"],\"7\":[\"7\",\"Encerrar atendimento\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-38lgtavyrx'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "id": "always"
+            }
+          ]
+        }
+      ],
+      "onEnter": [],
+      "id": "100233"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"38lgtavyrx\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-38lgtavyrx']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "418183"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "647100"
+    }
+  ]
+}

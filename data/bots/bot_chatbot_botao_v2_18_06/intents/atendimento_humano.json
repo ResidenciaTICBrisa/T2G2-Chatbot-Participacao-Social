@@ -1,0 +1,22 @@
+{
+  "name": "atendimento_humano",
+  "utterances": {
+    "pt": [
+      "Falar com um atendente",
+      "Atendimento",
+      "Atendimento ao usuário",
+      "Gostaria de atendimento",
+      "Preciso de ajuda",
+      "Preciso de orientação",
+      "Suporte",
+      "Assistência",
+      "Auxílio",
+      "Quero conversar com alguém",
+      "Falar com uma pessoa"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

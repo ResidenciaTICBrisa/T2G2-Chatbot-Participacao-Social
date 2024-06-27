@@ -1,0 +1,21 @@
+{
+  "name": "representante_publico",
+  "utterances": {
+    "pt": [
+      "Sou representante de um órgão da administração pública federal.",
+      "Estou aqui como representante de uma entidade federal.",
+      "Identifico-me como funcionário do governo federal.",
+      "Represento um órgão federal.",
+      "Faço parte da administração pública federal.",
+      "Sou um oficial de um órgão governamental federal.",
+      "Estou atuando em nome de uma agência federal.",
+      "Como representante de um departamento federal, preciso de assistência.",
+      "Sou membro de uma instituição pública federal.",
+      "Trabalho para o governo federal e gostaria de mais informações."
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
