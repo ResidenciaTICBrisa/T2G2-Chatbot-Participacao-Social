@@ -14,14 +14,12 @@ services:
       BOTPRESS_ADMIN_EMAIL: ${BOTPRESS_ADMIN_EMAIL}
       BOTPRESS_ADMIN_PASSWORD: ${BOTPRESS_ADMIN_PASSWORD}
       DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
-      # postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@<SUSTITUIR POR IP>:5432/${POSTGRES_DB}
-    depends_on: #comentar esse depends_on
+    depends_on:
       - postgres
     restart: always
     volumes:
       - ${PWD}/data:/botpress/data
  
-  # comentar essa parte do postgres para subir na vm
   postgres:
     image: postgres:16.2
     container_name: postgres_db_bp
@@ -35,7 +33,6 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
     restart: always 
 
-  #comentar essa parte do pgadmin para subir na vm
   pgadmin:
     image: dpage/pgadmin4:8.8
     container_name: pgadmin
@@ -52,11 +49,5 @@ services:
 
 volumes:
   postgres_data:
-   #comentar esse volume
-  pgadmin_data: #comentar esse volume 
-  botpress_data: # Persistência de dados do Botpress
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ${PWD}/data # Montando o diretório local "data"
+  pgadmin_data: 
+  botpress_data:
