@@ -3,7 +3,7 @@
   display: block;
   position: fixed;
   visibility: none;
-  z-index: 20;
+  z-index: 5001;
   max-height: 100vh;
   max-width: 100vw;
   transition: none;
@@ -16,12 +16,12 @@
 }
 
 .bp-widget-widget {
-  top: auto;
-  left: auto;
-  bottom: 24px;
-  right: 36px;
-  width: 76px !important;
-  height: 76px !important;
+    left: auto;
+    top: auto;
+    bottom: 10%;
+    right: 1.82%;
+    width: 76px !important;
+    height: 76px !important;
 }
 
 .bp-widget-hidden {
