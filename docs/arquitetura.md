@@ -19,7 +19,7 @@ Atualmente o Brasil Partivipativo conta com um suporte a dúvidas extremamente l
 
 ### Nossa solução
 
-Nossa solução é a implementação de um chatbot para que possamos dar respostas mais ágeis para as pessoas que gostariam de utilizar a plataforma mas acabam com eventuais dúvidas, não sendo nescessário a espera pela resposta de um email para que o usuário tenha sua duvida sanada.
+Nossa solução é a implementação de um chatbot para que possamos dar respostas mais ágeis para as pessoas que gostariam de utilizar a plataforma mas acabam com eventuais dúvidas, não sendo nescessário a espera pela resposta de um email para que o usuário tenha sua dúvida sanada.
 
 #### Tecnologia utilizada
 
