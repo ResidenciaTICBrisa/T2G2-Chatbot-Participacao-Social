@@ -140,7 +140,7 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 ## Passo 4: Executar o docker compose
 De o seguinte comando para rodar o sistema:
 ```bash
-    docker compose up
+    docker compose -f docker-compose-local.yml up
 ```
 
 ## Passo 5: Acessar o sistema
