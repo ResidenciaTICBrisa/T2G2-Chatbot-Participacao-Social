@@ -7,25 +7,23 @@
 | ID   | Eu, como | Quero / Preciso / Devo / Gostaria de                                                                    | Para                                                                                                 |
 |------|----------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | US01 | Usuário  | Poder conversar com o Chatbot                                                                           | Tirar dúvidas sobre a plataforma Brasil Participativo                                                |
-| US02 | Usuário  | Ter uma conversa natural e humanizada com o chatbot                                                     | Ter uma experiência mais agradável                                                                   |   
-| US03 | Usuário  | Que o chatbot me fornecesse links para páginas específicas dentro da Plataforma do Brasil Participativo | Encontrar informações relevantes de forma rápida e fácil                                             |
-| US04 | Usuário  | Que o chatbot mantivesse a mesma conversa em abas diferentes                                            | Poder continuar interagindo enquanto eu realizo outras atividades                                    |
-| US05 | Usuário  | Que o chatbot me permitisse enviar feedback e sugestões de melhorias para o Brasil Participativo        | Contribuir para o aprimoramento da plataforma                                                        |
-| US06 | Usuário  | Que o chatbot fosse acessível através de um widget em todas as páginas                                  | Obter acesso rápido e fácil ao suporte enquanto navego pelo site do Brasil Participativo             |
-| US07 | Usuário  | Que o chatbot fosse responsivo e me respondesse em menos de 2 minutos                                   | Obter assistência rápida sempre que precisar                                                         |
-| US08 | Usuário  | Que o chatbot funcionasse nos principais navegadores: Opera, Firefox e Chrome                           | Poder acessar o Brasil Participativo independentemente do navegador que estou utilizando             |
-| US09 | Usuário  | Que o chatbot aderisse às políticas de privacidade e segurança de dados                                 | Garantir a proteção das minhas informações durante as interações com o chatbot                       |
-| US10 | Gestor   | Que seja possível obter métricas sobre a satisfação dos usuários ao terminar de usar o chatbot          | Avaliar o desempenho do chatbot                                                                      |
-| US11 | Gestor   | Poder ter acesso ao fluxos de conversas                                                                 | Gerenciar as conversas com o usuário                                                                 |
-| US12 | Gestor   | Que o chatbot fosse desenvolvido com uma arquitetura escalável                                          | Garantir que o chatbot continue funcionando sem problemas, mesmo com o aumento do número de usuários |
-| US13 | Usuário  | Que o chatbot entenda português                                                                         | Facilitar a minha comunicação com ele                                                                |
-| US14 | Gestor   | Que houvesse métricas de análise da performance do chatbot                                              | Manutenção e evolução do chatbot                                                                     |
-| US15 | Usuário  | Reiniciar a conversa do chatbot, voltando ao primeiro estado                                            | Que possa recomeçar a conversa se necessário                                                         |
-| US16 | Usuário  | Que o chatbot funcione quando eu acessar o site do BP pelo celular                                      | Que eu possa conversar com o chatbot usando o celular e o desempenho não seja alterado               |                                                
-| US17 | Usuário  | Enviar áudios para o chatbot e ser respondido em texto ou em áudio                                      | Trazer acessibilidade e facilitar a comunicação com o chatbot                                        |
-| US18 | Usuário  | Que o chatbot tenha uma identidade visual                                                               | Que a conversa seja mais agradável e familiar                                                        |
-| US19 | Usuário  | Enviar e-mail caso minha dúvida não seja atendida                                                       | Que eu possa me comunicar com alguém que possa solucionar minha dúvida                               |   
-| US20 | Usuário  | Que o chatbot esteja disponível 24 horas por dia                                                        | Conversar com ele a qualquer momento                                                                 | 
+| US02 | Usuário  | Que o chatbot me fornecesse links para páginas específicas dentro da Plataforma do Brasil Participativo | Encontrar informações relevantes de forma rápida e fácil                                             |
+| US03 | Usuário  | Que o chatbot mantivesse a mesma conversa em abas diferentes                                            | Poder continuar interagindo enquanto eu realizo outras atividades                                    |
+| US04 | Usuário  | Que o chatbot me permitisse enviar feedback e sugestões de melhorias para o Brasil Participativo        | Contribuir para o aprimoramento da plataforma                                                        |
+| US05 | Usuário  | Que o chatbot fosse acessível através de um widget em todas as páginas                                  | Obter acesso rápido e fácil ao suporte enquanto navego pelo site do Brasil Participativo             |
+| US06 | Usuário  | Que o chatbot fosse responsivo e me respondesse em menos de 2 minutos                                   | Obter assistência rápida sempre que precisar                                                         |
+| US07 | Usuário  | Que o chatbot funcionasse nos principais navegadores: Opera, Firefox e Chrome                           | Poder acessar o Brasil Participativo independentemente do navegador que estou utilizando             |
+| US08 | Usuário  | Que o chatbot aderisse às políticas de privacidade e segurança de dados                                 | Garantir a proteção das minhas informações durante as interações com o chatbot                       |
+| US09 | Gestor   | Que seja possível obter métricas sobre a satisfação dos usuários ao terminar de usar o chatbot          | Avaliar o desempenho do chatbot                                                                      |
+| US10 | Gestor   | Poder ter acesso ao fluxos de conversas                                                                 | Gerenciar as conversas com o usuário                                                                 |
+| US11 | Gestor   | Que o chatbot fosse desenvolvido com uma arquitetura escalável                                          | Garantir que o chatbot continue funcionando sem problemas, mesmo com o aumento do número de usuários |
+| US12 | Usuário  | Que o chatbot entenda português                                                                         | Facilitar a minha comunicação com ele                                                                |
+| US13 | Gestor   | Que houvesse métricas de análise da performance do chatbot                                              | Manutenção e evolução do chatbot                                                                     |
+| US14 | Usuário  | Reiniciar a conversa do chatbot, voltando ao primeiro estado                                            | Que possa recomeçar a conversa se necessário                                                         |
+| US15 | Usuário  | Que o chatbot funcione quando eu acessar o site do BP pelo celular                                      | Que eu possa conversar com o chatbot usando o celular e o desempenho não seja alterado               |                                                
+| US16 | Usuário  | Que o chatbot tenha uma identidade visual                                                               | Que a conversa seja mais agradável e familiar                                                        |
+| US17 | Usuário  | Enviar e-mail caso minha dúvida não seja atendida                                                       | Que eu possa me comunicar com alguém que possa solucionar minha dúvida                               |   
+| US18 | Usuário  | Que o chatbot esteja disponível 24 horas por dia                                                        | Conversar com ele a qualquer momento                                                                 | 
 
 ## Requisitos
 
@@ -97,7 +95,7 @@
         <td>US18</td>
     </tr>
     <tr>
-        <td rowspan="10" colspan="3">Não Funcionais</td>
+        <td rowspan="11" colspan="3">Não Funcionais</td>
         <td>RNF01</td>	
         <td>O bot precisa estar disponível 24 horas por dia</td>
         <td>US20</td>
@@ -160,3 +158,4 @@
 |:------:|:----------:|:-------------------------------------------------:|:--------------:|
 |  1.0   | 28/03/2024 |                Criação do Backlog                 | Isaque Augusto |
 |  2.0   | 02/04/2024 | Modificação das histórias de usuário e requisitos | Isaque Augusto |
+|  2.1   | 15/07/2024 | Atualização das histórias de usuário e requisitos | Arthur Taylor  |

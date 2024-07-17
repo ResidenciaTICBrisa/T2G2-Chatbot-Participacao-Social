@@ -1,7 +1,6 @@
 # Tecnologias Utilizadas
 
-<p align="justify">&emsp;&emsp;As seguintes tecnologias foram utilizadas:
-Claro, aqui está uma descrição para o JavaScript adaptada ao estilo da descrição do Python que você usou:</p>
+<p align="justify">&emsp;&emsp;As seguintes tecnologias foram utilizadas:</p>
 
 ## Botpress
 <p align="justify">&emsp;&emsp;Originalmente, o ChatBot seria desenvolvido usando as ferramentas Rasa e Rocketchat. No entanto, devido a dificuldades de integração entre essas ferramentas, decidimos utilizar o Botpress.</p>
