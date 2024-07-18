@@ -3,7 +3,7 @@
 <br>
 
 <details>
-<summary>Sprint 5 (09 de abril - 25 de abril)</summary>
+<summary>Sprint 05 (09 de abril - 25 de abril)</summary>
 <br>
 <p align="justify">
 Durante a Sprint 5, a equipe está dividida em dois grupos principais com focos complementares que são cruciais para o avanço do nosso projeto de atendimento automatizado ao cliente. O primeiro grupo concentrará seus esforços na integração do Rasa, uma plataforma de IA conversacional, com o Rocket.Chat, nosso sistema de comunicação interna e suporte ao cliente. O segundo grupo focará no desenvolvimento e treinamento do bot em Rasa para assegurar que ele possa entender e responder de maneira eficaz às consultas dos usuários.
@@ -27,7 +27,7 @@ As seguintes issues foram feitas nessa sprint:
 <br>
 
 <details>
-<summary>Sprint 6 (26 de abril - 13 de maio)</summary>
+<summary>Sprint 06 (26 de abril - 13 de maio)</summary>
 <br>
 <p align="justify">
 A equipe terá quatro objetivos principais: executar uma transição de banco de dados para um sistema mais eficiente, revisar a estilização dos widgets para aprimorar a interação do usuário, intensificar o treinamento do bot para melhorar sua capacidade de resposta e criar documentação detalhada para a nova tecnologia Botpress.
