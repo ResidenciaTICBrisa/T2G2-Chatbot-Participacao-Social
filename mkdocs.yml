@@ -37,7 +37,7 @@ theme:
   extra_css: [stylesheets/extra.css]
 
 nav:
-  - landing page: landing_pages/landing_page.html
+  - Landing page: landing_pages/landing_page.html
   - Início: index.md
   - Getting started: gettingStarded.md
   - Soluções: 
