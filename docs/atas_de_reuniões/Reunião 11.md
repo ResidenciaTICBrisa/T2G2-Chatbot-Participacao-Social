@@ -4,12 +4,13 @@
 
 ## Detalhes
 
-- **Data:** 06/06/2024
+- **Data:** 04/06/2024
 - **Local:** Lappis - UnB
 
 ### Participantes
 
-- [Giovanni Alvissus (Cliente)](https://github.com/giovanni1106)
+- [Aline Melo(Cliente)](https://github.com/aline-melo)
+- [Bruna Pinos(Lappis)](https://github.com/brunapinos)
 - [Arthur Taylor de Jesus Popov](https://github.com/Eruel6)
 - [Gabriel Pessoa Zaranza](https://github.com/GZaranza)
 - [Gabriel Reis Scheidt Paulino](https://github.com/Gxaite)
@@ -19,35 +20,26 @@
 
 ### Objetivos
 
-Definição de releases e acompanhamento de atividades e o que mais vier.
+Acompanhamento de atividades e novas definições de tarefas.
 
 ### Acompanhamentos e definições
 
-- Deploy no ambiente do Dataprev
-
-- Mudança de escopo:
-3ª release:
-Deploy
-Bot de botão no botpress com fluxo atualizado
-Design
-4ª release:
-Validação do bot pela presidência (resultado do bot da plataforma) - Alterações e Persona
-NLU pro Brisa
-Análise de Dados - BI fora do botpress
-Boilerplate Chatbot - Comunidade de software livre
-
-- Documentação pro Boilerplate (simples e completa)
+- Atualização do bot, corrigindo antigos erros de português e links desatualizados.
+- Aguardar resposta do Lappis sobre a criação do segundo repositório.
+- Aceitação do template de chatbot pelo Lappis.
+- Manter o repositório do Boilerplate dentro do repositório do LAPPIS para facilitar o acesso dos colaboradores.
+- Hospedagem não é prioridade agora, prioridade é o plano cultura.
 
 ### Encaminhamentos
 
-| Atividade                                   | Responsáveis                  | Prazo      |
-|---------------------------------------------|-------------------------------|------------|
-|Criar sistema de tags para subir pra produção|Todos| 23/05/2024 |
-| Documentar dificuldades encontradas para o boilerplate |Todos| 23/05/2024 |
-|Colocar o bot no lab para teste|Todos| 23/05/2024 |
+| Atividade                                       | Responsáveis                  | Prazo       |
+|-------------------------------------------------|-------------------------------|-------------|
+| Abrir um repositório no Lappis                  | Bruna Pinos                   | 11/07/2024  |
+| Mudar o ícone do bate-papo                      | Gabriel Zaranza               | 11/07/2024  |
+| Adaptar novo fluxo com emojis                   | Thiago Marques e Isaque       | 11/07/2024  |
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição             | Autor             |
-|--------|------------|-----------------------|-------------------|
-| 1.0    | 19/06/2024 | Criação do documento  | Gabriel Pinto    |
+| Versão | Data       | Descrição             | Autor            |
+|--------|------------|-----------------------|------------------|
+| 1.0    | 04/06/2024 | Criação do documento  | Thiago Marques   |

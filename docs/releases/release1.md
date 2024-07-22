@@ -3,7 +3,7 @@
 <br>
 
 <details>
-<summary>Sprint 1 (13 de março - 21 de março)</summary>
+<summary>Sprint 01 (13 de março - 21 de março)</summary>
 <br>
 <p align="justify">
 Essa sprint teve como objetivo a criação do script Python para ser usado pelo bot do telegram.
@@ -23,7 +23,7 @@ As seguintes issues foram feitas nessa sprint:
 <br>
 
 <details>
-<summary>Sprint 2 (21 de março - 28 de março)</summary>
+<summary>Sprint 02 (21 de março - 28 de março)</summary>
 <br>
 <p align="justify">
 Nesta sprint, os objetivos são: testar o Chatbot para conversas simultâneas, estudar a integração de um webhook em uma página HTML para substituir o intergram no Decidim, documentar as reuniões na GitPage e organizar o projeto em Releases, Sprints e Issues com planejamento detalhado.
@@ -48,7 +48,7 @@ As seguintes issues foram feitas nessa sprint:
 <br>
 
 <details>
-<summary>Sprint 3 (28 de março - 04 de abril)</summary>
+<summary>Sprint 03 (28 de março - 04 de abril)</summary>
 <br>
 <p align="justify">
 Nesta sprint, os objetivos são: estudar o Rocket.Chat e suas vantagens, avaliar seu potencial para mídia e análise de dados, organizar o projeto em Releases, Sprints e Issues com planejamento detalhado, além de elaborar a ata de reunião 4 e o Storymap.
@@ -75,7 +75,7 @@ As seguintes issues foram feitas nessa sprint:
 <br>
 
 <details>
-<summary>Sprint 4 (04 de abril - 08 de abril)</summary>
+<summary>Sprint 04 (04 de abril - 08 de abril)</summary>
 <br>
 <p align="justify">
 Durante este sprint, nossa equipe se concentrará em aprimorar a GitHub Page para preparar-nos de forma eficaz para o primeiro lançamento do nosso produto. Este sprint será dividido em várias atividades cruciais, incluindo a revisão e atualização do conteúdo da página, refinamento do design para garantir uma experiência visualmente atraente e coerente com a identidade da marca, além de melhorias na navegabilidade e usabilidade geral da GitHub Page.
