@@ -16,23 +16,6 @@ Antes de começar, sugerimos que você leia nosso [código de conduta](CODE_OF_C
 
 - Para mantermos o padrão dos passos acima, consulte os guias. [Padrão de Commit e Branches](https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/blob/main/docs/pol%C3%ADticaDeComits.md)
 
-## Padrões de Codificação
-
-Por favor, siga os padrões de codificação e estilo estabelecidos neste projeto. Certifique-se de que seu código está formatado corretamente.
-
-Com isso, nomes de variáveis devem ser definidos seguindo o camel case, nomes começando com letra minuscula, palavras juntas e sem acentos, com a letra maiúscula indicando onde haveria espaço. EX: estaVariavel.
-
-Para outras práticas de codificação serão seguidas o PEP8.
-
-Obs: Você pode executar o [Pylint](https://pylint.readthedocs.io/en/stable/) para auxiliar a manter o padrão de qualidade do projeto.
-E.g `pylint directory/mymodule.py`
-
-### Instalando o pylint
-Para utilizar o pylint deve ser instalado executando o seguinte comando:
-`pip install pylint`
-
-O pylint pode ser integrado em diversas IDEs, pode ser verificado esta possibilidade na [documentação](https://pylint.readthedocs.io/en/stable/user_guide/installation/ide_integration/index.html).
-
 ## Reportando Problemas
 
 Se você encontrar problemas ou bugs, por favor, abra uma [issue](https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social/issues/new/choose) descrevendo o problema. Inclua informações detalhadas sobre como reproduzir o problema e o ambiente em que ele ocorreu.
