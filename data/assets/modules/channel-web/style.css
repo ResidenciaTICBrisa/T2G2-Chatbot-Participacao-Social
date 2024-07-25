@@ -144,7 +144,7 @@ a {
   background-color: #ffffff;
   color: #000000;
   border: 0.05px solid #bbbbbb;
-  border-radius: 3px;
+  border-radius: 30px;
 }
 
 /* Styling for the chat bubble content when it's from the user */
