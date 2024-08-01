@@ -43,6 +43,12 @@ nav:
   - Soluções: 
     - Estilização avançada: soluções/estilizaçãoAvançada.md
     - Migração BD: soluções/migraçãoBancoDeDados.md
+    - Adicionar o widget na página web: soluções/adicionarWidgetWeb.md
+    - Separar NLU e Duckling: soluções/separarNLUeDuckling.md
+  - Tutoriais:
+    - Como criar um bot: tutoriais/criaçãoDeUmBot.md
+    - Mudança de textos: tutoriais/mudancaDeTextos.md
+    - Mudança do fluxo: tutoriais/mudancaDoFluxo.md
   - Tecnologias: tecnologias.md
   - Arquitetura: arquitetura.md
   - Documentação:
@@ -53,6 +59,7 @@ nav:
     - Releases: 
       - releases 1: releases/release1.md
       - releases 2: releases/release2.md
+      - releases 3: releases/release3.md
     - Backlog: backlog.md
     - Guia de estilo: guiaDeEstilo.md
     - Roadmap: roadmap.md
@@ -71,7 +78,8 @@ nav:
       - Reunião 7: atas_de_reuniões/Reunião 07.md
       - Reunião 8: atas_de_reuniões/Reunião 08.md
       - Reunião 9: atas_de_reuniões/Reunião 09.md
-      - Reunião 10: atas_de_reuniões/Reunião 11.md
+      - Reunião 10: atas_de_reuniões/Reunião 10.md
+      - Reunião 11: atas_de_reuniões/Reunião 11.md
 
 
   - Políticas:
