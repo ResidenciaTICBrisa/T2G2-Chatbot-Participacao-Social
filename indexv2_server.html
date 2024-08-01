@@ -9,6 +9,7 @@
   <div>
     <script src="https://hml-bp-embedded-chatbot.lappis.rocks/assets/modules/channel-web/inject.js"></script>
     <script>
+        let foi = false;
         window.botpressWebChat.init({
         host: "https://hml-bp-embedded-chatbot.lappis.rocks",
         botId: "chatbot_v2_17",
@@ -22,7 +23,14 @@
         botName: "Brasil Participativo",
         enablePersistHistory: false});
         window.addEventListener('message', function(event) {
-        if (event.data.name === 'webchatReady') {
+        console.log(event.data.name);
+        if(!foi){
+          foi = true;
+          window.botpressWebChat.sendEvent(
+              { type: 'show' }
+            );
+        }
+        if (event.data && event.data.name === 'webchatReady') {
           window.botpressWebChat.sendEvent(
             { type: 'createConversation' }
           );
@@ -32,7 +40,7 @@
             payload: { text: 'oi' }
           });
         }
-        if (event.data.name === 'webchatClosed') {
+        if (event.data && event.data.name === 'webchatClosed') {
           window.botpressWebChat.sendEvent(
             { type: 'createConversation' }
           );
