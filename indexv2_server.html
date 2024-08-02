@@ -10,6 +10,7 @@
     <script src="https://hml-bp-embedded-chatbot.lappis.rocks/assets/modules/channel-web/inject.js"></script>
     <script>
         let foi = false;
+        let encerrar = false;
         window.botpressWebChat.init({
         host: "https://hml-bp-embedded-chatbot.lappis.rocks",
         botId: "chatbot_v2_17",
@@ -23,14 +24,49 @@
         botName: "Brasil Participativo",
         enablePersistHistory: false});
         window.addEventListener('message', function(event) {
-        console.log(event.data.name);
+        try{
+          if(event.data.payload){
+            if(event.data.payload.text == 'Encerrar atendimento'){
+              encerrar = true;
+            }
+          }
+        } catch(error) {
+        }
+        if(event.data){
+          if(Object.keys(event.data).length == 3 && Object.keys(event.data).includes('conversationId') && Object.keys(event.data).includes('__room') && Object.keys(event.data).includes('chatId')){
+            if(encerrar){
+              window.botpressWebChat.sendEvent(
+                { type: 'createConversation' }
+              );
+              window.botpressWebChat.sendEvent({
+                type: 'proactive-trigger',
+                channel: 'web',
+                payload: { text: 'oi' }
+              });
+            } else {
+              console.log('entrou');
+              window.botpressWebChat.sendEvent(
+                { type: 'createConversation' }
+              );
+              window.botpressWebChat.sendEvent(
+                { type: 'createConversation' }
+              );
+              window.botpressWebChat.sendEvent({
+                type: 'proactive-trigger',
+                channel: 'web',
+                payload: { text: 'oi' }
+              });
+            }
+            encerrar = false;
+          }
+        }
         if(!foi){
           foi = true;
           window.botpressWebChat.sendEvent(
               { type: 'show' }
             );
         }
-        if (event.data && event.data.name === 'webchatReady') {
+        if (event.data && event.data.name === 'webchatReady' && foi) {
           window.botpressWebChat.sendEvent(
             { type: 'createConversation' }
           );
@@ -40,7 +76,7 @@
             payload: { text: 'oi' }
           });
         }
-        if (event.data && event.data.name === 'webchatClosed') {
+        if (event.data && event.data.name === 'webchatClosed' && encerrar) {
           window.botpressWebChat.sendEvent(
             { type: 'createConversation' }
           );
@@ -49,8 +85,9 @@
             channel: 'web',
             payload: { text: 'oi' }
           });
+          encerrar = false;
         }
-      });
+        });
     </script>
   </div>
 </body>
