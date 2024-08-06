@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: bash -c "./duckling & ./bp lang --offline --dim 100 --langDir /botpress & ./bp"
+    #command: bash -c "./duckling & ./bp lang --offline --dim 100 --langDir /botpress & ./bp"
     container_name: botpress
     
     ports:

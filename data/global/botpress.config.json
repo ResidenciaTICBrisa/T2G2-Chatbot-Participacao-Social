@@ -146,7 +146,7 @@
   },
   "superAdmins": [
     {
-      "email": "chatbotbrasilparticipativo@gmail.com",
+      "email": "admin@email.com",
       "strategy": "default"
     }
   ],
