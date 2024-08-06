@@ -17,7 +17,8 @@ services:
       # postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@<SUSTITUIR POR IP>:5432/${POSTGRES_DB}
     restart: always
     volumes:
-      - ./data:/botpress/data
+      - ./data/bots /botpress/data/bots
+      
  
   
 volumes:
