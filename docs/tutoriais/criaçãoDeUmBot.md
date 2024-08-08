@@ -4,9 +4,6 @@
 
 Para criação de um novo bot é nescessário fazer login com email e senha que foram utilizados para criação da conta no botpress, esta conta é a conta de administrador, necessária para a criação de um novo bot 
 
-
-*adicionar a imagem de login*
-
 ## Clicar no botão Create bot
 
 No canto superior direito do painel inicial após o login existe um botão "Create Bot", ao colocar o cursor sobre este botão serão apresentadas duas opções para a criação de um novo bot
