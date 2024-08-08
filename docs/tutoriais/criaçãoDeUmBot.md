@@ -4,11 +4,13 @@
 
 Para criação de um novo bot é nescessário fazer login com email e senha que foram utilizados para criação da conta no botpress, esta conta é a conta de administrador, necessária para a criação de um novo bot 
 
+![login](../images/login.png)
+
 ## Clicar no botão Create bot
 
 No canto superior direito do painel inicial após o login existe um botão "Create Bot", ao colocar o cursor sobre este botão serão apresentadas duas opções para a criação de um novo bot
 
-*Inserir imagem do botao "create bot"*
+![botaoCriarBot](../images/botaoCreateNewBot.jpeg)
 
 ### "New bot"
 
@@ -20,7 +22,7 @@ Ao selecionar o botão para criar um novo bot, uma janela será exibida onde alg
 
 - Bot template: Aqui pode ser selecionado algum dos templates de bot disponibilizados pelo botpress, também é possível criar um bot totalmente novo através da seleção da opção "empty bot"
 
-*Inserir a imagem da janela que deve ser preenchida*
+![janelaCreatBot](../images/createNewBot.jpeg)
 
 ### Import Bot
 
@@ -30,10 +32,10 @@ De forma semelhante ao selecionar o botão "new bot" uma janela será exibida pa
 
 - Arquivo do bot: Deve ser selecionado um arquivo para importar as configurações de um bot pré feito. (existe uma opção de exportar um bot feito e treinado)
 
-*Inserir a imagem da janela que deve ser preenchida*
+![createBotImport](../images/createBotImport.jpeg)
 
 ## Visualizando seus bots
 
 Todos os bots criados devem aparecer na área principal do painel de adiministrador, logo uma vez criado um novo bot ele deverá aparecer nesta área
 
-*Inserir imagem da área do painel de administrador*
+![adminPanel](../images/adminPage.jpeg)

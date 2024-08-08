@@ -4,34 +4,31 @@
 
 Para criação de um novo bot é nescessário fazer login com email e senha que foram utilizados para criação da conta no botpress, esta conta é a conta de administrador, necessária para a criação de um novo bot 
 
-
-*adicionar a imagem de login*
+![login](../images/login.png)
 
 ## Selecionar o BOT a ser alterado
 
 Para realizar a alteração do fluxo deve ser selecionado o BOT que deve ser alterado, os bots serão exibidos na página inicial do painel de administradr do botpress.
 
-*adicionar a imagem do painel de administrador*
+![adminPanel](../images/adminPage.jpeg)
 
 ## Mudando os fluxos
 
 Uma vez selecionado o bot será apresentado a tela onde é exibido os fluxos do bot
 
-*inserir imagem do workflow*
+![workflow](../images/workflow.jpeg)
 
-*Caso saia da tela de visualização dos fluxos é possíve retornar clicando no primeiro ícone*
+*Caso saia da tela de visualização dos fluxos é possíve retornar clicando no primeiro ícone (indicado pela marcação em verde na imagem)*
 
-*inserir imagem de como voltar ao workflow*
-
-## Modificando um fuxo existente
+## Modificando um fluxo existente
 
 Por padrão o fluxo exibido será o fluxo main, outros fluxos podem ser acessados ao serem selecionados com o clique esquerdo em cima de seu nome.
 
-*inserir imagem dos diversos flows*
+![flows](../images/flows.jpeg)
 
 Quando for selecionado o fluxo irá ser exibido na tela, de forma com exibindo todos os nós e transições que compõe o fluxo.
 
-*inserir imagem do fluxo com nodes e transições*
+![workflow](../images/workflow.jpeg)
 
 ### Como adicionar novos nós
 
@@ -39,7 +36,7 @@ Os nós são os pontos onde as decisões ocorrem(lógicas, po exemplo textos que
 
 Para criar novos nós existem duas opções, existe a possibilidade de criar um novo nó com o primeiro botão das ferramentas, ou então com o clique direito do mouse no fluxo e selecionando a opção para um novo nó.
 
-*inserir imagens para criação dos novos nós*
+![criandoNós](../images/criarNodes.jpeg)
 
 #### Modificando os nós 
 
@@ -47,20 +44,16 @@ Ao utilizar o clique esquerdo sobre um nó, é possível abrir o inspector deste
 
 Além da possibilidade de modificar o nome dos nós é possível modificar os comportamentos do BOT, como o que acontecerá quando ocorrer uma entrada neste nó (On enter). Pode ser utilizado também a funcionalidade onde ocorre uma espera pela ação do usuário (On receive). A última funcionalidade do inspector é a funcionalidades de transitions, onde é possível definir como serão feitas as transições do fluxo e como serão feitas. 
 
-*inserir imagens de cada um dos comportamentos*
+![botaoCriarBot](../images/inspectorProperties.jpeg)
 
 ### Como realizar as transições
 
 Para realizar transições entre os nós, pode ser realizando utilizando os pontos pretos ao lado dos cartões dos nós para conectar à outro, realizando assim uma transição entre estes nós. 
 
-*inserir imagem dos nós*
-
 Outra forma possível seria utilizar a funcionalidade de inspector de um nó e utilizando a aba transictions. 
 
-*inserir imagem do transictions*
+![criandoConexoes](../images/conexoesNodes.jpeg)
 
 ### Treinamento 
 
 Após realizar os passos para alteração de fluxo, deve ser realizao o treinamento do bot na parte inferior direita da página do botpress para que sejam refletidas assim as mudanças realizadas.
-
-*Inserir imagem do botão de treinamento*
