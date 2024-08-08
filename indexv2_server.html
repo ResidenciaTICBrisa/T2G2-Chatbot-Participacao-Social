@@ -9,9 +9,6 @@
   <div>
     <script src="https://hml-bp-embedded-chatbot.lappis.rocks/assets/modules/channel-web/inject.js"></script>
     <script type="module">
-      function isMobileDevice() {
-        return window.innerWidth <= 768; // largura em que estamos considerando um mobile device
-      }
       function checkCookie(name) {
         return Cookies.get(name) !== undefined;
       }
@@ -82,50 +79,32 @@
           encerrar = false;
         }
       }
-      if(!isMobileDevice()){
+      async function initializeWebChat(){
         if(Cookies.get('webchatShown') == 'false' && Cookies.get('isThereConversation') == 'false'){
-          console.log("Entrou no PC");
-          Cookies.set('webchatShown', 'true');
-          window.botpressWebChat.sendEvent(
-              { type: 'show' }
-            );
-        }
-        if (event.data && event.data.name === 'webchatReady' && Cookies.get('isThereConversation') == 'false') {
-        window.botpressWebChat.sendEvent(
-          { type: 'createConversation' }
-        );
-        window.botpressWebChat.sendEvent({
-          type: 'proactive-trigger',
-          channel: 'web',
-          payload: { text: 'oi' }
-        });
-        Cookies.set('isThereConversation', 'true');
-      }
-      } else {
-        if(Cookies.get('webchatShown') == 'false' && Cookies.get('isThereConversation') == 'false'){
-          document.getElementById('bp-widget').style.display = 'none';
-          Cookies.set('webchatShown', 'true');
-          window.botpressWebChat.sendEvent(
-              { type: 'show' }
-            );
-        }
-        if (event.data && event.data.name === 'webchatReady' && Cookies.get('isThereConversation') == 'false') {
-          console.log("Entrou no dispositivo móvel");
-          window.botpressWebChat.sendEvent(
-            { type: 'createConversation' }
-          );
-          window.botpressWebChat.sendEvent({
-            type: 'proactive-trigger',
-            channel: 'web',
-            payload: { text: 'oi' }
-          });
-          window.botpressWebChat.sendEvent(
-                { type: 'hide' }
+            document.getElementById('bp-widget').style.display = 'none';
+            Cookies.set('webchatShown', 'true');
+            window.botpressWebChat.sendEvent(
+                { type: 'show' }
               );
-          Cookies.set('isThereConversation', 'true');
-          document.getElementById('bp-widget').style.display = 'inline';
+          }
+          if (event.data && event.data.name === 'webchatReady' && Cookies.get('isThereConversation') == 'false') {
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent({
+              type: 'proactive-trigger',
+              channel: 'web',
+              payload: { text: 'oi' }
+            });
+            window.botpressWebChat.sendEvent(
+                  { type: 'hide' }
+                );
+            Cookies.set('isThereConversation', 'true');
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            document.getElementById('bp-widget').style.display = 'inline';
         }
-      }
+     }
+     initializeWebChat();
 
       if (event.data && event.data.name === 'webchatClosed' && encerrar) {
         window.botpressWebChat.sendEvent(
