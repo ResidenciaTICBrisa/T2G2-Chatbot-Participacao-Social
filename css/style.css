@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'cocobiker';
+    src: url('../fonts/cocobiker.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .gradient {
+    background: linear-gradient(90deg, #0F417A  0%, #58A6F0 100%);
+  }
+  
+  .font-custom {
+    font-family: 'cocobiker', sans-serif;
+  }
+  
