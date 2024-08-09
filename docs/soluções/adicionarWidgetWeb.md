@@ -40,9 +40,19 @@ Recomendamos o uso do script abaixo. Com ele, você poderá modificar o arquivo 
 </script>
 ```
 
-Importância da Documentação Original
+### Onde Buscar Informações
 
-Esta documentação visa facilitar alguns processos básicos, mas é indispensável utilizar a documentação original para uma personalização completa.
+Se você está utilizando ou explorando o Botpress versão 12, aqui estão alguns recursos importantes para ajudar na sua jornada:
 
-Para mais informações sobre como personalizar o widget na sua página, consulte a página oficial do Botpress:
-[Botpress Webchat Website Embedding](https://v12.botpress.com/messaging-channels/botpress-webchat/website-embedding/)
+- **Documentação Oficial (v12:latest):** Para acessar a documentação mais recente do Botpress v12, visite [Documentação Botpress v12:latest](https://v12.botpress.com/).
+
+- **Documentação Botpress v12.26.7:** Caso esteja trabalhando especificamente com a versão v12.26.7, a documentação correspondente pode ser encontrada em [Documentação Botpress v12.26.7](http://botpress-docs.s3-website-us-east-1.amazonaws.com/docs/introduction/).
+
+- **Repositório no GitHub:** Para acessar o código-fonte e contribuir para o desenvolvimento, acesse o repositório oficial do Botpress v12 no GitHub: [GitHub Botpress v12](https://github.com/botpress/v12).
+
+Certifique-se de explorar esses recursos para obter todas as informações necessárias sobre o Botpress e seu uso!
+
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 09/08/2024 |           Criação do documento                        |  Gabriel Scheidt  |
