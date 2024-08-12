@@ -47,7 +47,7 @@ nav:
     - Separar NLU e Duckling: soluções/separarNLUeDuckling.md
   - Tutoriais:
     - Como criar um bot: tutoriais/criaçãoDeUmBot.md
-    - Mudança de textos: tutoriais/mudancaDeTextos.md
+    - Mudança de perguntas: tutoriais/mudancaDePergunta.md
     - Mudança do fluxo: tutoriais/mudancaDoFluxo.md
   - Tecnologias: tecnologias.md
   - Arquitetura: arquitetura.md
