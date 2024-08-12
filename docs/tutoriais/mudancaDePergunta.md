@@ -1,4 +1,4 @@
-# Como alterar as caixas de perguntas de um bot
+# Como alterar as caixas de perguntas
 
 ## Logar no painel de admin do Botpress
 
