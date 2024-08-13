@@ -48,6 +48,7 @@ nav:
   - Tutoriais:
     - Como criar um bot: tutoriais/criaçãoDeUmBot.md
     - Mudança de perguntas: tutoriais/mudancaDePergunta.md
+    - Mudança de respostas: tutoriais/mudancaDeRespostas.md
     - Mudança do fluxo: tutoriais/mudancaDoFluxo.md
   - Tecnologias: tecnologias.md
   - Arquitetura: arquitetura.md

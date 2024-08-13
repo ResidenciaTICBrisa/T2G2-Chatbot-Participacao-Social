@@ -2,7 +2,7 @@
 
 ## Logar no painel de admin do botpress
 
-Para criação de um novo bot é nescessário fazer login com email e senha que foram utilizados para criação da conta no botpress, esta conta é a conta de administrador, necessária para a criação de um novo bot 
+Para criação ou alteração de um bot é nescessário fazer login com email e senha que foram utilizados para criação da conta no botpress, esta conta é a conta de administrador.
 
 ![login](../images/login.png)
 
