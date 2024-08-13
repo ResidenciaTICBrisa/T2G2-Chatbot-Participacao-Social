@@ -1,4 +1,3 @@
-//CHECKSUM:3431c48321ce68be3b0fcc965bae1bf7b11219a2dac94cde069b668e05a3d68d
 const _ = require('lodash')
 const nodemailer = require('nodemailer')
 const Promise = require('bluebird')

@@ -1,4 +1,3 @@
-//CHECKSUM:abb3906b71f61dbd4ab2f79ed914d7e02c4d1fb087afc4989cac3c0bb42b868e
 const axios = require('axios')
 
 /**

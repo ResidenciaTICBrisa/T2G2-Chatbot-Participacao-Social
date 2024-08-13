@@ -1,8 +1,10 @@
 # Use a imagem base do Botpress
-FROM botpress/server:v12_26_7
+FROM chatbotbp/botpress_brasil_participativo:latest
 
 # Defina o diretório de trabalho
 WORKDIR /botpress
+
+USER root
 
 # Crie o diretório NLU
 RUN mkdir -p /botpress/NLU

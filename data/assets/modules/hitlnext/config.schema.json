@@ -37,7 +37,8 @@
     "transferMessage": {
       "default": {
         "en": "You are being transferred to an agent.",
-        "fr": "Vous êtes transféré à un agent."
+        "fr": "Vous êtes transféré à un agent.",
+        "es": "Se le está transfiriendo a un agente."
       },
       "type": "object",
       "additionalProperties": {
@@ -47,12 +48,17 @@
     "assignMessage": {
       "default": {
         "en": "You have been assigned to our agent {{agentName}}.",
-        "fr": "Vous avez été assigné à notre agent(e) {{agentName}}."
+        "fr": "Vous avez été assigné à notre agent(e) {{agentName}}.",
+        "es": "Ha sido asignado al agente {{agentName}}."
       },
       "type": "object",
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "eventsWebHook": {
+      "$ref": "#/definitions/Webhook",
+      "default": {}
     },
     "$schema": {
       "type": "string"
@@ -110,6 +116,25 @@
         "name",
         "value"
       ]
+    },
+    "Webhook": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "example": "https://myapplicationserver.com/webhook-handler",
+          "type": "string"
+        },
+        "headers": {
+          "example": {
+            "authorization": "Baerer ..."
+          },
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"

@@ -1,4 +1,3 @@
-//CHECKSUM:61131c5f80b441f9e34ee806148c856ddfeef557f1097fbc8d4e41f685a3d850
 /**
  * Get a variable globally
  * @title Get global variable

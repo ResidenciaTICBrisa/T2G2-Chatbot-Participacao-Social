@@ -1,4 +1,3 @@
-//CHECKSUM:bdb26f3a29f47c2b4ed9962eeaefb524524acdccda11477bab64b222594562b3
 'use strict'
 const _ = require('lodash')
 const INTENT_PREFIX = 'intent:'

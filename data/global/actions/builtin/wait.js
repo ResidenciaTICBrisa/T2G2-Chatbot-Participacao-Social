@@ -1,4 +1,3 @@
-//CHECKSUM:9133127da9d0346ffb67e20891289f7a111812df6fd4c2fed9c350aea3af7876
 /**
  * Wait for a bit.
  *

@@ -1,4 +1,3 @@
-//CHECKSUM:3aeb5bc470939ae3dff875bd386dafff9c31b90f15e4899c28fd8065a84ba687
 const hardLimit = 10
 
 /**

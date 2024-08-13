@@ -160,12 +160,19 @@
   "fileUpload": {
     "maxFileSize": "25mb",
     "allowedMimeTypes": [
+      "application/pdf",
+      "audio/mpeg",
+      "audio/ogg",
+      "audio/wav",
+      "audio/webm",
+      "image/bmp",
+      "image/gif",
       "image/jpeg",
       "image/png",
-      "image/gif",
-      "audio/mpeg",
+      "image/webp",
       "video/mp4",
-      "application/pdf"
+      "video/ogg",
+      "video/webm"
     ]
   },
   "jwtToken": {
@@ -220,6 +227,6 @@
   "telemetry": {
     "entriesLimit": 1000
   },
-  "version": "12.26.7",
+  "version": "12.31.8",
   "appSecret": "MHaHxOJtfPnyosJJAW6-FlOnFVzvyhzbEu-9V1cn"
 }

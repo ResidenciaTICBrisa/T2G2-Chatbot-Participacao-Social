@@ -1,4 +1,3 @@
-//CHECKSUM:e622ec98b6e844e20cd1d5098e965a449c3ed1168cb03cb3002618b935735edb
 /**
  * Extract entities that match a slot
  * @hidden true

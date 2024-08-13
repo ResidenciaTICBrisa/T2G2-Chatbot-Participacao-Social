@@ -1,4 +1,3 @@
-//CHECKSUM:edf2b5dcc4354863700ec06302cda1c790b5c9a88fe3d5b252f2428e80df5591
 /**
  * Store data to desired storage based on the time to live expectation. Read the
  * documentation for more details
@@ -8,7 +7,7 @@
  * @author Botpress, Inc.
  * @param {string} type - Pick between: user, session, temp, bot
  * @param {string} name - The name of the variable
- * @param {any} value - Set the value of the variable. Type 'null' or leave empty to erase it.
+ * @param {any} value - Set the value of the variable.
  */
 const setVariable = async (type, name, value) => {
   if (type === 'bot') {

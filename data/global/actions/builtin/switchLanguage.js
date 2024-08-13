@@ -1,4 +1,10 @@
-//CHECKSUM:249849eb9f16e815ce85f6799e5f9937cdbaeae1c0e16adb19acc9598c448a58
+async function getVisitorId(userId) {
+  const rows = await bp.database('web_user_map').where({ userId })
+  if (rows && rows.length) {
+    return rows[0] && rows[0].visitorId
+  }
+}
+
 /**
  * Update user language
  * @title Update user language
@@ -8,8 +14,14 @@
  */
 const switchLanguage = async language => {
   event.state.user.language = language
-  bp.realtime.sendPayload(bp.RealTimePayload.forVisitor(event.target, 'webchat.data', { payload: { language } }))
   await event.setFlag(bp.IO.WellKnownFlags.FORCE_PERSIST_STATE, true)
+
+  if (event.channel === 'api') {
+    return
+  }
+
+  const visitorId = await getVisitorId(event.target)
+  bp.realtime.sendPayload(bp.RealTimePayload.forVisitor(visitorId, 'webchat.data', { payload: { language } }))
 }
 
-return switchLanguage(args.lang)
+return switchLanguage(args.lang.toLowerCase())

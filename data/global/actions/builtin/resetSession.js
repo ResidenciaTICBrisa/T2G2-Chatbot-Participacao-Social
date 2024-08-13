@@ -1,4 +1,3 @@
-//CHECKSUM:2e8b86579a4749a02fd04dcc8012e3e021d3e3c7e7235891722da6ece743a0c9
 /**
  * Resets the user session. It clears information stored in `temp` and `session` storage for the user.
  *

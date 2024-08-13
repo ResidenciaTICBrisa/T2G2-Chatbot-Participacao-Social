@@ -1,4 +1,3 @@
-//CHECKSUM:3a5904c279319c71006ea6b87c1786f6702a4e0b1a4629b7d1f930a761d89ae1
 /**
  * This is just an example of how to create custom actions.
  * If you're reading this from the Flow Editor and wonder how you can create an new action,

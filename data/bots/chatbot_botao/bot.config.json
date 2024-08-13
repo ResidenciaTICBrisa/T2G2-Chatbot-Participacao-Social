@@ -8,7 +8,7 @@
     "emailAddress": "",
     "termsConditions": "",
     "privacyPolicy": "",
-    "avatarUrl": "/api/v1/bots/chatbot_botao/media/7285ozohvbsbvz681aiz-WhatsApp%20Image%202024-02-26%20at%2017.06.24.jpeg",
+    "avatarUrl": "/api/v1/bots/chatbot_botao/media/7285ozohvbsbvz681aiz-WhatsAppundefined202024-02-26undefined2017.06.24.jpeg",
     "coverPictureUrl": "/api/v1/bots/chatbot_botao/media/yvgfy8pdjpfnb59eio5n-botinho.jpeg"
   },
   "$schema": "../../bot.config.schema.json",
@@ -54,8 +54,5 @@
       "promoted_by": "system"
     }
   },
-  "messaging": {
-    "id": "cfbe7bdc-ddbd-4137-b0f4-3c8f9938bd45",
-    "token": "AgILGns0jD2oLihNkKw/PZkUxR7miX5A2Xk4Fkp1WaCJwp0ShAUzo2DauqpE3atkWXuSF5afioH4huSsOH/DWZC2"
-  }
+  "messaging": {}
 }

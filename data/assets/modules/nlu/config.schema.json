@@ -23,7 +23,6 @@
           ]
         },
         {
-          "additionalProperties": false,
           "type": "object",
           "properties": {
             "autoStart": {
@@ -34,11 +33,9 @@
             },
             "endpoint": {
               "type": "string"
-            },
-            "authToken": {
-              "type": "string"
             }
           },
+          "additionalProperties": false,
           "required": [
             "autoStart",
             "endpoint"
@@ -111,9 +108,6 @@
       "type": "object",
       "properties": {
         "endpoint": {
-          "type": "string"
-        },
-        "authToken": {
           "type": "string"
         }
       },

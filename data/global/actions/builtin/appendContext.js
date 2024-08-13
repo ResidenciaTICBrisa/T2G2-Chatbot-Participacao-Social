@@ -1,4 +1,3 @@
-//CHECKSUM:368edb2e94a2622e418b4458309f08b85d41dc0d74669ebb08df596f062d9bf3
 const _ = require('lodash')
 
 /**

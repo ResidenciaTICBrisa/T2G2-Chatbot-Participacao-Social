@@ -1,4 +1,3 @@
-//CHECKSUM:bbd453cb3d8b80c19c511a5cc7ed81e8695bfdd05a6d698daba5d1860d81e6ce
 /**
  * Stores a variable globally, with optional expiry
  * @title Set global variable
