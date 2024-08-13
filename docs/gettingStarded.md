@@ -27,18 +27,18 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 3. Adicione a seguintes linhas ao arquivo .env e substitua os '*' pelas credenciais que deseja criar no botpress:
 
     ```bash
-    #Credenciais do postgres
-    POSTGRES_DB= * #Nome do dbanco de dados
-    POSTGRES_USER= * #Usuário postgress
-    POSTGRES_PASSWORD= * #Senha do usuário postgres
+        #Credenciais do postgres
+        POSTGRES_DB= * #Nome do dbanco de dados
+        POSTGRES_USER= * #Usuário postgress
+        POSTGRES_PASSWORD= * #Senha do usuário postgres
 
-    #Credenciais da conta de administrador do pgadmin
-    PGADMIN_DEFAULT_EMAIL= * #email do usuário pgadmin
-    PGADMIN_DEFAULT_PASSWORD= * #Senha do usuário pgadmin
+        #Credenciais da conta de administrador do pgadmin
+        PGADMIN_DEFAULT_EMAIL= * #email do usuário pgadmin
+        PGADMIN_DEFAULT_PASSWORD= * #Senha do usuário pgadmin
 
-    #Credencias da conta administrador do botpress
-    BOTPRESS_ADMIN_EMAIL= * #Email da conta administrador
-    BOTPRESS_ADMIN_PASSWORD=* #Senha da conta administrador
+        #Credencias da conta administrador do botpress
+        BOTPRESS_ADMIN_EMAIL= * #Email da conta administrador
+        BOTPRESS_ADMIN_PASSWORD=* #Senha da conta administrador
     ```
 ## Passo 4: Executar o docker compose
 De o seguinte comando para rodar o sistema:
