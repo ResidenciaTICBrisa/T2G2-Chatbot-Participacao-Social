@@ -44,7 +44,7 @@ Para adicionar alternativas, basta seguir as mesmas instruções para abrir o me
 
 ![add_pergunta](../images/imagens_texto/alternativa.png)
 
-Após isso, assim como dito alteriormente, escreva a nova alternativa de resposta e clique em "submite" e em "Update Action (Alt + Enter)"
+Após isso, assim como dito alteriormente, escreva a nova alternativa de resposta e clique em "submit" e em "Update Action (Alt + Enter)"
 
 ### Onde Buscar Informações
 
