@@ -26,13 +26,13 @@ Por padrão o fluxo exibido será o fluxo main, outros fluxos podem ser acessado
 
 ![flows](../images/flows.jpeg)
 
-Quando for selecionado o fluxo irá ser exibido na tela, de forma com exibindo todos os nós e transições que compõe o fluxo.
+Quando for selecionado o fluxo irá ser exibido na tela e mostrará todos os nós e transições que compõe o fluxo.
 
 ![workflow](../images/workflow.jpeg)
 
 ### Como adicionar novos nós
 
-Os nós são os pontos onde as decisões ocorrem(lógicas, po exemplo textos que serão apresentados para o usuário).
+Os nós são os pontos onde as decisões ocorrem(lógicas, por exemplo textos que serão apresentados para o usuário).
 
 Para criar novos nós existem duas opções, existe a possibilidade de criar um novo nó com o primeiro botão das ferramentas, ou então com o clique direito do mouse no fluxo e selecionando a opção para um novo nó.
 
