@@ -101,3 +101,7 @@ Após isso, na aba "On receive"faça a edição no texto.
 ![ferramentasNLU](../images/imagens_texto/Q&A-on-receive.png)
 
 Faça a edição de texto necessária, adicionando o texto que será a resposta do bot ao entrar no nó correspondente.
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 14/08/2024 |           Criação do documento                        |  Gabriel Pinto  |

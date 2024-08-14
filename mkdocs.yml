@@ -44,7 +44,10 @@ nav:
     - Estilização avançada: soluções/estilizaçãoAvançada.md
     - Migração BD: soluções/migraçãoBancoDeDados.md
     - Adicionar o widget na página web: soluções/adicionarWidgetWeb.md
+    - Customização do widget: soluções/customizacaoDoWidget.md
     - Separar NLU e Duckling: soluções/separarNLUeDuckling.md
+    - Como criar bot com NLU: soluções/criaçãoDeUmBotComNLU.md
+ 
   - Tutoriais:
     - Como criar um bot: tutoriais/criaçãoDeUmBot.md
     - Mudança de perguntas: tutoriais/mudancaDePergunta.md
