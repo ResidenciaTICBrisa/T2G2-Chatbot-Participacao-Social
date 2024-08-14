@@ -69,3 +69,7 @@ Se você está utilizando ou explorando o Botpress versão 12, aqui estão algun
 - **Repositório no GitHub:** Para acessar o código-fonte e contribuir para o desenvolvimento, acesse o repositório oficial do Botpress v12 no GitHub: [GitHub Botpress v12](https://github.com/botpress/v12).
 
 Certifique-se de explorar esses recursos para obter todas as informações necessárias sobre o Botpress e seu uso!
+
+| Versão |    Data    |                       Descrição                       |      Autor       |
+| :----: | :--------: | :---------------------------------------------------: | :--------------: |
+|  1.0   | 08/08/2024 |           Criação do documento                        |  Arthur Taylor  |
