@@ -12,6 +12,7 @@
     <meta name="author" content="" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
@@ -34,8 +35,73 @@
         display: flex;
         align-items: center;
         }
-        
+        .custom-bullets {
+        display: flex;
+        flex-direction: column;
+        list-style-type: disc;
+        margin: 0;  
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        }
+        .custom-bullets li {
+        margin-bottom: 10px; 
+        text-align: left;
+        font-size: 24px;
+        color: #ffffff;
+        }
+        .centered-text {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        text-shadow: 2px;
+        }
+        .text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        }
+        .center-vertical-horizontal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .button-container {
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px; 
+        margin-bottom: 10px;
+        }
+
+        .small-button {
+        background-color: #0F417A;
+        border: none; 
+        color: white; 
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 12px;
+        position: relative;
+        transition: transform 0.3s ease, text-decoration 0.3s ease;
+        }
+        .small-button:hover{
+          transform: scale(1.1);
+          text-decoration: underline;
+        }
+    
     </style>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Nav-->
@@ -106,7 +172,7 @@
               <div class="w-full flex justify-center mb-5">
                   <a href="https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/" style="z-index: 2;">
                       <button class="hover:underline bg-white text-gray-800 font-bold rounded-full my-2 py-5 px-9 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out text-2xl" >
-                          Saber mais
+                          Saiba mais
                       </button>
                   </a>
               </div>
@@ -215,10 +281,149 @@
       </h3>
       <a href="https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/">
       <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-5 px-9 text-2xl shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" href="https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/">
-        Saber mais
+        Saiba mais
       </button>
       </a>
     </section>
+    <div class="swiper-container my-8"> 
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="centered-text">Gabriel Pinto</p>
+          </div>
+          <div class="center-vertical-horizontal">
+            <img src="https://avatars.githubusercontent.com/u/144184007?v=4" alt="Projeto 1" class="w-full h-auto"style="border-radius: 50%;width: 400px; height: auto;">
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/GabrielSPinto" target="_blank" class="small-button">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-santos-pinto/" target="_blank" class="small-button">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div>
+            <ul class="custom-bullets">
+              <li>Treinamento do Bot</li>
+              <li>Documentação</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="centered-text">Gabriel Zaranza</p>
+          </div>
+          <div class="center-vertical-horizontal">
+            <img src="https://avatars.githubusercontent.com/u/116514986?v=4" alt="Projeto 2" class="w-full h-auto"style="border-radius: 50%;width: 400px; height: auto;">
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/GZaranza" target="_blank" class="small-button">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/gabrielzaranza?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="small-button">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div>
+            <ul class="custom-bullets">
+              <li>Infraestrutura</li>
+              <li>Scrum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="centered-text">Gabriel Scheidt</p>
+          </div>
+          <div class="center-vertical-horizontal">
+            <img src="https://avatars.githubusercontent.com/u/111130521?v=4" alt="Projeto 3" class="w-full h-auto"style="border-radius: 50%;width: 400px; height: auto;">
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/Gxaite" target="_blank" class="small-button">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-scheidt-a431b3218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="small-button">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div>
+            <ul class="custom-bullets">
+              <li>Infraestrutura</li>
+              <li>Backend</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="centered-text">Isaque Alves</p>
+          </div>
+          <div class="center-vertical-horizontal">
+            <img src="https://avatars.githubusercontent.com/u/84244850?v=4" alt="Projeto 1" class="w-full h-auto"style="border-radius: 50%;width: 400px; height: auto;">
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/seraphritt" target="_blank" class="small-button">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/isaque-augusto/" target="_blank" class="small-button">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div>
+            <ul class="custom-bullets">
+              <li>Treinamento do Bot</li>
+              <li>Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide">     
+          <div class="text-container">
+            <p class="centered-text">Thiago Marques</p>
+          </div>
+          <div class="center-vertical-horizontal">
+            <img src="https://avatars.githubusercontent.com/u/125684199?v=4" alt="Projeto 2" class="w-full h-auto"style="border-radius: 50%;width: 400px; height: auto;">
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/MarquesAerospace" target="_blank" class="small-button">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/thiagomarquesunb/" target="_blank" class="small-button">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div>
+            <ul class="custom-bullets">
+              <li>Treinamento do Bot</li>
+              <li>Documentação</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text-container">
+            <p class="centered-text">Arthur Popov</p>
+          </div>
+          <div class="center-vertical-horizontal">
+            <img src="https://avatars.githubusercontent.com/u/71983159?v=4" alt="Projeto 3" class="w-full h-auto"style="border-radius: 50%;width: 400px; height: auto;">
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/Eruel6" target="_blank" class="small-button">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/arthur-popov-2257ba226" target="_blank" class="small-button">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div>
+            <ul class="custom-bullets">
+              <li>Infraestrutura</li>
+              <li>Dados</li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
     <!--Footer-->
     <!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -311,6 +516,26 @@
         }
         return false;
       }
+    </script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: false,
+        slidesPerView: 3,
+        spaceBetween: 170,
+        centeredSlides: false,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
     </script>
   </body>
 </html>
