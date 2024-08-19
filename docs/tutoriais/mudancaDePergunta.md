@@ -1,5 +1,9 @@
 # Como alterar as caixas de perguntas
 
+## Tutorial em vídeo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IWsbCVlCqZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Logar no painel de admin do Botpress
 
 Para fazer alterações nas caixas de perguntas de um bot, é necessário fazer login com o email e senha utilizados na criação da conta no Botpress. Esta conta é a de administrador, necessária para a criação e modificação de bots.
