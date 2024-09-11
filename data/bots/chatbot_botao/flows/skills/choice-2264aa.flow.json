@@ -11,7 +11,7 @@
     "keywords": {
       "1": [
         "1",
-        "O que é o Brasil Participativo"
+        "O que é brasil participativo?"
       ],
       "2": [
         "2",
@@ -23,19 +23,19 @@
       ],
       "4": [
         "4",
-        "Perguntas frequentes"
+        "Represento um órgão da Administração Pública"
       ],
       "5": [
         "5",
-        "Outros assuntos"
+        "Sou da imprensa"
       ],
       "6": [
         "6",
-        "Sou da impresa"
+        "Duvidas-Sugestoes-Elogios"
       ],
       "7": [
         "7",
-        "Sou representante de um órgão da administração pública"
+        "Encerrar Atendimento"
       ]
     },
     "config": {
@@ -56,12 +56,12 @@
           "node": "parse"
         }
       ],
-      "id": "395266"
+      "id": "825958"
     },
     {
       "name": "parse",
       "onReceive": [
-        "basic-skills/choice_parse_answer {\"randomId\":\"fjnf1k40mf\",\"contentId\":\"builtin_single-choice-R2UFpN\",\"invalidContentId\":\"\",\"keywords\":{\"1\":[\"1\",\"O que é o Brasil Participativo\"],\"2\":[\"2\",\"Processos participativos\"],\"3\":[\"3\",\"Dificuldade de acesso\"],\"4\":[\"4\",\"Perguntas frequentes\"],\"5\":[\"5\",\"Outros assuntos\"],\"6\":[\"6\",\"Sou da impresa\"],\"7\":[\"7\",\"Sou representante de um órgão da administração pública\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+        "basic-skills/choice_parse_answer {\"randomId\":\"fjnf1k40mf\",\"contentId\":\"builtin_single-choice-R2UFpN\",\"invalidContentId\":\"\",\"keywords\":{\"1\":[\"1\",\"O que é brasil participativo?\"],\"2\":[\"2\",\"Processos participativos\"],\"3\":[\"3\",\"Dificuldade de acesso\"],\"4\":[\"4\",\"Represento um órgão da Administração Pública\"],\"5\":[\"5\",\"Sou da imprensa\"],\"6\":[\"6\",\"Duvidas-Sugestoes-Elogios\"],\"7\":[\"7\",\"Encerrar Atendimento\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
       ],
       "next": [
         {
@@ -83,7 +83,7 @@
         }
       ],
       "onEnter": [],
-      "id": "460593"
+      "id": "828246"
     },
     {
       "name": "invalid",
@@ -100,7 +100,7 @@
           "node": "sorry"
         }
       ],
-      "id": "688071"
+      "id": "009451"
     },
     {
       "name": "sorry",
@@ -111,7 +111,7 @@
           "node": "parse"
         }
       ],
-      "id": "793637"
+      "id": "601773"
     }
   ]
 }

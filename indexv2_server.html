@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <script src="https://hml-bp-embedded-chatbot.lappis.rocks/assets/modules/channel-web/inject.js"></script>
+    <script type="module">
+      function checkCookie(name) {
+        return Cookies.get(name) !== undefined;
+      }
+      import Cookies from 'https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.mjs';
+      if(!checkCookie('webchatShown')){
+        Cookies.set('webchatShown', 'false');
+      }
+      if(!checkCookie('isThereConversation')){
+        Cookies.set('isThereConversation', 'false');
+      }
+      let encerrar = false;
+      window.botpressWebChat.init({
+      host: "https://hml-bp-embedded-chatbot.lappis.rocks",
+      botId: "chatbot_v2_17",
+      extraStylesheet: "https://hml-bp-embedded-chatbot.lappis.rocks/assets/modules/channel-web/style.css",
+      layoutWidth: "-",
+      showPoweredBy: false,
+      enableTranscriptDownload: false,
+      enableConversationDeletion: true,
+      enableReset: false,
+      showConversationsButton: false,
+      botName: "Brasil Participativo",
+      enablePersistHistory: false});
+      window.addEventListener('message', function(event) {
+      try{
+        if(event.data.payload){
+          if(event.data.payload.text == 'Encerrar atendimento'){
+            encerrar = true;
+            Cookies.set('isThereConversation', 'false');
+          }
+        }
+      } catch(error) {
+      }
+      if(event.data){
+        if(Object.keys(event.data).length == 3 && Object.keys(event.data).includes('conversationId') && Object.keys(event.data).includes('__room') && Object.keys(event.data).includes('chatId')){
+          Cookies.set('isThereConversation', 'false');
+          if(encerrar && Cookies.get('isThereConversation') == 'false'){
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent({
+              type: 'proactive-trigger',
+              channel: 'web',
+              payload: { text: 'oi' }
+            });
+            Cookies.set('isThereConversation', 'true');
+          } else if(!encerrar && Cookies.get('isThereConversation') == 'false'){
+            console.log('entrou2');
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent({
+              type: 'proactive-trigger',
+              channel: 'web',
+              payload: { text: 'oi' }
+            });
+            Cookies.set('isThereConversation', 'true');
+          }
+          encerrar = false;
+        }
+      }
+      async function initializeWebChat(){
+        if(Cookies.get('webchatShown') == 'false' && Cookies.get('isThereConversation') == 'false'){
+            document.getElementById('bp-widget').style.display = 'none';
+            Cookies.set('webchatShown', 'true');
+            window.botpressWebChat.sendEvent(
+                { type: 'show' }
+              );
+          }
+          if (event.data && event.data.name === 'webchatReady' && Cookies.get('isThereConversation') == 'false') {
+            window.botpressWebChat.sendEvent(
+              { type: 'createConversation' }
+            );
+            window.botpressWebChat.sendEvent({
+              type: 'proactive-trigger',
+              channel: 'web',
+              payload: { text: 'oi' }
+            });
+            window.botpressWebChat.sendEvent(
+                  { type: 'hide' }
+                );
+            Cookies.set('isThereConversation', 'true');
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            document.getElementById('bp-widget').style.display = 'inline';
+        }
+     }
+     initializeWebChat();
+
+      if (event.data && event.data.name === 'webchatClosed' && encerrar) {
+        window.botpressWebChat.sendEvent(
+          { type: 'createConversation' }
+        );
+        window.botpressWebChat.sendEvent({
+          type: 'proactive-trigger',
+          channel: 'web',
+          payload: { text: 'oi' }
+        });
+        Cookies.set('isThereConversation', 'true');
+        encerrar = false;
+      }
+      });
+    </script>
+  </div>
+</body>
+</html>

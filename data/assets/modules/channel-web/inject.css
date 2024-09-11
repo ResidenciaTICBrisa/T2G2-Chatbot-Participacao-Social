@@ -3,7 +3,7 @@
   display: block;
   position: fixed;
   visibility: none;
-  z-index: 20;
+  z-index: 500001;
   max-height: 100vh;
   max-width: 100vw;
   transition: none;
@@ -16,12 +16,12 @@
 }
 
 .bp-widget-widget {
-  top: auto;
-  left: auto;
-  bottom: 24px;
-  right: 36px;
-  width: 76px !important;
-  height: 76px !important;
+    left: auto;
+    top: auto;
+    bottom: 10%;
+    right: 1.82%;
+    width: 76px !important;
+    height: 76px !important;
 }
 
 .bp-widget-hidden {
@@ -42,9 +42,20 @@
   top: 0px;
   left: auto;
   bottom: 0px;
+  right: 80px;
+  width: 480px;
+  height: 100% !important;
+}
+
+@media screen and (max-width: 450px){
+  .bp-widget-side {
+  top: 0px;
+  left: auto;
+  bottom: 0px;
   right: 0px;
   width: 480px;
   height: 100% !important;
+  }
 }
 
 .bp-widget-side.emulator {

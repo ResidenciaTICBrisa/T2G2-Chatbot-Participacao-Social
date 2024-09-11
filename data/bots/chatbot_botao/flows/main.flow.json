@@ -22,11 +22,11 @@
     },
     {
       "id": "266bea456e",
-      "name": "node-Brasil-participativo",
+      "name": "node-PPA-participativo",
       "next": [
         {
           "condition": "true",
-          "node": "choice-duvida_atendida"
+          "node": "choice-return-or-end"
         }
       ],
       "onEnter": [
@@ -41,41 +41,11 @@
       "next": [
         {
           "condition": "true",
-          "node": "choice-duvida_atendida"
+          "node": "choice-return-or-end"
         }
       ],
       "onEnter": [
         "say #!builtin_text-saUdE7"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "3bd05e6fce",
-      "name": "node-perguntas-frequentes_",
-      "next": [
-        {
-          "condition": "true",
-          "node": "choice-duvida_atendida"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text--hrHT-"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "ca6c2043f2",
-      "name": "node-outros-assuntos",
-      "next": [
-        {
-          "condition": "true",
-          "node": "choice-duvida_atendida"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-_JcbYb"
       ],
       "onReceive": null,
       "type": "standard"
@@ -86,7 +56,7 @@
       "next": [
         {
           "condition": "true",
-          "node": "choice-duvida_atendida"
+          "node": "choice-return-or-end"
         }
       ],
       "onEnter": [
@@ -97,11 +67,11 @@
     },
     {
       "id": "4ddf4a4b4c",
-      "name": "node-representante-administracao",
+      "name": "node-duvidas-sugestoes-elogios",
       "next": [
         {
           "condition": "true",
-          "node": "choice-duvida_atendida"
+          "node": "choice-return-or-end"
         }
       ],
       "onEnter": [
@@ -120,7 +90,7 @@
         {
           "caption": "User picked [1]",
           "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"1\"",
-          "node": "node-Brasil-participativo"
+          "node": "node-PPA-participativo"
         },
         {
           "caption": "User picked [2]",
@@ -135,22 +105,22 @@
         {
           "caption": "User picked [4]",
           "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"4\"",
-          "node": "node-perguntas-frequentes_"
+          "node": "node-represento-orgao"
         },
         {
           "caption": "User picked [5]",
           "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"5\"",
-          "node": "node-outros-assuntos"
+          "node": "node-representante-imprensa"
         },
         {
           "caption": "User picked [6]",
           "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"6\"",
-          "node": "node-representante-imprensa"
+          "node": "node-duvidas-sugestoes-elogios"
         },
         {
           "caption": "User picked [7]",
           "condition": "temp['skill-choice-ret-fjnf1k40mf'] == \"7\"",
-          "node": "node-representante-administracao"
+          "node": "END"
         }
       ],
       "onEnter": null,
@@ -160,34 +130,34 @@
       "id": "skill-1a1d63",
       "type": "skill-call",
       "skill": "choice",
-      "name": "choice-duvida_atendida",
+      "name": "choice-return-or-end",
       "flow": "skills/choice-1a1d63.flow.json",
       "next": [
         {
-          "caption": "User picked [sim]",
-          "condition": "temp['skill-choice-ret-2c14871h5i'] == \"sim\"",
-          "node": "node-encerramento"
+          "caption": "User picked [Retornar]",
+          "condition": "temp['skill-choice-ret-2c14871h5i'] == \"Retornar\"",
+          "node": "choice-opcoes"
         },
         {
-          "caption": "User picked [não]",
-          "condition": "temp['skill-choice-ret-2c14871h5i'] == \"não\"",
-          "node": "choice-opcoes"
+          "caption": "User picked [Encerrar]",
+          "condition": "temp['skill-choice-ret-2c14871h5i'] == \"Encerrar\"",
+          "node": "END"
         }
       ],
       "onEnter": null,
       "onReceive": null
     },
     {
-      "id": "6f59ffffc3",
-      "name": "node-encerramento",
+      "id": "301f1c6453",
+      "name": "node-represento-orgao",
       "next": [
         {
           "condition": "true",
-          "node": "END"
+          "node": "choice-return-or-end"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-BwJBAi"
+        "say #!builtin_text-0sifWQ"
       ],
       "onReceive": null,
       "type": "standard"
