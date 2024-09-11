@@ -4,24 +4,16 @@ repo_url: https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social
 
 repo_name: T2G2-Chatbot-Participacao-Social
 
-
+  
 theme:
-  name: dracula
-  custom_dir: overrides
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.top
-    - navigation.footer
-  palette:
-theme:
-  name: dracula
+  name: material
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+    - navigation.footer
     
   
   palette:
@@ -38,8 +30,63 @@ theme:
         name: Mudar para o modo claro
       primary: blue
       accent: lime
-  favicon: images/rasinha_logo.jpeg
-  logo: images/rasinha_logo.jpeg
+  favicon: images/logo_branco.png
+  logo: images/logo_branco.png
 
   language: pt-BR
   extra_css: [stylesheets/extra.css]
+
+nav:
+  - Landing page: landing_pages/landing_page.html
+  - Início: index.md
+  - Getting started: gettingStarded.md
+  - Soluções: 
+    - Estilização avançada: soluções/estilizaçãoAvançada.md
+    - Migração BD: soluções/migraçãoBancoDeDados.md
+    - Adicionar o widget na página web: soluções/adicionarWidgetWeb.md
+    - Customização do widget: soluções/customizacaoDoWidget.md
+    - Separar NLU e Duckling: soluções/separarNLUeDuckling.md
+    - Como criar bot com NLU: soluções/criaçãoDeUmBotComNLU.md
+ 
+  - Tutoriais:
+    - Como criar um bot: tutoriais/criaçãoDeUmBot.md
+    - Mudança de perguntas: tutoriais/mudancaDePergunta.md
+    - Mudança de respostas: tutoriais/mudancaDeRespostas.md
+    - Mudança do fluxo: tutoriais/mudancaDoFluxo.md
+  - Tecnologias: tecnologias.md
+  - Arquitetura: arquitetura.md
+  - Documentação:
+    - Cronogramas:
+      - Cronograma geral: cronogramas/Cronograma Geral.md
+      - Cronograma detalhado: cronogramas/Cronograma Detalhado.md
+
+    - Releases: 
+      - releases 1: releases/release1.md
+      - releases 2: releases/release2.md
+      - releases 3: releases/release3.md
+    - Backlog: backlog.md
+    - Guia de estilo: guiaDeEstilo.md
+    - Roadmap: roadmap.md
+    - Storymap: storymap.md
+    - MVP:
+      - MVP 1: Mínimo_Produto_Viável_(MVP)/1º MVP - Telegram.md
+      - MVP 2: Mínimo_Produto_Viável_(MVP)/2º MVP - Botpress.md
+
+    - Atas de reunião:
+      - Reunião 1: atas_de_reuniões/Reunião 01.md
+      - Reunião 2: atas_de_reuniões/Reunião 02.md
+      - Reunião 3: atas_de_reuniões/Reunião 03.md
+      - Reunião 4: atas_de_reuniões/Reunião 04.md
+      - Reunião 5: atas_de_reuniões/Reunião 05.md
+      - Reunião 6: atas_de_reuniões/Reunião 06.md
+      - Reunião 7: atas_de_reuniões/Reunião 07.md
+      - Reunião 8: atas_de_reuniões/Reunião 08.md
+      - Reunião 9: atas_de_reuniões/Reunião 09.md
+      - Reunião 10: atas_de_reuniões/Reunião 10.md
+      - Reunião 11: atas_de_reuniões/Reunião 11.md
+
+
+  - Políticas:
+    - Código de conduta: Políticas/CODE_OF_CONDUCT.md
+    - Contribuição: Políticas/CONTRIBUTING.md
+    - Licença: Políticas/políticaDeComits.md

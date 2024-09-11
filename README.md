@@ -125,9 +125,13 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 
     ```bash
     #Credenciais do postgres
+    POSTGRES_DB= * #Nome do dbanco de dados
     POSTGRES_USER= * #Usuário postgress
     POSTGRES_PASSWORD= * #Senha do usuário postgres
-    POSTGRES_DB= * #Nome do dbanco de dados
+
+    #Credenciais da conta de administrador do pgadmin
+    PGADMIN_DEFAULT_EMAIL= * #email do usuário pgadmin
+    PGADMIN_DEFAULT_PASSWORD= * #Senha do usuário pgadmin
 
     #Credencias da conta administrador do botpress
     BOTPRESS_ADMIN_EMAIL= * #Email da conta administrador
@@ -136,10 +140,29 @@ Antes de iniciar, certifique-se de que você tenha os seguintes softwares instal
 ## Passo 4: Executar o docker compose
 De o seguinte comando para rodar o sistema:
 ```bash
-    docker compose up
+    docker compose -f docker-compose-local.yml up
 ```
 
 ## Passo 5: Acessar o sistema
 Se tudo tiver sido da forma adequada, acesse o projeto através do 
 [http://localhost:3000](http://localhost:3000)
 
+
+### Onde Buscar Informações
+
+Se você está utilizando ou explorando o Botpress versão 12, aqui estão alguns recursos importantes para ajudar na sua jornada:
+
+- **Documentação Oficial (v12:latest):** Para acessar a documentação mais recente do Botpress v12, visite [Documentação Botpress v12:latest](https://v12.botpress.com/).
+
+- **Documentação Botpress v12.26.7:** Caso esteja trabalhando especificamente com a versão v12.26.7, a documentação correspondente pode ser encontrada em [Documentação Botpress v12.26.7](http://botpress-docs.s3-website-us-east-1.amazonaws.com/docs/introduction/).
+
+- **Repositório no GitHub:** Para acessar o código-fonte e contribuir para o desenvolvimento, acesse o repositório oficial do Botpress v12 no GitHub: [GitHub Botpress v12](https://github.com/botpress/v12).
+
+Certifique-se de explorar esses recursos para obter todas as informações necessárias sobre o Botpress e seu uso!
+
+## Documentação
+- [Cronograma](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/cronogramas/Cronograma%20Detalhado/)
+- [Backlog do produto](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/backlog/)
+- [Releases](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/releases/release1/)
+- [Arquitetura](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/arquitetura/)
+- [Atas de reunião](https://residenciaticbrisa.github.io/T2G2-Chatbot-Participacao-Social/atas_de_reuni%C3%B5es/Reuni%C3%A3o%2001/)

@@ -1,0 +1,25 @@
+services:
+  botpress:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #command: bash -c "./duckling & ./bp lang --offline --dim 100 --langDir /botpress & ./bp"
+    container_name: botpress
+    
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+      - "3100:3100"
+    environment:
+      BOTPRESS_ADMIN_EMAIL: ${BOTPRESS_ADMIN_EMAIL}
+      BOTPRESS_ADMIN_PASSWORD: ${BOTPRESS_ADMIN_PASSWORD}
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_IP_PORT}/${POSTGRES_DB}
+      # postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@<SUSTITUIR POR IP>:5432/${POSTGRES_DB}
+    restart: always
+    volumes:
+      - ./data:/botpress/data
+ 
+  
+volumes:
+  botpress_data: # Persistência de dados do Botpress
+

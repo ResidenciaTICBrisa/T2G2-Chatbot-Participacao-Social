@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>MVP 1 - Chatbot Participação Social</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../images/rasinha_logo.jpeg">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+            <img class="logo" src="../../images/rasinha_logo.jpeg" height="150px">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Chatbot Participação Social</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../landing_pages/landing_page.html"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    landing page
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Início
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../gettingStarded/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Getting started
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#soluções-collapse" aria-expanded="false">
+                    Soluções
+                </a>
+                <div class="collapse" id="soluções-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../solu%C3%A7%C3%B5es/estiliza%C3%A7%C3%A3oAvan%C3%A7ada/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Estilização avançada
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../solu%C3%A7%C3%B5es/migra%C3%A7%C3%A3oBancoDeDados/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Migração BD
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../tecnologias/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Tecnologias
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../arquitetura/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Arquitetura
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#documentação-collapse" aria-expanded="false">
+                    Documentação
+                </a>
+                <div class="collapse" id="documentação-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#cronogramas-collapse" aria-expanded="false">
+            Cronogramas
+        </a>
+
+        <div class="collapse" id="cronogramas-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../cronogramas/Cronograma%20Geral/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Cronograma geral
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../cronogramas/Cronograma%20Detalhado/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Cronograma detalhado
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#releases-collapse" aria-expanded="false">
+            Releases
+        </a>
+
+        <div class="collapse" id="releases-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../releases/release1/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            releases 1
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../releases/release2/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            releases 2
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../backlog/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Backlog
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../guiaDeEstilo/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Guia de estilo
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../roadmap/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Roadmap
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../storymap/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Storymap
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#mvp-collapse" aria-expanded="false">
+            MVP
+        </a>
+
+        <div class="collapse" id="mvp-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            MVP 1
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../2%C2%BA%20MVP%20-%20Botpress/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            MVP 2
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#atas-de-reunião-collapse" aria-expanded="false">
+            Atas de reunião
+        </a>
+
+        <div class="collapse" id="atas-de-reunião-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2001/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 1
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2002/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 2
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2003/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 3
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2004/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 4
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2005/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 5
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2006/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 6
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2007/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 7
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2008/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 8
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2009/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 9
+        </a>
+    </li>
+                    
+    <li class="drac-box-ternary">
+        <a href="../../atas_de_reuni%C3%B5es/Reuni%C3%A3o%2011/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Reunião 10
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#políticas-collapse" aria-expanded="false">
+                    Políticas
+                </a>
+                <div class="collapse" id="políticas-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Pol%C3%ADticas/CODE_OF_CONDUCT/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Código de conduta
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Pol%C3%ADticas/CONTRIBUTING/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Contribuição
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Pol%C3%ADticas/pol%C3%ADticaDeComits/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Licença
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../../storymap/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../2%C2%BA%20MVP%20-%20Botpress/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                                <div class="md-source source-detail">
+    <div class="md-source-repo-icon">
+        <i class="fa fa-github-alt drac-text-white" aria-hidden="true"></i>
+    </div>
+
+    <div class="md-source-repo-url">
+        <a href="https://github.com/ResidenciaTICBrisa/T2G2-Chatbot-Participacao-Social"
+            class="md-source drac-anchor drac-text drac-text-white drac-text-cyan-green--hover">
+            T2G2-Chatbot-Participacao-Social
+        </a>
+
+        <ul class="md-source-repo-text">
+            <li>
+                <i class="fa fa-tag drac-text-black" aria-hidden="true"></i>
+                <img alt="GitHub tag (latest by date)"
+                    src="https://img.shields.io/github/v/tag/T2G2-Chatbot-Participacao-Social?color=white&label=%20&style=flat-square">
+            </li>
+
+            <li>
+                <i class="fa fa-star drac-text-black" aria-hidden="true"></i>
+                <img alt="GitHub Repo stars"
+                    src="https://img.shields.io/github/stars/T2G2-Chatbot-Participacao-Social?color=white&label=%20&style=flat-square">
+            </li>
+
+            <li>
+                <i class="fa fa-code-fork drac-text-black" aria-hidden="true"></i>
+                <img alt="GitHub forks"
+                    src="https://img.shields.io/github/forks/T2G2-Chatbot-Participacao-Social?color=white&label=%20&style=flat-square">
+            </li>
+        </ul>
+    </div>
+
+</div>
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="1o-mvp-versao-telegram"><strong>1º MVP - Versão Telegram</strong></h1>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<p><a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGB1eJv_gI&#x2F;3iuK7XZImEUn--5-2PkJbQ&#x2F;view?utm_content=DAGB1eJv_gI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">MVP</a></p>
+<p><img alt="imagem_telegram" src="../../images/Teste_chatbot.png" /></p>
+<p align="justify">&emsp;&emsp;O Mínimo Produto Viável (MVP) é uma abordagem essencial no desenvolvimento de produtos, cujo principal objetivo é criar uma versão inicial simplificada que entregue a proposta de valor central da ideia. Para esta finalidade, utilizamos a ferramenta Canva para a produção do MVP.</p>
+
+<p align="justify">&emsp;&emsp;O MVP desempenha um papel crucial no desenvolvimento do produto, pois fornece uma visão geral que ajuda a determinar sua viabilidade e funcionalidades. Além disso, permite a identificação de problemas e áreas de melhoria, contribuindo para a redução de riscos à medida que a equipe avalia a aceitação do público. Essa avaliação direciona o foco da equipe para as partes mais importantes do projeto. A divisão do MVP em categorias facilita ainda mais essa análise.</p>
+
+<h2 id="plataformas"><strong>Plataformas:</strong></h2>
+<p align="justify">&emsp;&emsp;Foram utilizadas diversas plataformas no desenvolvimento e teste do projeto. O Telegram serviu como interface visual para os testes do chatbot, enquanto o site do Brasil Participativo, que representa o cliente final da aplicação, foi o ambiente onde o MVP foi avaliado. Além disso, o GitHub foi utilizado para elaborar a GitPage e documentar o projeto de forma colaborativa.</p>
+
+<h2 id="visao-do-mvp"><strong>Visão do MVP:</strong></h2>
+<p align="justify">&emsp;&emsp;Nosso MVP é um chatbot de assistência virtual projetado para facilitar a experiência dos usuários no site Brasil Participativo, ajudando-os na navegação e compreensão do ambiente virtual.</p>
+
+<h2 id="funcionalidade"><strong>Funcionalidade:</strong></h2>
+<p align="justify">&emsp;&emsp;Nosso MVP rodará no servidor e estará sempre disponivel para teste, a implementação do bot é baseada na seleção com números, o usuário segue o fluxo estabelecido pelo cliente.</p>
+
+<h2 id="resultado-esperado"><strong>Resultado Esperado:</strong></h2>
+<p align="justify">&emsp;&emsp;Nosso MVP será executado em um servidor e estará constantemente disponível para testes. A implementação do bot é baseada em seleções numéricas, permitindo que o usuário siga o fluxo estabelecido pelo cliente de forma intuitiva e eficiente.</p>
+
+<h2 id="jornadas"><strong>Jornadas:</strong></h2>
+<p align="justify">&emsp;&emsp;O percurso do usuário começa quando ele acessa o site e utiliza o widget para se comunicar com o chatbot. Enquanto isso, os desenvolvedores têm a flexibilidade de modificar completamente o funcionamento e a lógica do chatbot durante suas jornadas.</p>
+
+<h2 id="metricas-para-validar-as-hipoteses-de-negocio"><strong>Métricas para Validar as Hipóteses de Negócio:</strong></h2>
+<p align="justify">&emsp;&emsp;A métrica de validação consiste em verificar se o usuário consegue concluir a conversa de forma satisfatória, mantendo um baixo nível de desvio entre os fluxos. Além disso, a satisfação do usuário final em relação ao produto também é considerada um indicador positivo de validação.</p>
+
+<h2 id="custo-e-cronograma"><strong>Custo e Cronograma:</strong></h2>
+<p align="justify">&emsp;&emsp;O grupo é composto por seis pessoas, dedicando um total de 120 horas semanais. Desenvolvemos nosso MVP ao longo de um período de dois meses.</p>
+
+<h2 id="historico-de-versao">Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Descrição</th>
+<th style="text-align: center;">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">28/03/2024</td>
+<td style="text-align: center;">Criação do documento</td>
+<td style="text-align: center;">Gabriel Scheidt</td>
+</tr>
+<tr>
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;">28/03/2024</td>
+<td style="text-align: center;">Alteração de layout e do MVP</td>
+<td style="text-align: center;">Gabriel Scheidt</td>
+</tr>
+<tr>
+<td style="text-align: center;">2.1</td>
+<td style="text-align: center;">08/04/2024</td>
+<td style="text-align: center;">Atualização do MVP</td>
+<td style="text-align: center;">Isaque Augusto</td>
+</tr>
+</tbody>
+</table></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../..';</script>
+        <script src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../assets/js/mkdocs.js"></script>
+			<script src="../../search/main.js" defer></script>
+
+</body>
+
+</html>
